@@ -11,7 +11,7 @@ Plan your week together, spend less time sending reminders, and see everything y
 The planner has three pages: **Set Your Goals**, **Plan Your Day** and **Review Your Week**.
 
 - Plan together with family, friends or the people you work with
-- Set a top 3 for career and a top 3 for personal life each week, and see how much you reached
+- Set a theme and what matters most for career and personal life each week
 - Plan your day through short pop-ups for the morning, afternoon and evening
 - Start each day with the 3 things to finish by end of day
 - Give each day a focus, like a midweek check or a tidy-up day
