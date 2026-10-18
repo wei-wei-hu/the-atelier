@@ -2422,6 +2422,23 @@ a, .linkbtn { color: #7E4E92; }
 #wpGrid .wp-q .hint { margin-top: 8px; }
 .wp-q .pw-in, .wp-q .selectpill { display: block; width: 100%; box-sizing: border-box; margin-top: 6px; }
 #sysBody { padding: 4px 0; }
+
+/* Nuit 5: closer to the slide template — no monospace, regular weights, gradient figures, no header dividers, a glossy orb, palette-only colours */
+.mono, #weekRange, .top .label, .hint.mono { font-family: var(--body) !important; letter-spacing: 0 !important; }
+.panel-head .hint.mono:not(:empty) { background: var(--nt-num); -webkit-background-clip: text; background-clip: text; color: transparent !important; -webkit-text-fill-color: transparent; font-size: 1.05em; }
+.panel > .panel-head:first-child { border-bottom-color: transparent !important; }
+b, strong, .exportbtn, .crumbs button[aria-current="page"], .seg button[aria-pressed="true"] { font-weight: 500 !important; }
+.home-cover .home-by { font-weight: 400 !important; letter-spacing: 0.01em !important; text-transform: none !important; font-size: 13.5px !important; border-top: 0 !important; }
+.wp-q .wp-plain li b, #mrGrid li b, #mrGrid b { background: none !important; color: var(--ink) !important; -webkit-text-fill-color: currentColor; }
+.modebar .dot, .modebar.local .dot { background: #A15DB8; }
+.home-cover { position: relative; isolation: isolate; }
+.wrap .home-cover::after { content: "" !important; display: block !important; position: absolute; z-index: 0; pointer-events: none; opacity: 1 !important; filter: none !important;
+  width: 54px !important; height: 54px !important; right: 15% !important; top: 30% !important; left: auto !important; bottom: auto !important; border: 0 !important; border-radius: 50% !important;
+  background: radial-gradient(circle at 32% 28%, #FFFFFF 0%, #DCE0FF 16%, #A9A6F2 48%, #7E77DE 78%, #6C66D2 100%) !important;
+  box-shadow: 0 16px 30px rgba(110, 100, 210, 0.30), -150px -46px 0 -19px rgba(240, 160, 185, 0.85) !important; }
+.wp-q h4, .home-cover .eyebrow, .home-cover .pill, .top .pill { font-weight: 500 !important; }
+.intro .lead { font-weight: 400 !important; letter-spacing: -0.03em; font-size: 1.6em; line-height: 1.15; }
+@media (max-width: 640px) { .wrap .home-cover::after { width: 30px !important; height: 30px !important; right: 20px !important; top: auto !important; bottom: 20px !important; box-shadow: 0 10px 20px rgba(110, 100, 210, 0.30), -46px -4px 0 -10px rgba(240, 160, 185, 0.85) !important; } }
 </style>
 
 <div class="wrap is-show">
