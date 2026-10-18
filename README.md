@@ -2,7 +2,7 @@
 
 *Where your best work and life take shape.* An AI-assisted planner by Weiwei Hu.
 
-[LinkedIn](https://www.linkedin.com/in/weiweihu/) · [GitHub](https://github.com/wei-wei-hu)
+[Website](https://weiweihu.carrd.co/) · [LinkedIn](https://www.linkedin.com/in/weiweihu/) · [GitHub](https://github.com/wei-wei-hu)
 
 Set your goals, plan your days, and let AI turn what you complete into your accomplishments, ready for your next opportunity or your next review.
 
@@ -47,4 +47,4 @@ All rights reserved. No part of this repository may be copied, changed, shared, 
 
 ---
 
-Designed by Weiwei Hu · © 2026 Weiwei Hu. All rights reserved.
+Designed by Weiwei Hu · [Website](https://weiweihu.carrd.co/) · [LinkedIn](https://www.linkedin.com/in/weiweihu/) · © 2026 Weiwei Hu. All rights reserved.
