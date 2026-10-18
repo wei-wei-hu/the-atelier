@@ -16,7 +16,7 @@ The planner has three pages: **Set Your Goals**, **Plan Your Day** and **Weekly 
 - Start each day with the 3 things to finish by end of day
 - Give each day a focus, like a midweek check or a tidy-up day
 - End the day with a factual update: what's finished, what's open and when you'll deliver, ready to copy
-- Get a weekly and monthly reflection written for you from your goals and daily plans, with a running accomplishment log
+- Every Friday, capture what you delivered, your contribution, impact and evidence, building a record for reviews and promotions
 - Carry unfinished tasks into the next week
 - Look back at previous weeks
 - Export and reopen your plan
