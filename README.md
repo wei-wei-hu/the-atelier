@@ -1,6 +1,6 @@
 # The Atelier
 
-*Where your best work and life take shape.*
+*Where your best work and life take shape.* An AI-assisted planner by Weiwei Hu.
 
 Set your goals, plan your days, and let AI turn what you complete into your accomplishments, ready for your next opportunity or your next review.
 
@@ -12,7 +12,7 @@ Set your goals, plan your days, and let AI turn what you complete into your acco
 
 Most weeks end with a full calendar and only a rough idea of what actually moved forward. Then review season arrives, and the win from March is hard to remember, let alone the numbers behind it.
 
-I built The Atelier to change that for myself. Set a few goals on Monday, plan each day in a few minutes, and let AI turn what you finished into your accomplishments, complete with your contribution, the business impact and the evidence to back it up. By the end of the month, you have your three strongest stories ready for your manager, your next review or your next interview.
+I built The Atelier to change that for myself. Set a few goals on Monday, plan each day in a few minutes, and let AI turn what you complete into your accomplishments, complete with your contribution, the business impact and the evidence to back it up. By the end of the month, you have your three strongest stories ready for your manager, your next review or your next interview.
 
 ## What you get each week
 
