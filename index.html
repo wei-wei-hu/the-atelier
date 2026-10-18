@@ -5,11 +5,22 @@
 <title>The Weekly Planner</title><meta name="description" content="The Weekly Planner by Weiwei Hu: plan your week together, spend less time sending reminders, and see everything you got done."><meta property="og:image" content="https://wei-wei-hu.github.io/the-weekly-planner/cover.jpg"><meta property="og:url" content="https://wei-wei-hu.github.io/the-weekly-planner/"><meta name="twitter:card" content="summary_large_image"><meta property="og:title" content="The Weekly Planner"><meta property="og:description" content="Plan your week together, spend less time sending reminders, and see everything you got done. By Weiwei Hu."><link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 32 32%27%3E%3Crect width=%2732%27 height=%2732%27 rx=%278%27 fill=%27%23F3DCE8%27/%3E%3Ccircle cx=%2716%27 cy=%2716%27 r=%278%27 fill=%27none%27 stroke=%27%23111111%27 stroke-width=%273%27/%3E%3C/svg%3E"><style>
 .wrap.is-show #overview { display: grid !important; max-width: none; margin-top: 40px; }
 .wrap.is-show #overview > section, .wrap.is-show #overview .story p, .wrap.is-show #overview .cta p { max-width: none; }
-#homeView .navtile.static, #homeView .navtile.static:hover { cursor: default; transform: none; background: #FFFFFF !important; box-shadow: 0 26px 50px rgba(110, 80, 110, 0.10); }
+#members { display: none; margin: 24px 0 0; max-width: none; text-align: left; justify-items: start; scroll-margin-top: 24px; }
+#members:target { display: grid; }
+#members h2::before { content: ""; display: inline-block; width: 22px; height: 22px; margin-right: 12px; vertical-align: -3px; background: currentColor; -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Crect x='5' y='11' width='14' height='10' rx='2'/%3E%3Cpath d='M8 11V8a4 4 0 0 1 8 0v3'/%3E%3C/svg%3E") center / contain no-repeat; mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Crect x='5' y='11' width='14' height='10' rx='2'/%3E%3Cpath d='M8 11V8a4 4 0 0 1 8 0v3'/%3E%3C/svg%3E") center / contain no-repeat; }
+#members .gate-actions a { min-height: 44px; display: inline-flex; align-items: center; padding: 0 20px; border-radius: 999px; text-decoration: none; font-weight: 500; }
+#members .gate-pri { background: #111111 !important; color: #FFFFFF !important; border: 1px solid #111111; }
+#members .gate-sec { background: transparent !important; color: #111111 !important; border: 1px solid #111111; }
+#homeView a.navtile.static { text-decoration: none; cursor: pointer; }
+#homeView a.navtile.static:hover, #homeView a.navtile.static:focus-visible { background: var(--nt-lilac) !important; }
+#homeView .navtile.static, #homeView .navtile.static:hover { transform: none; background: #FFFFFF !important; box-shadow: 0 26px 50px rgba(110, 80, 110, 0.10); }
 #homeView .navtile.static .nt-head, #homeView .navtile.static .nt-desc, #homeView .navtile.static .nt-body svg { color: #111111 !important; }
 @media (prefers-color-scheme: dark) {
   #homeView .navtile.static, #homeView .navtile.static:hover { background: #1D181F !important; border: 1px solid #2E2631 !important; box-shadow: none; }
   #homeView .navtile.static .nt-head, #homeView .navtile.static .nt-desc, #homeView .navtile.static .nt-body svg { color: #F3EEF4 !important; }
+  #homeView a.navtile.static:hover { background: linear-gradient(160deg, #3A2B42 0%, #2A2338 100%) !important; }
+  #members .gate-pri { background: #F3EEF4 !important; color: #141016 !important; border-color: #F3EEF4; }
+  #members .gate-sec { color: #F3EEF4 !important; border-color: #F3EEF4; }
 }</style></head>
 <body class="">
 
@@ -2439,6 +2450,15 @@ b, strong, .exportbtn, .crumbs button[aria-current="page"], .seg button[aria-pre
 .wp-q h4, .home-cover .eyebrow, .home-cover .pill, .top .pill { font-weight: 500 !important; }
 .intro .lead { font-weight: 400 !important; letter-spacing: -0.03em; font-size: 1.6em; line-height: 1.15; }
 #homeView .navtile.locked .nt-lock { letter-spacing: 0.06em !important; font-size: 10px !important; padding: 3px 8px !important; }
+.gate { background: #FFFFFF !important; border: 0 !important; border-radius: 16px !important; box-shadow: 0 1px 2px rgba(60, 40, 60, 0.04), 0 26px 50px rgba(110, 80, 110, 0.10) !important; }
+.gate::before { display: none !important; }
+.gate h2 { display: block !important; font-family: var(--display) !important; font-weight: 400 !important; letter-spacing: -0.03em; }
+.gate p { color: #4A444F !important; }
+.gate a, .gate button { font-family: var(--body) !important; font-weight: 500 !important; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .gate { background: #1D181F !important; border: 1px solid #2E2631 !important; box-shadow: none !important; } :root:not([data-theme="light"]) .gate p { color: #B2A8B5 !important; } }
+:root[data-theme="dark"] .gate { background: #1D181F !important; border: 1px solid #2E2631 !important; box-shadow: none !important; }
+.crumbs button.locked::after { content: "" !important; display: inline-block; width: 11px; height: 11px; margin-left: 5px; vertical-align: -1px; background: currentColor; -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'%3E%3Crect x='5' y='11' width='14' height='10' rx='2'/%3E%3Cpath d='M8 11V8a4 4 0 0 1 8 0v3'/%3E%3C/svg%3E") center / contain no-repeat; mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'%3E%3Crect x='5' y='11' width='14' height='10' rx='2'/%3E%3Cpath d='M8 11V8a4 4 0 0 1 8 0v3'/%3E%3C/svg%3E") center / contain no-repeat; }
+.gate h2 { width: 100%; text-wrap: wrap !important; }
 @media (max-width: 640px) { .wrap .home-cover::after { width: 30px !important; height: 30px !important; right: 20px !important; top: auto !important; bottom: 20px !important; box-shadow: 0 10px 20px rgba(110, 100, 210, 0.30), -46px -4px 0 -10px rgba(240, 160, 185, 0.85) !important; } }
 </style>
 
@@ -2450,23 +2470,27 @@ b, strong, .exportbtn, .crumbs button[aria-current="page"], .seg button[aria-pre
       <p class="home-by">A weekly planner by Weiwei Hu.</p>
     </header>
     <div class="tilegrid" id="pageTabs">
-      <div class="navtile static">
+      <a class="navtile static" href="#overview">
         <span class="nt-head">Overview</span>
         <span class="nt-body"><svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 24s7-12 20-12 20 12 20 12-7 12-20 12S4 24 4 24Z"></path><circle cx="24" cy="24" r="6"></circle><circle cx="24" cy="24" r="1.6" fill="currentColor"></circle><path d="M24 4v4M24 40v4"></path></svg><span class="nt-desc">See how the planner works and what you can do with it.</span></span>
-      </div>
-      <div class="navtile static locked">
+      </a>
+      <a class="navtile static locked" href="#members">
         <span class="nt-head">Set Your Goals<span class="nt-lock"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="5" y="11" width="14" height="10" rx="2"></rect><path d="M8 11V8a4 4 0 0 1 8 0v3"></path></svg>Members only, by invitation</span></span>
         <span class="nt-body"><svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="24" cy="24" r="18"></circle><circle cx="24" cy="24" r="11"></circle><circle cx="24" cy="24" r="4"></circle><path d="m24 24 14-14M33 10h5v5"></path></svg><span class="nt-desc">Set a theme and what matters most for career and personal life.</span></span>
-      </div>
-      <div class="navtile static locked">
+      </a>
+      <a class="navtile static locked" href="#members">
         <span class="nt-head">Plan Your Day<span class="nt-lock"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="5" y="11" width="14" height="10" rx="2"></rect><path d="M8 11V8a4 4 0 0 1 8 0v3"></path></svg>Members only, by invitation</span></span>
         <span class="nt-body"><svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="7" y="10" width="34" height="31" rx="3"></rect><path d="M7 18h34M16 6v8M32 6v8"></path><path d="m15 28 4 4 8-9"></path><path d="M31 30h4"></path></svg><span class="nt-desc">Plan each day in the morning and look back on it in the evening.</span></span>
-      </div>
-      <div class="navtile static locked">
+      </a>
+      <a class="navtile static locked" href="#members">
         <span class="nt-head">Track Your Accomplishments<span class="nt-lock"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="5" y="11" width="14" height="10" rx="2"></rect><path d="M8 11V8a4 4 0 0 1 8 0v3"></path></svg>Members only, by invitation</span></span>
         <span class="nt-body"><svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 42h36"></path><rect x="9" y="28" width="6" height="12" rx="1"></rect><rect x="19" y="21" width="6" height="19" rx="1"></rect><rect x="29" y="14" width="6" height="26" rx="1"></rect><path d="m9 18 10-7 8 5 12-9"></path><path d="M34 7h5v5"></path></svg><span class="nt-desc">A reflection of your accomplishments, captured automatically by AI from your goals and daily plans.</span></span>
-      </div>
-    </div>
+      </a>
+    </div><section id="members" class="gate" aria-labelledby="gateTitle">
+    <h2 id="gateTitle">Members only, by invitation</h2>
+    <p id="gateText">Set Your Goals, Plan Your Day and Track Your Accomplishments hold personal plans. Signing in isn’t enough: they open only for members who have been invited.</p>
+    <div class="gate-actions"><a class="gate-pri" href="https://www.linkedin.com/in/weiweihu/" target="_blank" rel="noopener">Ask Weiwei for an invitation</a><a class="gate-sec" href="#overview">Read the overview</a></div>
+  </section>
   </nav>
 
   
