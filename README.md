@@ -2,6 +2,8 @@
 
 *Where your best work and life take shape.* An AI-assisted planner by Weiwei Hu.
 
+[LinkedIn](https://www.linkedin.com/in/weiweihu/) · [GitHub](https://github.com/wei-wei-hu)
+
 Set your goals, plan your days, and let AI turn what you complete into your accomplishments, ready for your next opportunity or your next review.
 
 **See the page:** https://wei-wei-hu.github.io/the-weekly-planner/
