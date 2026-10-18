@@ -1,6 +1,6 @@
 # The Atelier
 
-*Where your best work takes shape.*
+*Where your best work and life take shape.*
 
 Set your goals, plan each day in minutes, and let AI turn what you finish into a record of your accomplishments, ready for your next review.
 
