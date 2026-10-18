@@ -14,6 +14,18 @@
 .home-cover .home-links a:hover { background: #111111; color: #FFFFFF !important; }
 .home-cover .home-links svg { width: 14px; height: 14px; }
 @media (prefers-color-scheme: dark) { .home-cover .home-links a { border-color: #F3EEF4; color: #F3EEF4 !important; background: transparent; } .home-cover .home-links a:hover { background: #F3EEF4; color: #141016 !important; } }
+/* Overview: smaller type, a narrower centred column and more breathing room */
+.wrap.is-show #overview { max-width: 760px !important; margin: 88px auto 72px !important; gap: 40px !important; }
+.wrap.is-show #overview > header { padding: 30px 36px !important; }
+.wrap.is-show #overview header h1 { font-size: 40px !important; }
+.wrap.is-show #overview .intro-sub { font-size: 15px !important; }
+.wrap.is-show #overview .story { padding: 36px 40px !important; }
+.wrap.is-show #overview .story .lead { font-size: 20px !important; line-height: 1.3; display: block; margin-bottom: 10px; }
+.wrap.is-show #overview .story p, .wrap.is-show #overview section > p, .wrap.is-show #overview .cta p { font-size: 15px !important; line-height: 1.7; }
+.wrap.is-show #overview h2 { font-size: 21px !important; }
+.wrap.is-show #overview .feat li { font-size: 13.5px !important; }
+.wrap.is-show #overview .cta { padding: 40px 44px !important; }
+@media (max-width: 640px) { .wrap.is-show #overview { margin: 48px auto 40px !important; gap: 28px !important; } .wrap.is-show #overview header h1 { font-size: 34px !important; } .wrap.is-show #overview .story, .wrap.is-show #overview .cta { padding: 26px 22px !important; } }
 #members { display: none; margin: 24px 0 0; max-width: none; text-align: left; justify-items: start; scroll-margin-top: 24px; }
 #members:target { display: grid; }
 #members h2::before { content: ""; display: inline-block; width: 22px; height: 22px; margin-right: 12px; vertical-align: -3px; background: currentColor; -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Crect x='5' y='11' width='14' height='10' rx='2'/%3E%3Cpath d='M8 11V8a4 4 0 0 1 8 0v3'/%3E%3C/svg%3E") center / contain no-repeat; mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Crect x='5' y='11' width='14' height='10' rx='2'/%3E%3Cpath d='M8 11V8a4 4 0 0 1 8 0v3'/%3E%3C/svg%3E") center / contain no-repeat; }
@@ -2530,7 +2542,7 @@ b, strong, .exportbtn, .crumbs button[aria-current="page"], .seg button[aria-pre
         <li><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"></path></svg></span><span>Print the pages if you prefer pen and paper</span></li>
       </ul>
     </section>
-    <section aria-labelledby="introPrint"><h2 id="introPrint">Printable and download bundle</h2><p>Prefer paper? A printable pack is coming soon: 14 undated pages in A4 and US Letter. It has a focus for each day, a goals page, a monthly to-do list, daily pages, a weekly accomplishments page and a monthly reflection. You’ll also be able to download a copy of the planner to use in your own browser.</p><img src="printable-preview.jpg" alt="Four pages from the printable pack: the cover, set your goals, a Monday page and weekly accomplishments" width="1800" height="639" loading="lazy" style="display:block;width:100%;height:auto;margin-top:16px;border-radius:14px;border:1px solid var(--line)"></section><section class="cta" aria-labelledby="introHow">
+    <section aria-labelledby="introPrint"><h2 id="introPrint">Printable pack</h2><p>Prefer paper? Members get a printable pack: 14 undated pages in A4 and US Letter, with a goals page, daily pages, a weekly accomplishments page and a monthly reflection. Like the planner, it’s shared only with members, by invitation, so the preview below is blurred on purpose.</p><img src="printable-preview.jpg" alt="Blurred preview of four printable pages, marked members only" width="1200" height="425" loading="lazy" style="display:block;width:100%;height:auto;margin-top:16px;border-radius:14px;border:1px solid var(--line)"></section><section class="cta" aria-labelledby="introHow">
       <h2 id="introHow">Want a planner like this?</h2>
       <p>The full planner is private. If you’d like to plan your weeks this way and keep track of your own wins, send me a message on LinkedIn and tell me a little about your work. I’d love to hear what you’re working towards.</p>
       <a class="cta-btn" href="https://www.linkedin.com/in/weiweihu/" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true" fill="currentColor"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5ZM3 9.75h4v11H3v-11Zm6.5 0h3.8v1.5h.06c.53-1 1.83-1.8 3.76-1.8 4 0 4.88 2.4 4.88 5.6v5.7h-4v-5.05c0-1.2-.02-2.75-1.7-2.75-1.7 0-1.95 1.3-1.95 2.66v5.14h-4v-11Z"></path></svg> Message me on LinkedIn</a>

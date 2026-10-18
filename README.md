@@ -31,11 +31,11 @@ The planner has three pages: **Set Your Goals**, **Plan Your Day** and **Track Y
 - Move unfinished tasks to next week and look back at any week you like
 - Print the pages if you prefer pen and paper
 
-## Printable and download bundle
+## Printable pack
 
-Prefer paper? A printable pack is coming soon: 14 undated pages in A4 and US Letter. It has a focus for each day, a goals page, a monthly to-do list, daily pages, a weekly accomplishments page and a monthly reflection. You'll also be able to download a copy of the planner to use in your own browser.
+Prefer paper? Members get a printable pack: 14 undated pages in A4 and US Letter, with a goals page, daily pages, a weekly accomplishments page and a monthly reflection. Like the planner, it's shared only with members, by invitation, so the preview below is blurred on purpose.
 
-![Four pages from the printable pack](printable-preview.jpg)
+![Blurred preview of four printable pages, marked members only](printable-preview.jpg)
 
 ## Want a planner like this?
 
