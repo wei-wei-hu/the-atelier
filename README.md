@@ -23,7 +23,7 @@ The planner has three pages: **Set Your Goals**, **Plan Your Day** and **Track Y
 
 ## Printable and download bundle
 
-Prefer paper? A printable pack is on the way: 14 undated pages in A4 and US Letter, with a focus for each day, a plan-the-week page, a monthly to-do list, a week at a glance, daily pages and a weekly review. A bundle will also include a copy of the planner you can open in your own browser.
+Prefer paper? A printable pack is on the way: 14 undated pages in A4 and US Letter, with a focus for each day, a set-your-goals page, a monthly to-do list, daily pages, a weekly accomplishments page and a monthly reflection. A bundle will also include a copy of the planner you can open in your own browser.
 
 ![Four pages from the printable pack](printable-preview.jpg)
 
