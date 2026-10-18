@@ -1,25 +1,31 @@
 # The Weekly Planner
 
-Plan your week together, spend less time sending reminders, and see everything you got done. All in one shared place.
+Set your goals, plan each day in minutes, and let AI turn what you finish into a record of your accomplishments, ready for your next review.
 
 **See the page:** https://wei-wei-hu.github.io/the-weekly-planner/
 
 ![The Weekly Planner: the home page and the Overview](cover.jpg)
 
-## What you can do with it
+## Your best work deserves a record
 
-The planner has three pages: **Set Your Goals**, **Plan Your Day** and **Track Your Accomplishments**.
+Most weeks end with a full calendar and only a rough idea of what actually moved forward. Then review season arrives, and the win from March is hard to remember, let alone the numbers behind it.
 
-- Plan together with family, friends or the people you work with
-- Set a theme and what matters most for career and personal life each week
-- Plan your day through short pop-ups for the morning, afternoon and evening
-- Start each day with the 3 things to finish by end of day
-- Give each day a focus, like a midweek check or a tidy-up day
-- End the day with a factual update: what's finished, what's open and when you'll deliver, ready to copy
-- Every week and month, capture what you delivered, your contribution, impact and evidence, building a record for reviews and promotions
-- Carry unfinished tasks into the next week
-- Look back at previous weeks
-- Export and reopen your plan
+I built the Weekly Planner to change that for myself. Set a few goals on Monday, plan each day in a few minutes, and let AI turn what you finished into your accomplishments, complete with your contribution, the business impact and the evidence to back it up. By the end of the month, you have your three strongest stories ready for your manager, your next review or your next interview.
+
+## What you get each week
+
+The planner has three pages: **Set Your Goals**, **Plan Your Day** and **Track Your Accomplishments**. They are members only, by invitation.
+
+- Set a theme for the week and what matters most for your career and your life
+- Open the planner and a short pop-up asks the right question for the time of day: morning, afternoon or evening
+- Start each day with the 3 things you will finish by the end of it
+- Give each day a focus, from a Monday start to a midweek check
+- Close the day with a factual update (what's finished, what's still open and when you'll deliver) ready to send
+- Practise three core skills every week: communication, solving problems and running meetings
+- Let AI capture your weekly accomplishments: what you delivered, your contribution, business impact, evidence and career value
+- Get a monthly reflection with your three strongest wins, who needs to know, and what they prove about your next role
+- Carry unfinished tasks forward and look back at any past week
+- Print the pack when you'd rather plan on paper
 
 ## Printable and download bundle
 
@@ -27,7 +33,9 @@ Prefer paper? A printable pack is on the way: 14 undated pages in A4 and US Lett
 
 ![Four pages from the printable pack](printable-preview.jpg)
 
-The planner itself lives in a private, shared space for the people I plan with. This repository holds its public showcase page. If you'd like to see the planner in action or adapt it for your own week, message me on [LinkedIn](https://www.linkedin.com/in/weiweihu/).
+## Want a planner like this?
+
+The full planner is private, and this repository holds only its public showcase page. If you'd like to plan your weeks this way and build your own record of accomplishments, message me on [LinkedIn](https://www.linkedin.com/in/weiweihu/) and tell me a little about your work. I'd love to hear what you're working towards.
 
 ---
 
