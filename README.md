@@ -16,7 +16,7 @@ The planner has three pages: **Set Your Goals**, **Plan Your Day** and **Review 
 - Start each day with the 3 things to finish by end of day
 - Give each day a focus, like a midweek check or a tidy-up day
 - End the day with a factual update: what's finished, what's open and when you'll deliver, ready to copy
-- Write your weekly update as key results, problems and next steps, with numbers
+- Log 2–5 accomplishments every week, measured and linked to your goals, and build a running record for reviews and your CV
 - Carry unfinished tasks into the next week
 - Look back at previous weeks
 - Export and reopen your plan
