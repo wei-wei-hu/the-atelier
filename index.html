@@ -2,23 +2,21 @@
 <html lang="en"><head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<meta name="description" content="The Weekly Planner by Weiwei Hu: plan your week together, spend less time sending reminders, and see everything you got done."><meta property="og:title" content="The Weekly Planner"><meta property="og:description" content="Plan your week together, spend less time sending reminders, and see everything you got done. By Weiwei Hu."><style>
+<title>The Weekly Planner</title><meta name="description" content="The Weekly Planner by Weiwei Hu: plan your week together, spend less time sending reminders, and see everything you got done."><meta property="og:image" content="https://wei-wei-hu.github.io/the-weekly-planner/cover.jpg"><meta property="og:url" content="https://wei-wei-hu.github.io/the-weekly-planner/"><meta name="twitter:card" content="summary_large_image"><meta property="og:title" content="The Weekly Planner"><meta property="og:description" content="Plan your week together, spend less time sending reminders, and see everything you got done. By Weiwei Hu."><link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 32 32%27%3E%3Crect width=%2732%27 height=%2732%27 rx=%278%27 fill=%27%23F3DCE8%27/%3E%3Ccircle cx=%2716%27 cy=%2716%27 r=%278%27 fill=%27none%27 stroke=%27%23111111%27 stroke-width=%273%27/%3E%3C/svg%3E"><style>
 .wrap.is-show #overview { display: grid !important; max-width: none; margin-top: 40px; }
 .wrap.is-show #overview > section, .wrap.is-show #overview .story p, .wrap.is-show #overview .cta p { max-width: none; }
-#homeView .navtile.static, #homeView .navtile.static:hover { cursor: default; transform: none; background: linear-gradient(170deg, #FBFAF6 0%, #ECE6D8 100%); box-shadow: var(--shadow); }
-#homeView .navtile.static .nt-head, #homeView .navtile.static .nt-desc, #homeView .navtile.static:hover .nt-head, #homeView .navtile.static:hover .nt-desc, #homeView .navtile.static:hover .nt-body svg { color: #2C3A33; }
-#homeView .navtile.static:hover .nt-head::before { border-color: currentColor; color: inherit; }
+#homeView .navtile.static, #homeView .navtile.static:hover { cursor: default; transform: none; background: #FFFFFF !important; box-shadow: 0 26px 50px rgba(110, 80, 110, 0.10); }
+#homeView .navtile.static .nt-head, #homeView .navtile.static .nt-desc, #homeView .navtile.static .nt-body svg { color: #111111 !important; }
 @media (prefers-color-scheme: dark) {
-  #homeView .navtile.static, #homeView .navtile.static:hover { background: linear-gradient(170deg, #2A3631 0%, #242E2A 100%); }
-  #homeView .navtile.static .nt-head, #homeView .navtile.static .nt-desc, #homeView .navtile.static:hover .nt-head, #homeView .navtile.static:hover .nt-desc { color: #E9F0F0; }
-  #homeView .navtile.static .nt-body svg, #homeView .navtile.static:hover .nt-body svg { color: #D7C5A1; }
-  #homeView .navtile.static:hover .nt-head::before { border-color: #D7C5A1; color: #D7C5A1; }
-}</style><meta property="og:image" content="https://wei-wei-hu.github.io/the-weekly-planner/cover.jpg"><meta property="og:url" content="https://wei-wei-hu.github.io/the-weekly-planner/"><meta name="twitter:card" content="summary_large_image"><link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 32 32%27%3E%3Crect width=%2732%27 height=%2732%27 rx=%278%27 fill=%27%23263A33%27/%3E%3Ccircle cx=%2716%27 cy=%2716%27 r=%278%27 fill=%27none%27 stroke=%27%23D7C5A1%27 stroke-width=%274%27/%3E%3C/svg%3E"></head>
+  #homeView .navtile.static, #homeView .navtile.static:hover { background: #1D181F !important; border: 1px solid #2E2631 !important; box-shadow: none; }
+  #homeView .navtile.static .nt-head, #homeView .navtile.static .nt-desc, #homeView .navtile.static .nt-body svg { color: #F3EEF4 !important; }
+}</style></head>
 <body class="">
-<title>The Weekly Planner</title>
+
+
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600;700&amp;family=Outfit:wght@300;400;500;600;700;800&amp;family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&amp;family=DM+Mono:wght@400;500&amp;display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&amp;family=Inter+Tight:wght@400;500;600;700&amp;family=Outfit:wght@300;400;500;600;700;800&amp;family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&amp;family=DM+Mono:wght@400;500&amp;display=swap">
 <style>
 :root {
   --bg: #eceffb;
@@ -1000,7 +998,7 @@ body { background: linear-gradient(180deg, #FCFCFC 0, #F0F2F2 520px) fixed, #F0F
 /* Footer matches the Overview's narrower column */
 .wrap.is-intro .sitefoot { max-width: 1040px; width: 100%; margin-inline: auto; }
 
-/* Plan Your Week: both header strips the same height */
+/* Plan Your Day: both header strips the same height */
 #paneplanner .grid > .panel > .panel-head:first-child, #paneplanner .panel.entry > .brand { min-height: 74px; align-items: center; }
 
 /* Highlights and key takeaways */
@@ -1017,7 +1015,7 @@ body { background: linear-gradient(180deg, #FCFCFC 0, #F0F2F2 520px) fixed, #F0F
 .tk-list li::before { content: ""; position: absolute; left: 4px; top: 0.55em; width: 8px; height: 8px; border-radius: 50%; background: var(--accent); }
 .tk-list.busy li { opacity: 0.55; }
 
-/* Weekly Summary: the two top headers share one height */
+/* Review Your Week: the two top headers share one height */
 #panesummary .grid-summary > .panel > .panel-head:first-child { min-height: 104px; align-items: center; }
 
 /* Goals styled like the highlights: numbered circles and white boxes */
@@ -1225,7 +1223,7 @@ body { background: linear-gradient(180deg, #FCFCFC 0, #F0F2F2 520px) fixed, #F0F
 .cal-block.short span { order: -1; flex: none; font-weight: 600; }
 .cal-block.short b { min-width: 0; font-size: 11.5px; }
 
-/* Plan Your Week: The Plan beside Weekly routines, tasks full width below */
+/* Plan Your Day: The Plan beside Weekly routines, tasks full width below */
 #paneplanner .tasks-panel { margin-top: 0; }
 .rtpanel { align-content: start; }
 .rtpanel .rt-intro { margin: 0; }
@@ -1669,7 +1667,7 @@ th, .ts-table th, .panel th, .panel .ts-table th { background: var(--mint-soft);
 .panel.entry .editing-note { margin: 0 0 4px; padding: 8px 12px; border-radius: 10px; background: var(--wait-soft); color: var(--ink); font-size: 13px; font-weight: 500; }
 @media (max-width: 380px) { .plan-row { grid-template-columns: minmax(0, 1fr); } }
 
-/* ================= Weekly Summary: day notes and next week's goals ================= */
+/* ================= Review Your Week: day notes and next week's goals ================= */
 .sum-row2 { margin-top: 0; }
 .sn-list { display: grid; gap: 14px; }
 .sn-day { display: grid; gap: 8px; }
@@ -1688,7 +1686,7 @@ th, .ts-table th, .panel th, .panel .ts-table th { background: var(--mint-soft);
 .cal-part > div[data-day]:hover { background: color-mix(in srgb, var(--mint, #B5C1B0) 10%, transparent); }
 .cal-part .cal-item { white-space: normal; }
 
-/* ================= Goals for the week on Plan Your Week; next week's goals beside Highlights ================= */
+/* ================= Goals for the week on Plan Your Day; next week's goals beside Highlights ================= */
 .goals-panel { display: grid; gap: 12px; }
 @media (min-width: 900px) { #paneplanner .goals-panel .goals3 { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
 .whatsnext .ng-suggest { margin-top: 4px; padding-top: 10px; border-top: 1px dashed color-mix(in srgb, var(--mint-deep, #7FD3B8) 60%, transparent); }
@@ -1908,11 +1906,11 @@ body { background: linear-gradient(180deg, #F4F2EC 0, #ECE8DD 560px) fixed, #ECE
 @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .mo-check { border-color: var(--mint, #D7C5A1); } }
 :root[data-theme="dark"] .mo-check { border-color: var(--mint, #D7C5A1); }
 
-/* Weekly Summary: Highlights and Key takeaways span the full width now that Next week is gone */
+/* Review Your Week: Highlights and Key takeaways span the full width now that Next week is gone */
 #panesummary .grid-summary { grid-template-columns: minmax(0, 1fr) !important; }
 #panesummary .grid-summary .tk-arrow { display: none !important; }
 
-/* Plan Your Week: The Plan spans the row now that Weekly routines is gone; its fields sit in one line on wide screens */
+/* Plan Your Day: The Plan spans the row now that Weekly routines is gone; its fields sit in one line on wide screens */
 #paneplanner .grid { grid-template-columns: minmax(0, 1fr) !important; }
 @media (min-width: 900px) {
   #paneplanner .panel.entry #taskForm { grid-template-columns: minmax(0, 2fr) minmax(0, 1.4fr) minmax(0, 1.4fr); align-items: start; column-gap: 16px; }
@@ -2015,7 +2013,7 @@ body { background: linear-gradient(180deg, #F4F2EC 0, #ECE8DD 560px) fixed, #ECE
 }
 .top .weeknav { background: linear-gradient(100deg, rgba(255, 255, 255, 0.14) 0%, rgba(255, 255, 255, 0.03) 60%, rgba(255, 255, 255, 0.08) 100%); border-color: rgba(255, 255, 255, 0.4); box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.18); }
 
-/* ================= Weekly Summary as a journal spread (layout only; colours and fonts unchanged) ================= */
+/* ================= Review Your Week as a journal spread (layout only; colours and fonts unchanged) ================= */
 .wk-panel { display: grid; gap: 12px; }
 .wk-grid { display: grid; grid-template-columns: repeat(12, minmax(0, 1fr)); border: 1px solid var(--line-strong); border-radius: 12px; overflow: hidden; background-color: var(--surface-solid);
   background-image: linear-gradient(var(--line) 1px, transparent 1px), linear-gradient(90deg, var(--line) 1px, transparent 1px); background-size: 16px 16px; }
@@ -2151,6 +2149,275 @@ body { background: linear-gradient(180deg, #F4F2EC 0, #ECE8DD 560px) fixed, #ECE
 .fc-list .mo-check { width: 22px; height: 22px; }
 .fc-edit { display: grid; gap: 6px; margin-top: 8px; justify-items: start; }
 .fc-addrow { list-style: none; width: 100%; }
+
+/* This week's list: the month-list rows with a star and a day picker */
+.pool-star { width: 30px; height: 30px; padding: 0; border: 0; background: transparent; font-size: 20px; line-height: 1; cursor: pointer; color: inherit; }
+.pool-star:disabled { cursor: default; }
+.pool-body { display: flex; align-items: center; gap: 8px; min-width: 0; flex-wrap: wrap; }
+.pool-body .pool-what { flex: 1 1 160px; text-align: left; }
+.pool-item.done .pool-what { color: var(--muted); text-decoration: line-through; }
+.pool-pick { max-width: 100%; }
+.pool-add { display: flex; gap: 8px; margin-top: 10px; }
+.jl-pool { margin: 0; }
+
+/* This week on one page: the five parts of the weekly spread, in the planner's own boxes */
+@media (min-width: 1001px) { #pageTabs { grid-template-columns: repeat(4, minmax(0, 1fr)); } }
+@media (min-width: 721px) and (max-width: 1000px) { #pageTabs { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+.wp-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; }
+.wp-box { border: 1px solid var(--line); border-radius: 14px; background: var(--surface-solid); overflow: hidden; display: flex; flex-direction: column; min-width: 0; }
+.wp-box.wp-wide { grid-column: 1 / -1; }
+.wp-h { display: flex; align-items: center; gap: 10px; margin: 0; padding: 10px 14px; background: #E6DCC8; font-family: var(--display); font-weight: 600; font-size: 16px; color: var(--ink); }
+.wp-h .hint { margin-left: auto; font-family: var(--body); font-weight: 400; font-size: 12.5px; }
+.wp-num { width: 24px; height: 24px; border-radius: 50%; border: 1.5px solid var(--accent); color: var(--accent); display: grid; place-items: center; font-size: 13px; flex: none; }
+.wp-body { padding: 10px 14px 12px; display: grid; gap: 6px; }
+.wp-list, .wp-days, .wp-plain { list-style: none; margin: 0; padding: 0; display: grid; gap: 4px; }
+.wp-item { display: flex; align-items: center; gap: 10px; min-width: 0; padding: 3px 0; border-bottom: 1px solid var(--line); }
+.wp-item:last-child { border-bottom: 0; }
+.wp-item .jl-what, .wp-text { flex: 1; min-width: 0; text-align: left; overflow-wrap: anywhere; }
+.wp-item.done .jl-what, .wp-item.done .wp-text, .wp-done { color: var(--muted); }
+.wp-check { width: 22px; height: 22px; flex: none; }
+.wp-tag { flex: none; width: 46px; text-align: center; font-family: var(--display); font-weight: 600; font-size: 13px; color: var(--ink); background: var(--surface-sunk); border: 0; border-radius: 6px; padding: 3px 0; cursor: pointer; }
+span.wp-tag { cursor: default; }
+.wp-days li { display: flex; align-items: center; gap: 10px; padding: 4px 0; border-bottom: 1px solid var(--line); font-size: 14.5px; }
+.wp-days li:last-child { border-bottom: 0; }
+.wp-days li.today .wp-tag { background: var(--teal); }
+.wp-fc { flex: none; }
+.wp-qs { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; }
+.wp-q h4 { margin: 0 0 6px; font-family: var(--display); font-weight: 600; font-size: 15px; color: var(--ink); }
+.wp-plain li { font-size: 14px; line-height: 1.45; overflow-wrap: anywhere; }
+.wp-whys { margin-top: 6px; }
+.wp-whys li { color: var(--muted); }
+.wp-why, .wp-next-in { width: 100%; margin-top: 8px; padding: 7px 10px; border: 1px solid var(--line-strong); border-radius: 10px; background: var(--surface-solid); color: var(--ink); font: inherit; font-size: 14px; resize: vertical; }
+.wp-next { display: flex; gap: 8px; align-items: center; }
+.wp-next .wp-next-in { margin-top: 0; flex: 1; min-width: 0; }
+.wp-empty { margin: 0; }
+@media (max-width: 760px) { .wp-grid, .wp-qs { grid-template-columns: minmax(0, 1fr); } }
+/* Plan Your Day, simplified: theme line, filters tucked away, no big-day banner */
+.pool-theme { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; margin: 0 0 12px; }
+.pool-theme label { font-family: var(--display); font-weight: 600; font-size: 14px; color: var(--ink); }
+.pool-theme input { flex: 1 1 220px; min-width: 0; padding: 7px 10px; border: 1px solid var(--line-strong); border-radius: 10px; background: var(--surface-solid); color: var(--ink); font: inherit; font-size: 14px; }
+#tasksPanel .filters:not(.open) { display: none; }
+.more-filters { justify-self: start; margin: 0 0 6px; }
+#nextMs { display: none !important; }
+.jl-pin { width: 28px; height: 28px; padding: 4px; border: 0; background: transparent; color: var(--ink); opacity: 0.3; cursor: pointer; flex: none; }
+.jl-pin[aria-pressed="true"] { opacity: 1; }
+.jl-pin svg { width: 100%; height: 100%; display: block; }
+
+/* Plan the week: the one-page layout as the input */
+.pw-grid { margin-top: 4px; }
+.pw-add { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; margin-top: 8px; }
+.pw-in { flex: 1 1 180px; min-width: 0; padding: 7px 10px; border: 1px solid var(--line-strong); border-radius: 10px; background: var(--surface-solid); color: var(--ink); font: inherit; font-size: 14px; }
+.pw-slot { border-bottom: 0; }
+.pw-n { width: 22px; height: 22px; font-size: 12px; }
+.plan-week .wp-item { flex-wrap: wrap; }
+.plan-week .wp-item .jl-what { flex: 1 1 10em; min-width: 8em; }
+@media (max-width: 600px) { .plan-week .wp-item .pool-pick { margin-left: 32px; } .wp-h { flex-wrap: wrap; } }
+#listTitle::before, #dnTitle::before { display: inline-grid; place-items: center; width: 26px; height: 26px; margin-right: 10px; border-radius: 50%; border: 1.5px solid var(--accent); color: var(--accent); font-size: 14px; vertical-align: 3px; }
+#listTitle::before { content: "1"; }
+#dnTitle::before { content: "2"; }
+
+/* Each day as the one-page daily template: today's top 3, time blocks, small tasks, then the day's review */
+.dt-top { border: 1px solid var(--line); border-radius: 14px; overflow: hidden; background: var(--surface-solid); margin: 4px 0 6px; }
+.dt-top .wp-body { padding: 8px 14px 10px; }
+.dt-prev { margin: 0; }
+.jl-star { width: 28px; height: 28px; padding: 0; border: 0; background: transparent; font-size: 18px; line-height: 1; cursor: pointer; color: inherit; flex: none; }
+.jl-star:disabled { cursor: default; }
+.dn-done { margin: 0 0 10px; font-size: 14px; line-height: 1.5; }
+.dn-done b { font-family: var(--display); font-weight: 600; }
+.dn-next { margin-top: 4px; font-size: 14px; }
+.dn-next b { font-weight: 600; }
+
+/* Day lines: tick, star, plan, pin, remove */
+.jl-line { grid-template-columns: 22px minmax(0, 1fr) 30px !important; align-items: center; }
+
+/* The numbered section headers follow the existing section-header colours in dark mode */
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .wp-h { background: #2E3D36; } }
+:root[data-theme="dark"] .wp-h { background: #2E3D36; }
+
+/* Quick notes and focus, in the planner's existing boxes and buttons */
+.qn-add { margin: 0 0 10px; }
+.qn-item .wp-text { flex: 1 1 12em; }
+.qn-to { padding: 4px 10px; font-size: 13px; }
+.qn-list .wp-item { flex-wrap: wrap; }
+.fz-bar { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; padding: 10px 14px; margin: 4px 0 6px; border: 1px solid var(--line); border-radius: 14px; background: var(--surface-sunk); }
+.fz-title { flex: 1 1 10em; min-width: 0; }
+.fz-label { color: var(--muted); }
+.fz-btn { padding: 3px 10px; font-size: 13px; }
+
+/* Pop-up notes: a small card in the corner and a Note button, in the planner's own colours */
+.nb-fab { position: fixed; right: 20px; bottom: calc(20px + env(safe-area-inset-bottom, 0px)); z-index: 60; display: inline-flex; align-items: center; gap: 6px; border: 0; border-radius: 999px; padding: 11px 18px; background: var(--navy-900); color: #fff; font: inherit; font-weight: 600; font-size: 14px; cursor: pointer; box-shadow: var(--shadow); }
+.nb-fab:hover { opacity: 0.92; }
+.nb-badge { font-style: normal; min-width: 18px; height: 18px; padding: 0 5px; border-radius: 999px; background: var(--mint); color: var(--navy-900); font-size: 11px; font-weight: 700; display: inline-grid; place-items: center; }
+.nb-badge[hidden], .nb-fab[hidden], .nb-pop[hidden] { display: none !important; }
+.nb-pop { position: fixed; right: 20px; bottom: calc(76px + env(safe-area-inset-bottom, 0px)); z-index: 61; width: min(380px, calc(100vw - 32px)); max-height: min(70vh, 560px); overflow: auto; background: var(--surface-solid); border: 1px solid var(--line); border-radius: 16px; box-shadow: 0 2px 4px rgba(21, 32, 43, 0.06), 0 18px 40px rgba(21, 32, 43, 0.18); }
+.nb-head { display: flex; align-items: center; justify-content: space-between; gap: 10px; padding: 10px 12px 10px 16px; background: #E6DCC8; font-family: var(--display); font-size: 16px; color: var(--ink); }
+.nb-body { display: grid; gap: 8px; padding: 12px 16px 14px; }
+.nb-q { margin: 0; font-size: 14px; line-height: 1.5; }
+.nb-label { font-family: var(--display); font-weight: 600; font-size: 14px; color: var(--ink); margin-top: 4px; }
+.nb-in { width: 100%; resize: vertical; }
+.nb-fields { display: grid; gap: 6px; }
+.nb-actions { display: flex; justify-content: flex-end; align-items: center; gap: 8px; margin-top: 2px; }
+.nb-save { padding: 6px 16px; }
+.nb-sub { margin: 6px 0 0; }
+.nb-list .wp-item { flex-wrap: wrap; }
+.nb-list .wp-text { flex: 1 1 100%; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .nb-head { background: #2E3D36; } }
+:root[data-theme="dark"] .nb-head { background: #2E3D36; }
+@media (max-width: 520px) { .nb-fab { right: 14px; bottom: calc(14px + env(safe-area-inset-bottom, 0px)); } .nb-pop { right: 16px; bottom: calc(66px + env(safe-area-inset-bottom, 0px)); } }
+
+/* Morning plan and evening review: five questions, folding open at the right time of day */
+.dq-box > summary.wp-h { cursor: pointer; list-style: none; }
+.dq-box > summary.wp-h::-webkit-details-marker { display: none; }
+.dq-box > summary.wp-h::before { content: "▸"; color: var(--muted); font-size: 12px; }
+.dq-box[open] > summary.wp-h::before { content: "▾"; }
+.dq-list { list-style: none; margin: 0; padding: 10px 14px 12px; display: grid; gap: 10px; }
+.dq-row { display: grid; gap: 5px; }
+.dq-q { display: flex; align-items: center; gap: 8px; font-family: var(--display); font-weight: 600; font-size: 14.5px; color: var(--ink); }
+.dq-auto { padding-left: 30px; }
+.dq-in { width: 100%; }
+.sk-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; }
+@media (max-width: 900px) { .sk-grid { grid-template-columns: minmax(0, 1fr); } }
+
+/* Evening review: the five questions with numbers, like the morning plan */
+.dn-form .dq-q { display: flex; align-items: center; gap: 8px; color: var(--ink); }
+.dn-form .dn-done { margin: 0; padding-left: 30px; }
+
+/* Morning plan and evening review show your pop-up answers; Edit reopens the pop-up */
+.dq-am .wp-h .hint { margin-left: auto; }
+.dq-am .wp-h .dq-edit { margin-left: 8px; padding: 4px 12px; font-size: 13px; }
+.dq-am .wp-h .hint + .dq-edit, .dq-am .wp-h > .dq-edit:only-of-type { }
+.dq-am .wp-h > .dq-edit:not(.hint + .dq-edit) { margin-left: auto; }
+.dq-show { margin: 0; padding: 10px 14px 12px 34px; display: grid; gap: 6px; font-size: 14.5px; line-height: 1.45; }
+.dq-show b { font-family: var(--display); font-weight: 600; }
+.dq-none { margin: 0; padding: 10px 14px 12px; }
+.nb-qrow { display: grid; gap: 4px; }
+#dnForm[hidden] { display: none !important; }
+.daynotes .dn-grid { grid-template-columns: minmax(0, 1fr) !important; }
+.dn-cta { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
+
+/* ================= Nuit theme: pink–lilac washes, white floating cards, regular black type, thin outlined pills, mauve dots, gradient figures ================= */
+:root {
+  --display: "Inter", "Helvetica Neue", -apple-system, BlinkMacSystemFont, Arial, sans-serif;
+  --body: "Inter", "Helvetica Neue", -apple-system, BlinkMacSystemFont, Arial, sans-serif;
+  --bg: #F4EEF3; --surface: #FFFFFF; --surface-solid: #FFFFFF; --surface-sunk: #FAF7FA;
+  --line: #ECE6EC; --line-strong: #D9D2DA; --ink: #111111; --muted: #6B6570;
+  --accent: #9A63AE; --accent-soft: #F2EAF6; --accent-ink: #111111; --teal: #9A63AE; --teal-2: #7E4E92;
+  --mint: #D9C6E6; --mint-2: #FAF7FA; --mint-soft: #F2EAF6; --mint-deep: #E3D6EC; --lime: #D9C6E6; --tile: #D9C6E6; --wait-soft: #FBF0F5;
+  --navy-900: #111111; --band: #111111; --cover: #F3E2EC; --navy: #111111;
+  --nt-pink: linear-gradient(160deg, #F2D9E6 0%, #F6E9F1 45%, #FBF6F9 100%);
+  --nt-lilac: linear-gradient(160deg, #CFC6E8 0%, #E7E0F3 55%, #F6EFF6 100%);
+  --nt-pearl: linear-gradient(120deg, #FFFFFF 0%, #F7F2F8 55%, #ECE6F5 100%);
+  --nt-num: linear-gradient(90deg, #E58FB2 0%, #C7A0D2 55%, #A88BCB 100%);
+}
+body { background: linear-gradient(135deg, #F8F2F6 0%, #F2EDF5 60%, #ECE7F2 100%) fixed, #F2EDF5; color: var(--ink); font-family: var(--body); }
+h1, h2, h3, .nt-head, .dp-num, #nbTitle { font-family: var(--display); letter-spacing: -0.03em; font-weight: 400 !important; }
+
+/* Title slides: pink wash, very large regular black type */
+.home-cover, .top, .intro > header, .cta { background: var(--nt-pink) !important; border: 0; border-radius: 16px; box-shadow: 0 30px 60px rgba(110, 80, 110, 0.12); }
+.wrap .home-cover::before, .wrap .top::before, .wrap .intro > header::before, .wrap .cta::before { left: 0 !important; right: 0 !important; width: auto !important; background: radial-gradient(50% 70% at 85% 15%, rgba(255, 255, 255, 0.85), transparent 70%), radial-gradient(45% 70% at 100% 100%, rgba(214, 205, 238, 0.7), transparent 70%) !important; opacity: 1; }
+.home-cover, .home-cover *, .top, .top *, .intro > header, .intro > header *, .cta, .cta * { color: #111111 !important; }
+.home-cover h1, .top h1, #secTitle { font-weight: 400 !important; letter-spacing: -0.045em; }
+.home-cover .eyebrow, .home-cover .pill, .top .pill { background: transparent !important; border: 1px solid #111111 !important; border-radius: 999px !important; letter-spacing: 0.04em !important; }
+.sitefoot, .wrap.is-home .sitefoot, .next-ms { background: var(--nt-pearl) !important; border: 0; border-radius: 16px; box-shadow: 0 22px 44px rgba(110, 80, 110, 0.10); }
+.sitefoot, .sitefoot * { color: #111111 !important; }
+.sitefoot .footlink, .sitefoot a.footlink { border: 1px solid #111111 !important; border-radius: 999px; background: transparent !important; }
+
+/* Cards: white, floating, no header strips — titles sit on the card like the slides */
+.panel { background: #FFFFFF; border: 0; border-radius: 16px; box-shadow: 0 1px 2px rgba(60, 40, 60, 0.04), 0 26px 50px rgba(110, 80, 110, 0.10); overflow: hidden; }
+.panel > .panel-head:first-child, .panel.entry > .brand, .reportbox > summary { background: #FFFFFF !important; border-bottom-color: #F0EBF0 !important; }
+.panel-head h2 { font-size: 1.35em; }
+.panel-head > div > .hint::before { content: ""; display: inline-block; width: 7px; height: 7px; margin-right: 8px; border-radius: 50%; background: #A15DB8; vertical-align: 1px; }
+.wp-box { border-radius: 12px; border: 0; background: #FFFFFF; box-shadow: 0 14px 30px rgba(110, 80, 110, 0.09); }
+.wp-h, .rv-grid > .rv-box > .panel-head:first-child, .wk-head { background: #FFFFFF !important; border-bottom: 1px solid #F0EBF0; color: #111111; font-weight: 400 !important; }
+.nb-head { background: var(--nt-pink) !important; }
+.dq-box { border-radius: 12px; background: var(--nt-lilac) !important; border: 0; }
+.dq-box .wp-h { background: transparent !important; border-bottom: 0; }
+.reset-card { background: var(--nt-pearl); border: 0; border-radius: 16px; box-shadow: 0 22px 44px rgba(110, 80, 110, 0.10); }
+
+/* Pills: thin black outlines; white filled pills for labels */
+.wp-num, #listTitle::before, #dnTitle::before { border: 1px solid #111111 !important; color: #111111 !important; background: transparent !important; border-radius: 999px !important; width: auto !important; min-width: 28px; padding: 0 9px; font-weight: 400; }
+.chipbtn, .backbtn { background: #FFFFFF; border: 1px solid #111111; color: #111111; border-radius: 999px; font-weight: 400; }
+.chipbtn:hover, .backbtn:hover { background: #111111 !important; color: #FFFFFF !important; border-color: #111111 !important; }
+.crumbs button { border-radius: 999px; border: 1px solid transparent; }
+.crumbs button[aria-current="page"], .seg button[aria-pressed="true"] { background: #FFFFFF !important; color: #111111 !important; border: 1px solid #111111 !important; }
+.exportbtn, .b-save, .savebtn, #rtAddBtn, .cta-btn, .nb-save { background: #FFFFFF !important; color: #111111 !important; border: 1px solid #111111 !important; border-radius: 999px !important; }
+.exportbtn:hover, .nb-save:hover { background: #111111 !important; color: #FFFFFF !important; }
+.nb-fab { background: #111111 !important; color: #FFFFFF !important; border: 0 !important; box-shadow: 0 14px 30px rgba(60, 30, 60, 0.25); }
+#prevWeek, #nextWeek { background: #FFFFFF !important; color: #111111 !important; border: 1px solid #111111 !important; }
+.top #prevWeek, .top #nextWeek { color: #111111 !important; }
+.dn-day { border-radius: 12px; border-color: #E3DCE4; }
+.dn-day.on { background: var(--nt-lilac) !important; color: #111111 !important; border: 1px solid #111111 !important; }
+.dn-day.on * { color: #111111 !important; }
+.mo-check { border: 1px solid #111111; }
+.mo-check[aria-pressed="true"], .goals3 input[type="checkbox"]:checked, .kms input[type="checkbox"]:checked { background: linear-gradient(135deg, #E9A3C1 0%, #B79BD8 100%) !important; border-color: transparent !important; color: #FFFFFF; }
+.dn-dot, .cal-note { background: #FFFFFF; color: #111111; border: 1px solid #111111; }
+.toast { background: #FFFFFF; color: #111111; border: 1px solid #111111; border-radius: 999px; box-shadow: 0 14px 30px rgba(60, 30, 60, 0.15); }
+.pw-in, .wp-why, .wp-next-in, input, textarea, select { border-radius: 10px; }
+.pw-in:focus, .wp-why:focus, .nb-in:focus { outline: none; border-color: #111111; box-shadow: 0 0 0 3px rgba(161, 93, 184, 0.12); }
+a, .linkbtn { color: #7E4E92; }
+
+/* Gradient figures, like USD 54.5 and 55–65% */
+#gtRate, #wpCount { background: var(--nt-num); -webkit-background-clip: text; background-clip: text; color: transparent !important; font-family: var(--display) !important; font-size: 1.25em; font-weight: 400; letter-spacing: -0.02em; }
+.wp-plain li b { background: var(--nt-num); -webkit-background-clip: text; background-clip: text; color: transparent; font-weight: 500; }
+
+/* Home tiles */
+#homeView .navtile, #homeView .navtile:nth-child(2) { background: #FFFFFF !important; border: 0 !important; border-radius: 16px; box-shadow: 0 26px 50px rgba(110, 80, 110, 0.10); }
+#homeView .navtile .nt-body svg, #homeView .navtile:nth-child(2) .nt-body svg { color: #111111 !important; }
+#homeView .navtile:hover, #homeView .navtile:focus-visible { background: var(--nt-lilac) !important; }
+#homeView .navtile:hover .nt-head, #homeView .navtile:hover .nt-desc, #homeView .navtile:focus-visible .nt-head, #homeView .navtile:focus-visible .nt-desc, #homeView .navtile:hover .nt-body svg { color: #111111 !important; }
+.nt-head { font-size: 1.3em; }
+
+/* Pop-up and the rest */
+#nbPop { border-radius: 16px; border: 0; box-shadow: 0 30px 60px rgba(80, 50, 80, 0.20); }
+#nbTitle { color: #111111; }
+.takeaways { background: var(--nt-lilac) !important; border: 0 !important; color: #111111 !important; }
+.takeaways h3, .takeaways .tk-list li { color: #111111 !important; }
+.tk-list li::before { background: #A15DB8 !important; }
+.tk-arrow { background: #FFFFFF !important; color: #111111 !important; }
+.feat .ic, .gate::before { background: var(--nt-lilac) !important; color: #111111 !important; }
+.cta-link, .footlink svg { color: #111111 !important; }
+.dn-well { background: #F6F0FA; } .dn-bad { background: #FBEFF4; }
+
+/* Dark: a soft mauve night with the same pills and gradients */
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) { --bg: #141016; --surface: #1D181F; --surface-solid: #221C25; --surface-sunk: #19141B; --line: #322A35; --line-strong: #463C49; --ink: #F3EEF4; --muted: #B2A8B5; --accent: #D6B4E4; --accent-soft: #2E2433; --wait-soft: #2E2433; }
+  :root:not([data-theme="light"]) body { background: linear-gradient(135deg, #18131A 0%, #141016 60%, #13111A 100%) fixed, #141016; }
+  :root:not([data-theme="light"]) .home-cover, :root:not([data-theme="light"]) .top, :root:not([data-theme="light"]) .intro > header, :root:not([data-theme="light"]) .cta, :root:not([data-theme="light"]) .sitefoot { background: linear-gradient(160deg, #33242F 0%, #261E2B 55%, #221F31 100%) !important; box-shadow: none; }
+  :root:not([data-theme="light"]) .wrap .home-cover::before, :root:not([data-theme="light"]) .wrap .top::before, :root:not([data-theme="light"]) .wrap .intro > header::before { background: radial-gradient(50% 70% at 85% 15%, rgba(229, 143, 178, 0.14), transparent 70%) !important; }
+  :root:not([data-theme="light"]) .home-cover *, :root:not([data-theme="light"]) .top *, :root:not([data-theme="light"]) .intro > header *, :root:not([data-theme="light"]) .sitefoot * { color: #F3EEF4 !important; }
+  :root:not([data-theme="light"]) .home-cover .eyebrow, :root:not([data-theme="light"]) .sitefoot .footlink { border-color: #F3EEF4 !important; }
+  :root:not([data-theme="light"]) .panel, :root:not([data-theme="light"]) #homeView .navtile, :root:not([data-theme="light"]) .reset-card, :root:not([data-theme="light"]) .wp-box { background: #1D181F !important; box-shadow: none; border: 1px solid #2E2631 !important; }
+  :root:not([data-theme="light"]) .panel > .panel-head:first-child, :root:not([data-theme="light"]) .wp-h { background: #1D181F !important; border-bottom-color: #2E2631 !important; color: #F3EEF4; }
+  :root:not([data-theme="light"]) .nb-head, :root:not([data-theme="light"]) .dq-box, :root:not([data-theme="light"]) .dn-day.on, :root:not([data-theme="light"]) .takeaways { background: linear-gradient(160deg, #3A2B42 0%, #2A2338 100%) !important; }
+  :root:not([data-theme="light"]) .wp-num, :root:not([data-theme="light"]) #listTitle::before, :root:not([data-theme="light"]) #dnTitle::before, :root:not([data-theme="light"]) .mo-check:not([aria-pressed="true"]) { border-color: #F3EEF4 !important; color: #F3EEF4 !important; }
+  :root:not([data-theme="light"]) .chipbtn, :root:not([data-theme="light"]) .backbtn, :root:not([data-theme="light"]) .exportbtn, :root:not([data-theme="light"]) .nb-save, :root:not([data-theme="light"]) #prevWeek, :root:not([data-theme="light"]) #nextWeek, :root:not([data-theme="light"]) .crumbs button[aria-current="page"], :root:not([data-theme="light"]) .toast, :root:not([data-theme="light"]) .dn-dot { background: #1D181F !important; border-color: #F3EEF4 !important; color: #F3EEF4 !important; }
+  :root:not([data-theme="light"]) .dn-day.on, :root:not([data-theme="light"]) .dn-day.on * { color: #F3EEF4 !important; border-color: #F3EEF4 !important; }
+  :root:not([data-theme="light"]) .nb-fab { background: #F3EEF4 !important; color: #141016 !important; }
+  :root:not([data-theme="light"]) .takeaways h3, :root:not([data-theme="light"]) .takeaways .tk-list li, :root:not([data-theme="light"]) #nbTitle, :root:not([data-theme="light"]) .cta-link, :root:not([data-theme="light"]) .footlink svg { color: #F3EEF4 !important; }
+  :root:not([data-theme="light"]) .dn-well { background: #2A2232 !important; } :root:not([data-theme="light"]) .dn-bad { background: #33242F; }
+  :root:not([data-theme="light"]) a, :root:not([data-theme="light"]) .linkbtn { color: #D6B4E4; }
+}
+:root[data-theme="dark"] { --bg: #141016; --surface: #1D181F; --surface-solid: #221C25; --surface-sunk: #19141B; --line: #322A35; --line-strong: #463C49; --ink: #F3EEF4; --muted: #B2A8B5; --accent: #D6B4E4; --accent-soft: #2E2433; }
+:root[data-theme="dark"] body { background: #141016; }
+:root[data-theme="dark"] .panel, :root[data-theme="dark"] #homeView .navtile, :root[data-theme="dark"] .wp-box { background: #1D181F !important; box-shadow: none; border: 1px solid #2E2631 !important; }
+:root[data-theme="dark"] .panel > .panel-head:first-child, :root[data-theme="dark"] .wp-h { background: #1D181F !important; color: #F3EEF4; }
+:root[data-theme="dark"] .top, :root[data-theme="dark"] .home-cover, :root[data-theme="dark"] .sitefoot { background: linear-gradient(160deg, #33242F 0%, #261E2B 55%, #221F31 100%) !important; }
+:root[data-theme="dark"] .top *, :root[data-theme="dark"] .home-cover *, :root[data-theme="dark"] .sitefoot * { color: #F3EEF4 !important; }
+:root[data-theme="dark"] .chipbtn, :root[data-theme="dark"] .exportbtn, :root[data-theme="dark"] #prevWeek, :root[data-theme="dark"] #nextWeek { background: #1D181F !important; border-color: #F3EEF4 !important; color: #F3EEF4 !important; }
+.intro .story strong { background: linear-gradient(90deg, #F6DCE8 0%, #E9E1F5 100%) !important; color: #111111 !important; border-radius: 6px; padding: 0 5px; font-weight: 500; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .intro .story strong { background: #3A2B42 !important; color: #F3EEF4 !important; } }
+:root[data-theme="dark"] .intro .story strong { background: #3A2B42 !important; color: #F3EEF4 !important; }
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) .cta { background: linear-gradient(160deg, #33242F 0%, #261E2B 55%, #221F31 100%) !important; box-shadow: none; }
+  :root:not([data-theme="light"]) .wrap .cta::before { background: radial-gradient(50% 70% at 85% 15%, rgba(229, 143, 178, 0.14), transparent 70%) !important; }
+  :root:not([data-theme="light"]) .cta, :root:not([data-theme="light"]) .cta * { color: #F3EEF4 !important; }
+  :root:not([data-theme="light"]) .cta .cta-btn, :root:not([data-theme="light"]) .cta .cta-btn * { color: #111111 !important; }
+  :root:not([data-theme="light"]) #homeView .navtile .nt-body svg, :root:not([data-theme="light"]) #homeView .navtile:nth-child(2) .nt-body svg { color: #F3EEF4 !important; }
+  :root:not([data-theme="light"]) #homeView .navtile .nt-head, :root:not([data-theme="light"]) #homeView .navtile .nt-desc { color: #F3EEF4 !important; }
+}
+:root[data-theme="dark"] .cta { background: linear-gradient(160deg, #33242F 0%, #261E2B 55%, #221F31 100%) !important; }
+:root[data-theme="dark"] .cta * { color: #F3EEF4 !important; }
+:root[data-theme="dark"] #homeView .navtile .nt-body svg, :root[data-theme="dark"] #homeView .navtile:nth-child(2) .nt-body svg { color: #F3EEF4 !important; }
 </style>
 
 <div class="wrap is-show">
@@ -2158,7 +2425,7 @@ body { background: linear-gradient(180deg, #F4F2EC 0, #ECE8DD 560px) fixed, #ECE
     <header class="home-cover">
       <h1><span class="h-bold">The Weekly Planner</span></h1>
       <p class="home-value">Plan your week together, spend less time sending reminders, and see everything you got done. All in one shared place.</p>
-      <p class="home-by">A weekly planner by Weiwei Hu</p>
+      <p class="home-by">A weekly planner by Weiwei Hu.</p>
     </header>
     <div class="tilegrid" id="pageTabs">
       <div class="navtile static">
@@ -2166,12 +2433,16 @@ body { background: linear-gradient(180deg, #F4F2EC 0, #ECE8DD 560px) fixed, #ECE
         <span class="nt-body"><svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 24s7-12 20-12 20 12 20 12-7 12-20 12S4 24 4 24Z"></path><circle cx="24" cy="24" r="6"></circle><circle cx="24" cy="24" r="1.6" fill="currentColor"></circle><path d="M24 4v4M24 40v4"></path></svg><span class="nt-desc">See how the planner works and what you can do with it.</span></span>
       </div>
       <div class="navtile static">
-        <span class="nt-head">Plan Your Week</span>
-        <span class="nt-body"><svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="7" y="10" width="34" height="31" rx="3"></rect><path d="M7 18h34M16 6v8M32 6v8"></path><path d="m15 28 4 4 8-9"></path><path d="M31 30h4"></path></svg><span class="nt-desc">Add shopping, errands, classes, and other activities with dates.</span></span>
+        <span class="nt-head">Set Your Goals</span>
+        <span class="nt-body"><svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="24" cy="24" r="18"></circle><circle cx="24" cy="24" r="11"></circle><circle cx="24" cy="24" r="4"></circle><path d="m24 24 14-14M33 10h5v5"></path></svg><span class="nt-desc">Pick a top 3 for career and for personal life, then tick them off.</span></span>
       </div>
       <div class="navtile static">
-        <span class="nt-head">Weekly Summary</span>
-        <span class="nt-body"><svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 42h36"></path><rect x="9" y="28" width="6" height="12" rx="1"></rect><rect x="19" y="21" width="6" height="19" rx="1"></rect><rect x="29" y="14" width="6" height="26" rx="1"></rect><path d="m9 18 10-7 8 5 12-9"></path><path d="M34 7h5v5"></path></svg><span class="nt-desc">See what you accomplished, what stood out, and what’s next.</span></span>
+        <span class="nt-head">Plan Your Day</span>
+        <span class="nt-body"><svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="7" y="10" width="34" height="31" rx="3"></rect><path d="M7 18h34M16 6v8M32 6v8"></path><path d="m15 28 4 4 8-9"></path><path d="M31 30h4"></path></svg><span class="nt-desc">Plan each day in the morning and look back on it in the evening.</span></span>
+      </div>
+      <div class="navtile static">
+        <span class="nt-head">Review Your Week</span>
+        <span class="nt-body"><svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 42h36"></path><rect x="9" y="28" width="6" height="12" rx="1"></rect><rect x="19" y="21" width="6" height="19" rx="1"></rect><rect x="29" y="14" width="6" height="26" rx="1"></rect><path d="m9 18 10-7 8 5 12-9"></path><path d="M34 7h5v5"></path></svg><span class="nt-desc">Your weekly update: key results, problems and next steps, with numbers.</span></span>
       </div>
     </div>
   </nav>
@@ -2192,24 +2463,19 @@ body { background: linear-gradient(180deg, #F4F2EC 0, #ECE8DD 560px) fixed, #ECE
     <section aria-labelledby="introCan">
       <h2 id="introCan">What can you do with it?</h2>
       <ul class="feat">
-        <li><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"></path></svg></span><span>Plan together with family or friends</span></li>
-        <li><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"></path></svg></span><span>Organize tasks by category and person</span></li>
-        <li><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"></path></svg></span><span>Plan each day by morning, afternoon and evening</span></li>
+        <li><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"></path></svg></span><span>Plan together with family, friends or the people you work with</span></li>
+        <li><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"></path></svg></span><span>Set a top 3 for career and a top 3 for personal life each week, and see how much you reached</span></li>
+        <li><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"></path></svg></span><span>Plan your day through short pop-ups for the morning, afternoon and evening</span></li>
+        <li><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"></path></svg></span><span>Start each day with the 3 things to finish by end of day</span></li>
         <li><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"></path></svg></span><span>Give each day a focus, like a midweek check or a tidy-up day</span></li>
-        <li><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"></path></svg></span><span>See what’s not started, in progress, and done<span class="pills" aria-hidden="true"><span class="pill not_started">Not started</span><span class="pill in_progress">In progress</span><span class="pill done">Done</span></span></span></li>
-        <li><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"></path></svg></span><span>Keep one list for the week and star the 3 that matter most</span></li>
+        <li><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"></path></svg></span><span>End the day with a factual update: what’s finished, what’s open and when you’ll deliver, ready to copy</span></li>
+        <li><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"></path></svg></span><span>Write your weekly update as key results, problems and next steps, with numbers</span></li>
         <li><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"></path></svg></span><span>Carry unfinished tasks into the next week</span></li>
-        <li><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"></path></svg></span><span>Get a summary of your week</span></li>
         <li><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"></path></svg></span><span>Look back at previous weeks</span></li>
         <li><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"></path></svg></span><span>Export and reopen your plan</span></li>
       </ul>
     </section>
-    <section aria-labelledby="introPrint">
-      <h2 id="introPrint">Printable and download bundle</h2>
-      <p>Prefer paper? A printable pack is on the way: 14 undated pages in A4 and US Letter, with a focus for each day, a plan-the-week page, a monthly to-do list, a week at a glance, daily pages and a weekly review. A bundle will also include a copy of the planner you can open in your own browser.</p>
-      <img src="printable-preview.jpg" alt="Four pages from the printable pack: the cover, plan the week, a Monday page and the weekly review" width="1800" height="639" loading="lazy" style="display:block;width:100%;height:auto;margin-top:16px;border-radius:14px;border:1px solid var(--line)">
-    </section>
-    <section class="cta" aria-labelledby="introHow">
+    <section aria-labelledby="introPrint"><h2 id="introPrint">Printable and download bundle</h2><p>Prefer paper? A printable pack is on the way: 14 undated pages in A4 and US Letter, with a focus for each day, a plan-the-week page, a monthly to-do list, a week at a glance, daily pages and a weekly review. A bundle will also include a copy of the planner you can open in your own browser.</p><img src="printable-preview.jpg" alt="Four pages from the printable pack: the cover, plan the week, a Monday page and the weekly review" width="1800" height="639" loading="lazy" style="display:block;width:100%;height:auto;margin-top:16px;border-radius:14px;border:1px solid var(--line)"></section><section class="cta" aria-labelledby="introHow">
       <h2 id="introHow">Want to try it?</h2>
       
       <p>The planner lives in a private, shared space for the people I plan with. If you’d like to see it in action or adapt it for your own week, I’d be happy to hear from you.</p><a class="cta-btn" href="https://www.linkedin.com/in/weiweihu/" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true" fill="currentColor"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5ZM3 9.75h4v11H3v-11Zm6.5 0h3.8v1.5h.06c.53-1 1.83-1.8 3.76-1.8 4 0 4.88 2.4 4.88 5.6v5.7h-4v-5.05c0-1.2-.02-2.75-1.7-2.75-1.7 0-1.95 1.3-1.95 2.66v5.14h-4v-11Z"></path></svg> Message me on LinkedIn</a>
@@ -2224,6 +2490,11 @@ body { background: linear-gradient(180deg, #F4F2EC 0, #ECE8DD 560px) fixed, #ECE
     <span class="foot-copy">© 2026 Weiwei Hu. All rights reserved.</span>
   </footer>
 </div>
+<button type="button" class="nb-fab" id="nbFab" hidden="" aria-haspopup="dialog" aria-controls="nbPop"><span aria-hidden="true">✎</span> Note<i class="nb-badge" id="nbBadge" hidden=""></i></button>
+<section class="nb-pop" id="nbPop" role="dialog" aria-labelledby="nbTitle" hidden="">
+  <div class="nb-head"><b id="nbTitle">Quick note</b><button type="button" class="dn-icon" id="nbClose" aria-label="Close" title="Close">×</button></div>
+  <div class="nb-body" id="nbBody"></div>
+</section>
 
 
 

@@ -8,14 +8,16 @@ Plan your week together, spend less time sending reminders, and see everything y
 
 ## What you can do with it
 
-- Plan together with family or friends
-- Organize tasks by category and person
-- Plan each day by morning, afternoon and evening
+The planner has three pages: **Set Your Goals**, **Plan Your Day** and **Review Your Week**.
+
+- Plan together with family, friends or the people you work with
+- Set a top 3 for career and a top 3 for personal life each week, and see how much you reached
+- Plan your day through short pop-ups for the morning, afternoon and evening
+- Start each day with the 3 things to finish by end of day
 - Give each day a focus, like a midweek check or a tidy-up day
-- See what's not started, in progress, and done
-- Keep one list for the week and star the 3 that matter most
+- End the day with a factual update: what's finished, what's open and when you'll deliver, ready to copy
+- Write your weekly update as key results, problems and next steps, with numbers
 - Carry unfinished tasks into the next week
-- Get a summary of your week
 - Look back at previous weeks
 - Export and reopen your plan
 
