@@ -6,7 +6,7 @@
 
 Set your goals, plan your days, and let AI turn what you complete into your accomplishments, ready for your next opportunity or your next review.
 
-**See the page:** https://wei-wei-hu.github.io/the-weekly-planner/
+**See the page:** https://wei-wei-hu.github.io/the-atelier/
 
 ![The Atelier: the home page and the Overview](cover.jpg)
 
