@@ -1,16 +1,18 @@
-# The Weekly Planner
+# Daymark
+
+*Every day leaves a mark.*
 
 Set your goals, plan each day in minutes, and let AI turn what you finish into a record of your accomplishments, ready for your next review.
 
 **See the page:** https://wei-wei-hu.github.io/the-weekly-planner/
 
-![The Weekly Planner: the home page and the Overview](cover.jpg)
+![Daymark: the home page and the Overview](cover.jpg)
 
 ## Your best work deserves a record
 
 Most weeks end with a full calendar and only a rough idea of what actually moved forward. Then review season arrives, and the win from March is hard to remember, let alone the numbers behind it.
 
-I built the Weekly Planner to change that for myself. Set a few goals on Monday, plan each day in a few minutes, and let AI turn what you finished into your accomplishments, complete with your contribution, the business impact and the evidence to back it up. By the end of the month, you have your three strongest stories ready for your manager, your next review or your next interview.
+I built Daymark to change that for myself. Set a few goals on Monday, plan each day in a few minutes, and let AI turn what you finished into your accomplishments, complete with your contribution, the business impact and the evidence to back it up. By the end of the month, you have your three strongest stories ready for your manager, your next review or your next interview.
 
 ## What you get each week
 
