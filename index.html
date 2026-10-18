@@ -1015,7 +1015,7 @@ body { background: linear-gradient(180deg, #FCFCFC 0, #F0F2F2 520px) fixed, #F0F
 .tk-list li::before { content: ""; position: absolute; left: 4px; top: 0.55em; width: 8px; height: 8px; border-radius: 50%; background: var(--accent); }
 .tk-list.busy li { opacity: 0.55; }
 
-/* Review Your Week: the two top headers share one height */
+/* Weekly Reflection: the two top headers share one height */
 #panesummary .grid-summary > .panel > .panel-head:first-child { min-height: 104px; align-items: center; }
 
 /* Goals styled like the highlights: numbered circles and white boxes */
@@ -1667,7 +1667,7 @@ th, .ts-table th, .panel th, .panel .ts-table th { background: var(--mint-soft);
 .panel.entry .editing-note { margin: 0 0 4px; padding: 8px 12px; border-radius: 10px; background: var(--wait-soft); color: var(--ink); font-size: 13px; font-weight: 500; }
 @media (max-width: 380px) { .plan-row { grid-template-columns: minmax(0, 1fr); } }
 
-/* ================= Review Your Week: day notes and next week's goals ================= */
+/* ================= Weekly Reflection: day notes and next week's goals ================= */
 .sum-row2 { margin-top: 0; }
 .sn-list { display: grid; gap: 14px; }
 .sn-day { display: grid; gap: 8px; }
@@ -1906,7 +1906,7 @@ body { background: linear-gradient(180deg, #F4F2EC 0, #ECE8DD 560px) fixed, #ECE
 @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .mo-check { border-color: var(--mint, #D7C5A1); } }
 :root[data-theme="dark"] .mo-check { border-color: var(--mint, #D7C5A1); }
 
-/* Review Your Week: Highlights and Key takeaways span the full width now that Next week is gone */
+/* Weekly Reflection: Highlights and Key takeaways span the full width now that Next week is gone */
 #panesummary .grid-summary { grid-template-columns: minmax(0, 1fr) !important; }
 #panesummary .grid-summary .tk-arrow { display: none !important; }
 
@@ -2013,7 +2013,7 @@ body { background: linear-gradient(180deg, #F4F2EC 0, #ECE8DD 560px) fixed, #ECE
 }
 .top .weeknav { background: linear-gradient(100deg, rgba(255, 255, 255, 0.14) 0%, rgba(255, 255, 255, 0.03) 60%, rgba(255, 255, 255, 0.08) 100%); border-color: rgba(255, 255, 255, 0.4); box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.18); }
 
-/* ================= Review Your Week as a journal spread (layout only; colours and fonts unchanged) ================= */
+/* ================= Weekly Reflection as a journal spread (layout only; colours and fonts unchanged) ================= */
 .wk-panel { display: grid; gap: 12px; }
 .wk-grid { display: grid; grid-template-columns: repeat(12, minmax(0, 1fr)); border: 1px solid var(--line-strong); border-radius: 12px; overflow: hidden; background-color: var(--surface-solid);
   background-image: linear-gradient(var(--line) 1px, transparent 1px), linear-gradient(90deg, var(--line) 1px, transparent 1px); background-size: 16px 16px; }
@@ -2445,8 +2445,8 @@ a, .linkbtn { color: #7E4E92; }
         <span class="nt-body"><svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="7" y="10" width="34" height="31" rx="3"></rect><path d="M7 18h34M16 6v8M32 6v8"></path><path d="m15 28 4 4 8-9"></path><path d="M31 30h4"></path></svg><span class="nt-desc">Plan each day in the morning and look back on it in the evening.</span></span>
       </div>
       <div class="navtile static">
-        <span class="nt-head">Review Your Week</span>
-        <span class="nt-body"><svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 42h36"></path><rect x="9" y="28" width="6" height="12" rx="1"></rect><rect x="19" y="21" width="6" height="19" rx="1"></rect><rect x="29" y="14" width="6" height="26" rx="1"></rect><path d="m9 18 10-7 8 5 12-9"></path><path d="M34 7h5v5"></path></svg><span class="nt-desc">Log your accomplishments every week, measured and linked to your goals.</span></span>
+        <span class="nt-head">Weekly Reflection</span>
+        <span class="nt-body"><svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 42h36"></path><rect x="9" y="28" width="6" height="12" rx="1"></rect><rect x="19" y="21" width="6" height="19" rx="1"></rect><rect x="29" y="14" width="6" height="26" rx="1"></rect><path d="m9 18 10-7 8 5 12-9"></path><path d="M34 7h5v5"></path></svg><span class="nt-desc">Your week and month, written for you from your goals and daily plans.</span></span>
       </div>
     </div>
   </nav>
@@ -2473,7 +2473,7 @@ a, .linkbtn { color: #7E4E92; }
         <li><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"></path></svg></span><span>Start each day with the 3 things to finish by end of day</span></li>
         <li><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"></path></svg></span><span>Give each day a focus, like a midweek check or a tidy-up day</span></li>
         <li><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"></path></svg></span><span>End the day with a factual update: what’s finished, what’s open and when you’ll deliver, ready to copy</span></li>
-        <li><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"></path></svg></span><span>Log 2–5 accomplishments every week, measured and linked to your goals, and build a running record for reviews and your CV</span></li>
+        <li><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"></path></svg></span><span>Get a weekly and monthly reflection written for you from your goals and daily plans, with a running accomplishment log</span></li>
         <li><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"></path></svg></span><span>Carry unfinished tasks into the next week</span></li>
         <li><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"></path></svg></span><span>Look back at previous weeks</span></li>
         <li><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"></path></svg></span><span>Export and reopen your plan</span></li>

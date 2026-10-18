@@ -8,7 +8,7 @@ Plan your week together, spend less time sending reminders, and see everything y
 
 ## What you can do with it
 
-The planner has three pages: **Set Your Goals**, **Plan Your Day** and **Review Your Week**.
+The planner has three pages: **Set Your Goals**, **Plan Your Day** and **Weekly Reflection**.
 
 - Plan together with family, friends or the people you work with
 - Set a theme and what matters most for career and personal life each week
@@ -16,7 +16,7 @@ The planner has three pages: **Set Your Goals**, **Plan Your Day** and **Review 
 - Start each day with the 3 things to finish by end of day
 - Give each day a focus, like a midweek check or a tidy-up day
 - End the day with a factual update: what's finished, what's open and when you'll deliver, ready to copy
-- Log 2–5 accomplishments every week, measured and linked to your goals, and build a running record for reviews and your CV
+- Get a weekly and monthly reflection written for you from your goals and daily plans, with a running accomplishment log
 - Carry unfinished tasks into the next week
 - Look back at previous weeks
 - Export and reopen your plan
