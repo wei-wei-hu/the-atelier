@@ -41,6 +41,10 @@ Prefer paper? A printable pack is coming soon: 14 undated pages in A4 and US Let
 
 The full planner is private, and this repository holds only its public page. If you'd like to plan your weeks this way and keep track of your own wins, message me on [LinkedIn](https://www.linkedin.com/in/weiweihu/) and tell me a little about your work. I'd love to hear what you're working towards.
 
+## License
+
+All rights reserved. No part of this repository may be copied, changed, shared, sold or used to train AI without written permission from Weiwei Hu. See [LICENSE](LICENSE) for the full terms.
+
 ---
 
 Designed by Weiwei Hu · © 2026 Weiwei Hu. All rights reserved.
