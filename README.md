@@ -8,7 +8,7 @@ Plan your week together, spend less time sending reminders, and see everything y
 
 ## What you can do with it
 
-The planner has three pages: **Set Your Goals**, **Plan Your Day** and **Weekly Reflection**.
+The planner has three pages: **Set Your Goals**, **Plan Your Day** and **Track Your Accomplishments**.
 
 - Plan together with family, friends or the people you work with
 - Set a theme and what matters most for career and personal life each week
