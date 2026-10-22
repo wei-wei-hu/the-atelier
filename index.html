@@ -763,6 +763,16 @@ tr.is-milestone td { background: color-mix(in srgb, var(--accent-soft) 70%, tran
 .wrap .intro .cta a.cta-trial { cursor: pointer; }
 .wrap .intro .cta a.cta-trial:hover { transform: translateY(-2px); }
 @media (max-width: 640px) { .wrap .intro .cta .cta-trial { width: 100%; } }
+.wrap .intro .print-lock { margin: 14px 0 0; }
+.wrap .intro .print-lock .pl-pill { display: inline-flex; align-items: center; gap: 7px; padding: 6px 13px; border: 1px solid #1C1A22; border-radius: 999px; background: rgba(255, 255, 255, 0.7); color: #1C1A22; font-size: 11.5px; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; }
+.wrap .intro .print-lock .pl-pill svg { width: 13px; height: 13px; }
+.wrap .intro .print-dl { display: flex; flex-wrap: wrap; gap: 14px; margin: 18px 0 0; }
+.wrap .intro .print-dl a { box-sizing: border-box; display: inline-flex; align-items: center; justify-content: center; gap: 10px; min-width: 220px; height: 52px; padding: 0 26px; border: 2px solid transparent; border-radius: 999px; white-space: nowrap; font-size: 15.5px; font-weight: 700; text-decoration: none; transition: transform 0.15s ease; }
+.wrap .intro .print-dl a.pd-a4 { color: #FFFFFF !important; background: linear-gradient(120deg, #EE9DBB 0%, #A9A6F3 55%, #6C72E6 100%) border-box; box-shadow: 0 14px 32px rgba(108, 114, 230, 0.45); }
+.wrap .intro .print-dl a.pd-letter { color: #111111 !important; background: linear-gradient(#FFFFFF, #FFFFFF) padding-box, linear-gradient(120deg, #EE9DBB, #A9A6F3, #6C72E6) border-box; box-shadow: 0 14px 30px rgba(108, 114, 230, 0.25); }
+.wrap .intro .print-dl a span { color: inherit !important; }
+.wrap .intro .print-dl a:hover { transform: translateY(-2px); }
+@media (max-width: 640px) { .wrap .intro .print-dl a { width: 100%; } }
 .wrap .intro > header .ov-links { display: flex; flex-wrap: wrap; gap: 14px; margin: 22px 0 0; }
 .wrap .intro > header .ov-links > a, .wrap .intro > header .ov-links > span { box-sizing: border-box; display: inline-flex; align-items: center; justify-content: center; gap: 10px; width: 236px; height: 56px; padding: 0 24px; border: 2px solid transparent; border-radius: 999px; font-size: 16.5px; font-weight: 700; letter-spacing: 0.01em; text-decoration: none; transition: transform 0.15s ease, box-shadow 0.15s ease; }
 .wrap .intro > header .ov-links a.see-ex { color: #111111 !important; background: linear-gradient(#FFFFFF, #FFFFFF) padding-box, linear-gradient(120deg, #EE9DBB, #A9A6F3, #6C72E6) border-box; box-shadow: 0 14px 30px rgba(108, 114, 230, 0.30); }
@@ -2724,6 +2734,7 @@ b, strong, .exportbtn, .crumbs .crumb[aria-current="page"], .seg button[aria-pre
     <section aria-labelledby="introPrint">
       <h2 id="introPrint">Prefer pen and paper?</h2>
       <p>Membership includes a printable companion to capture your goals, daily plans, weekly wins, and monthly reflections along the way.</p>
+      <p class="print-lock"><span class="pl-pill"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="5" y="11" width="14" height="10" rx="2"></rect><path d="M8 11V8a4 4 0 0 1 8 0v3"></path></svg>Members only</span></p>
       <ul class="print-grid"><li><img src="printable-goals.jpg" alt="Printable Set Your Goals page preview" loading="lazy"></li><li><img src="printable-day.jpg" alt="Printable Plan Your Day page preview" loading="lazy"></li><li><img src="printable-week.jpg" alt="Printable Weekly Accomplishments page preview" loading="lazy"></li></ul>
     </section>
     <section class="cta" aria-labelledby="introHow">
