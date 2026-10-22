@@ -758,9 +758,15 @@ tr.is-milestone td { background: color-mix(in srgb, var(--accent-soft) 70%, tran
 .wrap .sitefoot a.footlink:hover { color: #FFFFFF !important; background: linear-gradient(120deg, #EE9DBB, #A9A6F3, #6C72E6) border-box !important; transform: translateY(-1px); box-shadow: 0 10px 22px rgba(108, 114, 230, 0.32); }
 .wrap .sitefoot a.footlink:hover svg { color: #FFFFFF !important; }
 @media (max-width: 640px) { .wrap .by-line span { padding: 5px 13px; font-size: 12px; } }
-.wrap .intro > header a.see-ex { display: inline-flex; align-items: center; gap: 8px; margin-top: 18px; padding: 10px 20px; border-radius: 999px; background: linear-gradient(120deg, #EE9DBB 0%, #A9A6F3 55%, #6C72E6 100%); color: #FFFFFF !important; font-size: 14px; font-weight: 700; letter-spacing: 0.02em; text-decoration: none; box-shadow: 0 10px 24px rgba(108, 114, 230, 0.38), inset 0 1px 0 rgba(255, 255, 255, 0.45); transition: transform 0.15s ease, box-shadow 0.15s ease; }
-.wrap .intro > header a.see-ex:hover { transform: translateY(-1px); box-shadow: 0 14px 30px rgba(108, 114, 230, 0.45); }
-.wrap .intro > header a.see-ex span { color: #FFFFFF !important; }
+.wrap .intro > header .ov-links { display: flex; flex-wrap: wrap; gap: 14px; margin: 22px 0 0; }
+.wrap .intro > header .ov-links > a, .wrap .intro > header .ov-links > span { box-sizing: border-box; display: inline-flex; align-items: center; justify-content: center; gap: 10px; width: 236px; height: 56px; padding: 0 24px; border: 2px solid transparent; border-radius: 999px; font-size: 16.5px; font-weight: 700; letter-spacing: 0.01em; text-decoration: none; transition: transform 0.15s ease, box-shadow 0.15s ease; }
+.wrap .intro > header .ov-links a.see-ex { color: #111111 !important; background: linear-gradient(#FFFFFF, #FFFFFF) padding-box, linear-gradient(120deg, #EE9DBB, #A9A6F3, #6C72E6) border-box; box-shadow: 0 14px 30px rgba(108, 114, 230, 0.30); }
+.wrap .intro > header .ov-links a.see-ex span { color: #111111 !important; }
+.wrap .intro > header .ov-links .ov-trial { color: #FFFFFF !important; cursor: default; background: linear-gradient(120deg, #EE9DBB 0%, #A9A6F3 55%, #6C72E6 100%) border-box; box-shadow: 0 14px 32px rgba(108, 114, 230, 0.50), inset 0 1px 0 rgba(255, 255, 255, 0.45); }
+.wrap .intro > header .ov-links .ov-trial span { color: #FFFFFF !important; }
+.wrap .intro > header .ov-links a.ov-trial { cursor: pointer; }
+.wrap .intro > header .ov-links a:hover { transform: translateY(-2px); }
+@media (max-width: 640px) { .wrap .intro > header .ov-links { gap: 12px; } .wrap .intro > header .ov-links > a, .wrap .intro > header .ov-links > span { width: 100%; } }
 #introExample { scroll-margin-top: 24px; }
 .ex-fig { margin: 18px 0 0; }
 .ex-fig img { display: block; width: 100%; height: auto; border-radius: 14px; box-shadow: 0 26px 50px rgba(110, 80, 110, 0.16); }
@@ -2683,7 +2689,7 @@ b, strong, .exportbtn, .crumbs .crumb[aria-current="page"], .seg button[aria-pre
       <p class="by-line"><span class="bl-main">The Atelier</span></p>
       <h1>Overview</h1>
       <p class="intro-sub">An AI-assisted planner for work and life. Plan what matters, make progress on your goals, and keep track of what you accomplish along the way.</p>
-      <a class="see-ex" href="#introExample">See an example <span aria-hidden="true">↓</span></a>
+      <p class="ov-links"><a class="see-ex" href="#introExample">See an Example <span aria-hidden="true">→</span></a><a class="ov-trial" href="https://wei-wei-hu.github.io/the-atelier/app/">Start Free Trial <span aria-hidden="true">→</span></a></p>
       <span class="pg-no" aria-hidden="true">01</span>
     </header>
     <section aria-labelledby="introWhat">
