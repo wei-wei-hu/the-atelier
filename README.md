@@ -29,6 +29,17 @@ Start with your three most important tasks. Use short check-ins to adjust your p
 
 Let AI turn your daily notes into weekly accomplishment summaries. Each month, review your strongest examples, identify who should hear about them, and prepare for your next career conversation.
 
+## See an example week
+
+- **Set Your Goals:** Finish an online AI course, run or walk four times, and plan meals and money for the month.
+- **Plan Your Day:** Wednesday’s focus: Build a healthy routine. A 30-minute run, meal prep, and trying AI to draft the weekly report.
+- **Review your day:** 3 of 4 done. Still open: read 20 pages, by Thursday night.
+- **Track Your Accomplishments:** “Used AI to draft my weekly report and cut it from an hour to 20 minutes.” On Friday, the week becomes a one-pager.
+
+![Weekly Accomplishments one-pager with key takeaways, key accomplishments and next steps](example-week.jpg)
+
+Friday’s weekly one-pager, ready to download as PDF or PowerPoint, or to send by email.
+
 ## Prefer pen and paper?
 
 Membership includes a printable companion to capture your goals, daily plans, weekly wins, and monthly reflections along the way.
