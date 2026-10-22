@@ -1,10 +1,10 @@
 # The Atelier
 
-*Where your best work and life take shape.* An AI-assisted planner by Weiwei Hu.
+*Plan what matters. Keep a record of what you achieve.* An AI-assisted planner by Weiwei Hu.
 
 [Website](https://weiweihu.carrd.co/) · [LinkedIn](https://www.linkedin.com/in/weiweihu/) · [GitHub](https://github.com/wei-wei-hu)
 
-Set your goals, plan your days, and let AI turn what you complete into your accomplishments, ready for your next opportunity or your next review.
+An AI-assisted planner for your work, personal goals, and career progress. Set your priorities, plan your days, and turn what you complete into accomplishments you can use in your next review, interview, or career conversation.
 
 **See the page:** https://wei-wei-hu.github.io/the-atelier/
 
@@ -12,34 +12,33 @@ Set your goals, plan your days, and let AI turn what you complete into your acco
 
 ## Why I built it
 
-Ever sat down to write your review and couldn't remember what you did in March? Most of us work hard all year, and the details fade fast. The wins, the numbers and the kind notes from colleagues get buried under the next deadline.
+When it's time to write your review, remembering what you accomplished months ago can be surprisingly difficult. The results, the feedback, and the part you played get buried under the next deadline.
 
-I built The Atelier to fix this for myself. Each week you set a few goals, and each day you spend a few minutes planning and noting what got done. AI then writes up your accomplishments for you: what you did, the part you played, the difference it made and the proof. At the end of each month, you have your three best stories ready for your manager, your next review or your next job interview.
+I built The Atelier to connect what I want to achieve with what I do each day. As you record your progress, AI helps write up your accomplishments—what you did, your contribution, the difference it made, and the evidence you've captured.
 
-## What it does
+## Set Your Goals
 
-The planner has three pages: **Set Your Goals**, **Plan Your Day** and **Track Your Accomplishments**. They are members only, by invitation.
+Decide what you want to move forward at work and in your personal life. Choose your priorities for the week and make room for the skills you want to develop.
 
-- Set a theme for your week and decide what matters most, at work and in life
-- Get a short check-in in the morning, afternoon and evening, asking only what matters at that time of day
-- Start each day by picking the 3 things you'll get done
-- Give each day a small focus, like a Monday reset or a midweek check
-- End the day with a quick update you can copy and send: what's done, what's still open and when it'll be ready
-- Practise three skills every week: communicating, solving problems and running meetings
-- Let AI write up your wins each week: what you did, your part, the impact, the proof and what it says about you
-- Each month, see your three biggest wins, who should hear about them and what they show about your next step
-- Move unfinished tasks to next week and look back at any week you like
-- Print the pages if you prefer pen and paper
+## Plan Your Day
 
-## Printable pack
+Start with your three most important tasks. Use short check-ins to adjust your plans, record what you completed, and keep track of what still needs attention.
 
-Prefer paper? Members get a printable pack: 14 undated pages in A4 and US Letter, with a goals page, daily pages, a weekly accomplishments page and a monthly reflection. Like the planner, it's shared only with members, by invitation, so the preview below is blurred on purpose.
+## Track Your Accomplishments
+
+Let AI turn your daily notes into weekly accomplishment summaries. Each month, review your strongest examples, identify who should hear about them, and prepare for your next career conversation.
+
+## Prefer pen and paper?
+
+Membership includes a printable companion with 14 undated pages in A4 and US Letter. Use the goals, daily planning, weekly accomplishments, and monthly reflection pages to keep your own written record.
 
 ![Blurred preview of four printable pages, marked members only](printable-preview.jpg)
 
-## Want a planner like this?
+## Make room for what you're working toward.
 
-The full planner is private, and this repository holds only its public page. If you'd like to plan your weeks this way and keep track of your own wins, message me on [LinkedIn](https://www.linkedin.com/in/weiweihu/) and tell me a little about your work. I'd love to hear what you're working towards.
+The Atelier is currently available by invitation. Message me on LinkedIn and tell me a little about what you'd like to achieve.
+
+**[Request an invitation →](https://www.linkedin.com/in/weiweihu/)**
 
 ## License
 
