@@ -40,12 +40,6 @@ Let AI turn your daily notes into weekly accomplishment summaries. Each month, r
 
 Weekly one-pager, ready to download as PDF or PowerPoint, or to be sent by email.
 
-## Prefer pen and paper?
-
-Membership includes a printable companion to capture your goals, daily plans, weekly wins, and monthly reflections along the way.
-
-![Blurred preview of three printable pages, marked members only](printable-pack.jpg)
-
 ## Make room for what you're working toward.
 
 The Atelier is currently available to members only. Message me on LinkedIn and tell me a little about what you'd like to achieve.
