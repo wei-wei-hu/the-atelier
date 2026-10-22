@@ -804,17 +804,16 @@ html { scroll-behavior: smooth; }
 .wrap .intro section[aria-labelledby="introWhat"] .feat li { display: block; padding: 0; background: none !important; border: 0 !important; border-radius: 0 !important; box-shadow: none !important; }
 .wrap .intro section[aria-labelledby="introWhat"] .feat li + li { margin-top: 18px; padding-top: 18px; border-top: 1px solid rgba(28, 26, 34, 0.12) !important; }
 .wrap .intro section[aria-labelledby="introWhat"] .feat .ic { display: none; }
-.wrap .intro section[aria-labelledby="introWhat"] .feat li:first-child b { font-size: 22px !important; font-weight: 300 !important; line-height: 1.4; letter-spacing: -0.015em; color: #111111; }
-.wrap .intro section[aria-labelledby="introWhat"] .feat li:last-child b { font-size: 15px !important; font-weight: 400 !important; line-height: 1.6; color: #2A2530; }
+.wrap .intro section[aria-labelledby="introWhat"] .feat li b { font-size: 18px !important; font-weight: 400 !important; line-height: 1.6; letter-spacing: -0.005em; color: #1C1A22; }
 .wrap .intro section[aria-labelledby="introCan"] .feat, .wrap .intro #introExample .feat { display: grid !important; gap: 16px !important; }
-.wrap .intro section[aria-labelledby="introCan"] .feat { grid-template-columns: repeat(3, minmax(0, 1fr)) !important; }
-.wrap .intro #introExample .feat { grid-template-columns: repeat(2, minmax(0, 1fr)) !important; }
+.wrap .intro section[aria-labelledby="introCan"] .feat, .wrap .intro #introExample .feat { grid-template-columns: minmax(0, 1fr) !important; gap: 14px !important; }
+.wrap .intro section[aria-labelledby="introCan"] .feat li > span:last-child, .wrap .intro #introExample .feat li > span:last-child { display: grid; grid-template-columns: 230px minmax(0, 1fr); column-gap: 24px; align-items: center; }
 .wrap .intro section[aria-labelledby="introCan"] .feat li, .wrap .intro #introExample .feat li { display: block; padding: 22px 22px 24px; border: 0 !important; border-radius: 14px; background: #FFFFFF !important; box-shadow: 0 20px 40px rgba(120, 86, 120, 0.12) !important; line-height: 1.6; }
-.wrap .intro section[aria-labelledby="introCan"] .feat li:nth-child(2), .wrap .intro #introExample .feat li:nth-child(2), .wrap .intro #introExample .feat li:nth-child(3) { background: linear-gradient(180deg, #D6CDF0 0%, #F6EEF6 100%) !important; }
+.wrap .intro section[aria-labelledby="introCan"] .feat li:nth-child(even), .wrap .intro #introExample .feat li:nth-child(even) { background: linear-gradient(180deg, #D6CDF0 0%, #F6EEF6 100%) !important; }
 .wrap .intro section[aria-labelledby="introCan"] .feat .ic, .wrap .intro #introExample .feat .ic { display: none; }
-.wrap .intro section[aria-labelledby="introCan"] .feat li b, .wrap .intro #introExample .feat li b { display: table; margin: 0 0 14px; padding: 5px 14px; border: 1px solid #1C1A22; border-radius: 999px; background: rgba(255, 255, 255, 0.7); font-size: 12.5px !important; font-weight: 600 !important; letter-spacing: 0.01em; }
-.wrap .intro section[aria-labelledby="introCan"] .feat li:nth-child(2) b, .wrap .intro #introExample .feat li:nth-child(2) b, .wrap .intro #introExample .feat li:nth-child(3) b { background: #FFFFFF; border-color: #FFFFFF; }
-@media (max-width: 760px) { .wrap .intro section[aria-labelledby="introCan"] .feat, .wrap .intro #introExample .feat { grid-template-columns: minmax(0, 1fr) !important; } .wrap .intro section[aria-labelledby="introWhat"] .feat { padding: 26px 22px; } .wrap .intro section[aria-labelledby="introWhat"] .feat li:first-child b { font-size: 19px !important; } }
+.wrap .intro section[aria-labelledby="introCan"] .feat li b, .wrap .intro #introExample .feat li b { display: table; justify-self: start; margin: 0; padding: 5px 14px; border: 1px solid #1C1A22; border-radius: 999px; background: rgba(255, 255, 255, 0.7); font-size: 12.5px !important; font-weight: 600 !important; letter-spacing: 0.01em; }
+.wrap .intro section[aria-labelledby="introCan"] .feat li:nth-child(even) b, .wrap .intro #introExample .feat li:nth-child(even) b { background: #FFFFFF; border-color: #FFFFFF; }
+@media (max-width: 760px) { .wrap .intro section[aria-labelledby="introCan"] .feat li > span:last-child, .wrap .intro #introExample .feat li > span:last-child { grid-template-columns: minmax(0, 1fr); row-gap: 12px; } .wrap .intro section[aria-labelledby="introWhat"] .feat { padding: 26px 22px; } .wrap .intro section[aria-labelledby="introWhat"] .feat li b { font-size: 16.5px !important; } }
 .foot-links { display: inline-flex; flex-wrap: wrap; justify-content: center; gap: 8px; }
 
 .cta-link { color: inherit; font-weight: 600; text-decoration: underline; text-underline-offset: 3px; }
