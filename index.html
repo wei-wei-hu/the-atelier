@@ -770,15 +770,16 @@ html { scroll-behavior: smooth; }
 #paneplanner > .block-head .export-bar { display: none !important; }
 @media (min-width: 900px) { .wrap.is-summary .top p#secDesc { max-width: none; white-space: nowrap; } }
 /* Home: two calls to action */
-.home-cover .home-links { display: flex; flex-wrap: wrap; gap: 12px; margin: 22px 0 0; position: relative; z-index: 1; }
-.home-cover .home-links a, .home-cover .home-links .hl-pill { display: inline-flex; align-items: center; gap: 10px; padding: 13px 26px; border-radius: 999px; font-size: 16px; font-weight: 700; letter-spacing: 0.01em; text-decoration: none; transition: transform 0.15s ease, box-shadow 0.15s ease; }
+.home-cover .home-links { display: flex; flex-wrap: wrap; gap: 14px; margin: 24px 0 0; position: relative; z-index: 1; max-width: none !important; width: 100%; }
+.home-cover .home-links a, .home-cover .home-links .hl-pill { box-sizing: border-box; display: inline-flex; align-items: center; justify-content: center; gap: 10px; width: 200px; height: 58px; padding: 0 24px; border: 2px solid transparent; border-radius: 999px; font-size: 17px; font-weight: 700; letter-spacing: 0.01em; text-decoration: none; transition: transform 0.15s ease, box-shadow 0.15s ease; }
 .home-cover .home-links .hl-pill { color: #FFFFFF !important; cursor: default; }
-.home-cover .home-links .hl-trial { background: linear-gradient(120deg, #EE9DBB 0%, #A9A6F3 55%, #6C72E6 100%); box-shadow: 0 12px 28px rgba(108, 114, 230, 0.42), inset 0 1px 0 rgba(255, 255, 255, 0.45); }
-.home-cover .home-links .hl-full { border: 2px solid transparent; background: linear-gradient(#111111, #111111) padding-box, linear-gradient(120deg, #EE9DBB, #A9A6F3, #6C72E6) border-box; box-shadow: 0 12px 28px rgba(17, 17, 17, 0.25); }
-.home-cover .home-links .hl-ex { color: #111111 !important; background: rgba(255, 255, 255, 0.85); border: 2px solid #111111; box-shadow: 0 10px 24px rgba(110, 80, 110, 0.14); }
+.home-cover .home-links .hl-pill span { color: #FFFFFF !important; }
+.home-cover .home-links .hl-ex { color: #111111 !important; background: linear-gradient(#FFFFFF, #FFFFFF) padding-box, linear-gradient(120deg, #EE9DBB, #A9A6F3, #6C72E6) border-box; box-shadow: 0 14px 30px rgba(108, 114, 230, 0.30); }
 .home-cover .home-links .hl-ex span { color: #111111 !important; }
+.home-cover .home-links .hl-trial { background: linear-gradient(120deg, #EE9DBB 0%, #A9A6F3 55%, #6C72E6 100%) border-box; box-shadow: 0 14px 32px rgba(108, 114, 230, 0.50), inset 0 1px 0 rgba(255, 255, 255, 0.45); }
+.home-cover .home-links .hl-full { background: linear-gradient(#111111, #111111) padding-box, linear-gradient(120deg, #EE9DBB, #A9A6F3, #6C72E6) border-box; box-shadow: 0 14px 32px rgba(17, 17, 17, 0.32); }
 .home-cover .home-links a:hover { transform: translateY(-2px); }
-@media (max-width: 640px) { .home-cover .home-links a, .home-cover .home-links .hl-pill { flex: 1 1 auto; justify-content: center; } }
+@media (max-width: 640px) { .home-cover .home-links { gap: 12px; } .home-cover .home-links a, .home-cover .home-links .hl-pill { width: 100%; height: 56px; } }
 /* Overview: smaller type, more breathing room */
 .wrap .intro { max-width: none !important; margin: 48px auto 72px !important; gap: 40px !important; }
 .wrap .intro > header { padding: 30px 36px !important; }
@@ -2623,7 +2624,7 @@ b, strong, .exportbtn, .crumbs .crumb[aria-current="page"], .seg button[aria-pre
       <h1><span class="h-bold">The Atelier</span></h1>
       <p class="home-value">Make room for what you’re working toward.</p>
       <p class="home-by">An AI-assisted planner for work and life.</p>
-      <p class="home-links"><a class="hl-ex" href="#introExample">Example <span aria-hidden="true">↓</span></a><span class="hl-pill hl-trial">Free Trial</span><span class="hl-pill hl-full">Full Access</span></p>
+      <p class="home-links"><a class="hl-ex" href="#introExample">Example <span aria-hidden="true">→</span></a><span class="hl-pill hl-trial">Free Trial <span aria-hidden="true">→</span></span><span class="hl-pill hl-full">Full Access <span aria-hidden="true">→</span></span></p>
     </header>
     <div class="tilegrid" id="pageTabs">
       <a class="navtile" href="#overview" aria-pressed="false">
