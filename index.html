@@ -784,8 +784,11 @@ tr.is-milestone td { background: color-mix(in srgb, var(--accent-soft) 70%, tran
 .backbtn svg { width: 15px; height: 15px; margin-right: 6px; vertical-align: -2px; }
 .wrap .by-line { display: flex; flex-wrap: wrap; gap: 8px; margin: 0 0 16px; }
 .wrap .by-line span { display: inline-flex; align-items: center; padding: 6px 16px; border-radius: 999px; font-size: 12.5px; line-height: 1.2; white-space: nowrap; }
-.wrap .by-line .bl-main { border: 1.5px solid transparent; background: linear-gradient(#FFFFFF, #FFFFFF) padding-box, linear-gradient(120deg, #EE9DBB, #A9A6F3, #6C72E6) border-box; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; box-shadow: 0 6px 16px rgba(120, 100, 200, 0.18); }
-.wrap .by-line .bl-main::before { content: ""; width: 9px; height: 9px; margin-right: 8px; border-radius: 50%; background: radial-gradient(circle at 35% 30%, #F1EEFF 0, #A9A6F3 45%, #6C72E6 100%); }
+.wrap .by-line .bl-main { padding: 8px 18px; border: 0; background: linear-gradient(120deg, #EE9DBB 0%, #A9A6F3 55%, #6C72E6 100%); color: #FFFFFF !important; font-size: 13px; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; box-shadow: 0 10px 24px rgba(108, 114, 230, 0.38), inset 0 1px 0 rgba(255, 255, 255, 0.45); }
+.wrap .by-line .bl-main::before { content: ""; width: 10px; height: 10px; margin-right: 9px; border-radius: 50%; background: radial-gradient(circle at 35% 30%, #FFFFFF 0, #F1EEFF 40%, #C9C3F6 100%); box-shadow: 0 0 8px rgba(255, 255, 255, 0.8); }
+.wrap .sitefoot a.footlink { border: 1.5px solid transparent !important; background: linear-gradient(#FFFFFF, #FFFFFF) padding-box, linear-gradient(120deg, #EE9DBB, #A9A6F3, #6C72E6) border-box !important; box-shadow: 0 6px 14px rgba(120, 100, 200, 0.16); transition: transform 0.15s ease, box-shadow 0.15s ease; }
+.wrap .sitefoot a.footlink:hover { color: #FFFFFF !important; background: linear-gradient(120deg, #EE9DBB, #A9A6F3, #6C72E6) border-box !important; transform: translateY(-1px); box-shadow: 0 10px 22px rgba(108, 114, 230, 0.32); }
+.wrap .sitefoot a.footlink:hover svg { color: #FFFFFF !important; }
 @media (max-width: 640px) { .wrap .by-line span { padding: 5px 13px; font-size: 12px; } }
 .foot-links { display: inline-flex; flex-wrap: wrap; justify-content: center; gap: 8px; }
 
