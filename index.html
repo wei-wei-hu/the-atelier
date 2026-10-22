@@ -2482,6 +2482,9 @@ b, strong, .exportbtn, .crumbs button[aria-current="page"], .seg button[aria-pre
 .gate h2 { width: 100%; text-wrap: wrap !important; }
 .feat.feat3 { grid-template-columns: minmax(0, 1fr) !important; }
 .feat.feat3 li b { display: block; font-weight: 500; margin-bottom: 4px; }
+.wrap { max-width: 980px !important; margin-left: auto !important; margin-right: auto !important; padding-left: 32px !important; padding-right: 32px !important; }
+@media (max-width: 640px) { .wrap { padding-left: 16px !important; padding-right: 16px !important; } }
+@media (min-width: 641px) { #homeView #pageTabs { grid-template-columns: repeat(2, minmax(0, 1fr)) !important; } #homeView .navtile { min-height: 0 !important; } }
 @media (max-width: 640px) { .wrap .home-cover::after { width: 30px !important; height: 30px !important; right: 20px !important; top: auto !important; bottom: 20px !important; box-shadow: 0 10px 20px rgba(110, 100, 210, 0.30), -12px -38px 0 -10px rgba(240, 160, 185, 0.85) !important; } }
 </style>
 
@@ -2499,7 +2502,7 @@ b, strong, .exportbtn, .crumbs button[aria-current="page"], .seg button[aria-pre
       </a>
       <a class="navtile static locked" href="#members">
         <span class="nt-head">Set Your Goals<span class="nt-lock"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="5" y="11" width="14" height="10" rx="2"></rect><path d="M8 11V8a4 4 0 0 1 8 0v3"></path></svg>Members only, by invitation</span></span>
-        <span class="nt-body"><svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="24" cy="24" r="18"></circle><circle cx="24" cy="24" r="11"></circle><circle cx="24" cy="24" r="4"></circle><path d="m24 24 14-14M33 10h5v5"></path></svg><span class="nt-desc">Set a theme and what matters most for career and personal life.</span></span>
+        <span class="nt-body"><svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="24" cy="24" r="18"></circle><circle cx="24" cy="24" r="11"></circle><circle cx="24" cy="24" r="4"></circle><path d="m24 24 14-14M33 10h5v5"></path></svg><span class="nt-desc">Decide what you want to achieve at work and in your life.</span></span>
       </a>
       <a class="navtile static locked" href="#members">
         <span class="nt-head">Plan Your Day<span class="nt-lock"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="5" y="11" width="14" height="10" rx="2"></rect><path d="M8 11V8a4 4 0 0 1 8 0v3"></path></svg>Members only, by invitation</span></span>
