@@ -48,9 +48,9 @@ Membership includes a printable companion to capture your goals, daily plans, we
 
 ## Make room for what you're working toward.
 
-The Atelier is currently available by invitation. Message me on LinkedIn and tell me a little about what you'd like to achieve.
+The Atelier is currently available to members only. Message me on LinkedIn and tell me a little about what you'd like to achieve.
 
-**[Request an invitation →](https://www.linkedin.com/in/weiweihu/)**
+**[Start Free Trial →](https://wei-wei-hu.github.io/the-atelier/app/)**
 
 ## License
 
