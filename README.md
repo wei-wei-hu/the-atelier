@@ -12,7 +12,7 @@ An AI-assisted planner for work and life. Plan what matters, make progress on yo
 
 ## Why I built The Atelier
 
-- **Some days, you get so busy that the things you wanted to do never make it onto your list.** Then the week ends, and you're trying to remember what you actually got done.
+- **Some days, you get so busy that the things you really wanted to do never make it onto your priority list.** By the end of the week, you’re still trying to figure out what you got done.
 - **I created The Atelier to let AI help you decide what you want to achieve, plan your days, keep track of your progress, and review what you’ve accomplished and what to focus on next.**
 
 ## How The Atelier works
