@@ -4,7 +4,7 @@
 
 [Website](https://weiweihu.carrd.co/) · [LinkedIn](https://www.linkedin.com/in/weiweihu/) · [GitHub](https://github.com/wei-wei-hu)
 
-An AI-assisted planner for your work, personal goals, and career progress. Set your priorities, plan your days, and turn what you complete into accomplishments you can use in your next review, interview, or career conversation.
+An AI-assisted planner for work and life. Plan what matters, make progress on your goals, and keep track of what you accomplish along the way.
 
 **See the page:** https://wei-wei-hu.github.io/the-atelier/
 
