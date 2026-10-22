@@ -2522,9 +2522,11 @@ b, strong, .exportbtn, .crumbs button[aria-current="page"], .seg button[aria-pre
 .da-item { display: grid; grid-template-columns: 28px minmax(0, 1fr); gap: 4px; }
 .da-n { font-size: 11px; color: var(--muted, #6b6474); padding-top: 10px; }
 .da-fields { display: grid; gap: 6px; }
-.da-title { width: 100%; box-sizing: border-box; font-weight: 500; }
 .da-add { justify-self: start; }
-.da-task { display: flex; align-items: center; gap: 8px; margin: 4px 0 2px; font-size: 15px; font-weight: 500; }
+.da-tasks { list-style: none; margin: 8px 0 0; padding: 0; display: grid; gap: 8px; }
+.da-task { display: flex; align-items: center; gap: 10px; font-size: 15px; }
+.da-done h4, .da-note h4 { margin: 0 0 6px; font-size: 14px; font-weight: 500; }
+.da-note { display: block; }
 .da-tick { display: inline-grid; place-items: center; width: 20px; height: 20px; border-radius: 50%; font-size: 11px; color: #fff; background: radial-gradient(circle at 35% 30%, #C9C3F6 0, #8F8CEB 55%, #6C72E6 100%); }
 .da-none { margin: 0; }
 .da-in, .st-in { display: block; width: 100%; box-sizing: border-box; resize: vertical; line-height: 1.45; }
