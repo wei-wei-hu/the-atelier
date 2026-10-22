@@ -2507,6 +2507,21 @@ b, strong, .exportbtn, .crumbs button[aria-current="page"], .seg button[aria-pre
 @media (max-width: 640px) { .rev-grid { grid-template-columns: minmax(0, 1fr); } }
 .rev-q { display: grid; gap: 6px; font-size: 13px; color: var(--ink); }
 .rev-save { grid-column: 1 / -1; display: flex; justify-content: flex-end; }
+.eod-actions { flex-wrap: wrap; align-items: center; gap: 8px; }
+.eod-actions .eod-saved { margin-right: auto; }
+.sr-bar { margin-top: 10px; }
+.mo-foot { display: flex; gap: 8px; justify-content: flex-end; }
+.da-list { display: grid; gap: 12px; margin-top: 14px; }
+.da-item h4 { margin-bottom: 8px; }
+.da-in, .st-in { display: block; width: 100%; box-sizing: border-box; resize: vertical; line-height: 1.45; }
+.st-edit { display: grid; gap: 8px; }
+.st-label { font-size: 13px; font-weight: 500; margin-top: 6px; }
+.st-rows { display: grid; gap: 8px; }
+.st-row { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 8px; }
+.st-actions { grid-column: 1 / -1; display: flex; flex-wrap: wrap; gap: 8px; justify-content: flex-end; margin-top: 4px; }
+.st-exports { align-items: center; margin-top: 0; }
+.st-exp { margin-right: 2px; }
+@media (max-width: 640px) { .st-row { grid-template-columns: minmax(0, 1fr); } }
 .focus-panel #focusBox { margin-top: 4px; }
 #calendar .dp-page { border: 0 !important; padding: 0 !important; background: transparent !important; box-shadow: none !important; }
 .pl-part { display: grid; gap: 6px; }
