@@ -31,7 +31,7 @@ Let AI turn your daily notes into weekly accomplishment summaries. Each month, r
 
 ## Prefer pen and paper?
 
-Membership includes a printable companion with 14 undated pages in A4 and US Letter. Use the goals, daily planning, weekly accomplishments, and monthly reflection pages to keep your own written record.
+Membership includes a printable companion to capture your goals, daily plans, weekly wins, and monthly reflections along the way.
 
 ![Blurred preview of four printable pages, marked members only](printable-preview.jpg)
 
