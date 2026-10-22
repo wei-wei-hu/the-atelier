@@ -13,7 +13,7 @@ An AI-assisted planner for work and life. Plan what matters, make progress on yo
 ## Why I built The Atelier
 
 - **Some days, you get so busy that the things you wanted to do never make it onto your list.** Then the week ends, and you're trying to remember what you actually got done.
-- **I built The Atelier to help me decide what I want to achieve, plan my days, and keep track of my progress.** AI helps me work out the next steps and write up what I've accomplished, so I can see what's done and what to focus on next.
+- **I created The Atelier to let AI help you decide what you want to achieve, plan your days, keep track of your progress, and review what you’ve accomplished and what to focus on next.**
 
 ## How The Atelier works
 
@@ -29,16 +29,16 @@ Start with your three most important tasks. Use short check-ins to adjust your p
 
 Let AI turn your daily notes into weekly accomplishment summaries. Each month, review your strongest examples, identify who should hear about them, and prepare for your next career conversation.
 
-## See an example week
+## See an example
 
-- **Set Your Goals:** Finish an online AI course, run or walk four times, and plan meals and money for the month.
-- **Plan Your Day:** Wednesday’s focus: Build a healthy routine. A 30-minute run, meal prep, and trying AI to draft the weekly report.
+- **Set Your Goals:** Open a small online candle shop, get the first 10 orders, and still walk or run four times a week.
+- **Plan Your Day:** Wednesday’s focus: Open the shop. Publish it, post the launch on Instagram, and tell 10 friends.
 - **Review your day:** 3 of 4 done. Still open: read 20 pages, by Thursday night.
-- **Track Your Accomplishments:** “Used AI to draft my weekly report and cut it from an hour to 20 minutes.” On Friday, the week becomes a one-pager.
+- **Track Your Accomplishments:** “Shop is live! The Instagram post brought 3 orders on day one.” At the end of the week, it becomes a one-pager.
 
-![Weekly Accomplishments one-pager with key takeaways, key accomplishments and next steps](example-week.jpg)
+![Example Weekly Review one-pager for a small candle shop: key takeaways, my accomplishments and next steps](example-week.jpg)
 
-Friday’s weekly one-pager, ready to download as PDF or PowerPoint, or to send by email.
+Weekly one-pager, ready to download as PDF or PowerPoint, or to be sent by email.
 
 ## Prefer pen and paper?
 
