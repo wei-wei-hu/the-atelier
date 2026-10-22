@@ -10,21 +10,23 @@ An AI-assisted planner for your work, personal goals, and career progress. Set y
 
 ![The Atelier: the home page and the Overview](cover.jpg)
 
-## Why I built it
+## What The Atelier is
 
-When it's time to write your review, remembering what you accomplished months ago can be surprisingly difficult. The results, the feedback, and the part you played get buried under the next deadline.
+**Ever sat down to write down what you've accomplished or the progress you've made, and couldn't remember what you did?** Remembering what you accomplished weeks or months ago can be surprisingly difficult. The results, the feedback, and the part you played get buried under the next deadline.
 
 I built The Atelier to connect what I want to achieve with what I do each day. As you record your progress, AI helps write up your accomplishments—what you did, your contribution, the difference it made, and the evidence you've captured.
 
-## Set Your Goals
+## How The Atelier works
+
+### Set Your Goals
 
 Decide what you want to move forward at work and in your personal life. Choose your priorities for the week and make room for the skills you want to develop.
 
-## Plan Your Day
+### Plan Your Day
 
 Start with your three most important tasks. Use short check-ins to adjust your plans, record what you completed, and keep track of what still needs attention.
 
-## Track Your Accomplishments
+### Track Your Accomplishments
 
 Let AI turn your daily notes into weekly accomplishment summaries. Each month, review your strongest examples, identify who should hear about them, and prepare for your next career conversation.
 
