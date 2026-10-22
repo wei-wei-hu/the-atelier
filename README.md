@@ -44,7 +44,7 @@ Weekly one-pager, ready to download as PDF or PowerPoint, or to be sent by email
 
 Membership includes a printable companion to capture your goals, daily plans, weekly wins, and monthly reflections along the way.
 
-![Blurred preview of four printable pages, marked members only](printable-preview.jpg)
+![Blurred preview of three printable pages, marked members only](printable-pack.jpg)
 
 ## Make room for what you're working toward.
 
