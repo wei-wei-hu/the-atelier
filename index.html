@@ -800,6 +800,7 @@ tr.is-milestone td { background: color-mix(in srgb, var(--accent-soft) 70%, tran
 html { scroll-behavior: smooth; }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
 #paneplanner > .block-head .export-bar { display: none !important; }
+@media (min-width: 900px) { .wrap.is-summary .top p#secDesc { max-width: none; white-space: nowrap; } }
 .foot-links { display: inline-flex; flex-wrap: wrap; justify-content: center; gap: 8px; }
 
 .cta-link { color: inherit; font-weight: 600; text-decoration: underline; text-underline-offset: 3px; }
@@ -2649,7 +2650,7 @@ b, strong, .exportbtn, .crumbs button[aria-current="page"], .seg button[aria-pre
       </a>
       <a class="navtile static locked" href="#members">
         <span class="nt-head">Track Your Accomplishments<span class="nt-lock"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="5" y="11" width="14" height="10" rx="2"></rect><path d="M8 11V8a4 4 0 0 1 8 0v3"></path></svg>Members only, by invitation</span></span>
-        <span class="nt-body"><svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 42h36"></path><rect x="9" y="28" width="6" height="12" rx="1"></rect><rect x="19" y="21" width="6" height="19" rx="1"></rect><rect x="29" y="14" width="6" height="26" rx="1"></rect><path d="m9 18 10-7 8 5 12-9"></path><path d="M34 7h5v5"></path></svg><span class="nt-desc">A reflection of your accomplishments, captured automatically by AI from your goals and daily plans.</span></span>
+        <span class="nt-body"><svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 42h36"></path><rect x="9" y="28" width="6" height="12" rx="1"></rect><rect x="19" y="21" width="6" height="19" rx="1"></rect><rect x="29" y="14" width="6" height="26" rx="1"></rect><path d="m9 18 10-7 8 5 12-9"></path><path d="M34 7h5v5"></path></svg><span class="nt-desc">A reflection of your accomplishments and next steps recommended by AI from your goals and plans.</span></span>
       </a>
     </div><section id="members" class="gate" aria-labelledby="gateTitle">
     <h2 id="gateTitle">Members only, by invitation</h2>
