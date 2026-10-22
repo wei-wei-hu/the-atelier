@@ -773,6 +773,7 @@ html { scroll-behavior: smooth; }
 .home-cover .home-links { display: flex; flex-wrap: wrap; gap: 14px; margin: 24px 0 0; position: relative; z-index: 1; max-width: none !important; width: 100%; }
 .home-cover .home-links a, .home-cover .home-links .hl-pill { box-sizing: border-box; display: inline-flex; align-items: center; justify-content: center; gap: 10px; width: 236px; height: 58px; padding: 0 24px; border: 2px solid transparent; border-radius: 999px; font-size: 17px; font-weight: 700; letter-spacing: 0.01em; text-decoration: none; transition: transform 0.15s ease, box-shadow 0.15s ease; }
 .home-cover .home-links .hl-pill { color: #FFFFFF !important; cursor: default; }
+.home-cover .home-links a.hl-pill { cursor: pointer; }
 .home-cover .home-links .hl-pill span { color: #FFFFFF !important; }
 .home-cover .home-links .hl-ex { color: #111111 !important; background: linear-gradient(#FFFFFF, #FFFFFF) padding-box, linear-gradient(120deg, #EE9DBB, #A9A6F3, #6C72E6) border-box; box-shadow: 0 14px 30px rgba(108, 114, 230, 0.30); }
 .home-cover .home-links .hl-ex span { color: #111111 !important; }
@@ -2649,7 +2650,7 @@ b, strong, .exportbtn, .crumbs .crumb[aria-current="page"], .seg button[aria-pre
       <h1><span class="h-bold">The Atelier</span></h1>
       <p class="home-value">Make room for what you’re working toward.</p>
       <p class="home-by">An AI-assisted planner for work and life.</p>
-      <p class="home-links"><a class="hl-ex" href="#introExample">See an Example <span aria-hidden="true">→</span></a><span class="hl-pill hl-trial">Start Free Trial <span aria-hidden="true">→</span></span></p>
+      <p class="home-links"><a class="hl-ex" href="#introExample">See an Example <span aria-hidden="true">→</span></a><a class="hl-pill hl-trial" href="https://wei-wei-hu.github.io/the-atelier/app/">Start Free Trial <span aria-hidden="true">→</span></a></p>
     </header>
     <div class="tilegrid" id="pageTabs">
       <a class="navtile" href="#overview" aria-pressed="false">
