@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex, noai, noimageai">
+<title>Sign in · The Atelier</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root { --ink: #111111; --muted: #4A4352; --line: rgba(28, 26, 34, 0.14); --grad: linear-gradient(120deg, #EE9DBB 0%, #A9A6F3 55%, #6C72E6 100%); }
+* { box-sizing: border-box; }
+body { margin: 0; min-height: 100vh; display: grid; place-items: center; padding: 32px 16px; font-family: Inter, system-ui, sans-serif; color: var(--ink);
+  background: radial-gradient(45% 45% at 0% 0%, rgba(240, 190, 214, 0.6), transparent 70%), radial-gradient(55% 55% at 100% 100%, rgba(196, 184, 238, 0.7), transparent 70%), linear-gradient(135deg, #F4E1EB 0%, #FBF6F8 50%, #E7E1F4 100%); }
+.card { position: relative; width: 100%; max-width: 440px; padding: 40px 36px 34px; border-radius: 20px; background: rgba(255, 255, 255, 0.92); box-shadow: 0 30px 60px rgba(120, 86, 120, 0.16); }
+.orb { position: absolute; top: 28px; right: 30px; width: 44px; height: 44px; border-radius: 50%; background: radial-gradient(circle at 35% 30%, #fff 0%, #C9C2FA 22%, #7F74E8 60%, #4B3FC4 100%); box-shadow: 0 12px 26px rgba(90, 70, 200, 0.3); }
+.pill { display: inline-block; padding: 7px 14px; border-radius: 999px; background: var(--grad); color: #fff; font: 600 11.5px/1 Inter, sans-serif; letter-spacing: 0.16em; }
+h1 { margin: 22px 0 8px; font: 300 38px/1.1 Outfit, sans-serif; letter-spacing: -0.02em; }
+p { margin: 0 0 18px; color: var(--muted); font-size: 15px; line-height: 1.55; }
+label { display: block; margin: 0 0 8px; font-size: 13px; font-weight: 600; }
+input { width: 100%; height: 52px; padding: 0 16px; border: 1.5px solid var(--line); border-radius: 12px; font: 500 16px Inter, sans-serif; color: var(--ink); background: #fff; }
+input:focus { outline: none; border-color: #8F86EC; box-shadow: 0 0 0 4px rgba(143, 134, 236, 0.18); }
+input.code { letter-spacing: 0.4em; font-size: 22px; text-align: center; }
+button { width: 100%; height: 54px; margin-top: 16px; border: 0; border-radius: 999px; background: var(--grad); color: #fff; font: 700 16px Inter, sans-serif; cursor: pointer; box-shadow: 0 14px 32px rgba(108, 114, 230, 0.4); }
+button:hover { transform: translateY(-1px); }
+.msg { margin: 0 0 16px; padding: 12px 14px; border-radius: 12px; background: #F6EEF6; color: var(--ink); font-size: 14px; }
+.alt { display: block; margin-top: 18px; text-align: center; color: var(--muted); font-size: 14px; }
+.alt a { color: var(--ink); font-weight: 600; }
+.foot { margin-top: 26px; padding-top: 16px; border-top: 1px solid var(--line); text-align: center; color: var(--muted); font-size: 12px; }
+@media (max-width: 480px) { .card { padding: 34px 22px 28px; } h1 { font-size: 32px; } }
+</style>
+</head><body>
+<main class="card"><span class="orb" aria-hidden="true"></span><span class="pill">THE ATELIER</span><h1>Welcome</h1>
+<p>Enter your email to sign in, or to start your 7-day free trial.</p>
+
+<form method="post" action="https://the-atelier.dsmasterwh.workers.dev/start">
+<label for="email">Email</label>
+<input id="email" name="email" type="email" autocomplete="email" required autofocus>
+<button type="submit">Continue →</button>
+</form>
+<span class="alt"><a href="https://wei-wei-hu.github.io/the-atelier/">Back to The Atelier</a></span>
+<div class="foot">© 2026 All Rights Reserved.</div></main>
+</body></html>
