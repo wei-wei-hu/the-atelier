@@ -791,14 +791,13 @@ html { scroll-behavior: smooth; }
 .wrap .intro .cta { padding: 40px 44px !important; }
 .wrap .intro .print-prev { display: block; width: 100%; height: auto; margin-top: 16px; border-radius: 14px; border: 1px solid var(--line); }
 @media (max-width: 640px) { .wrap .intro { margin: 48px auto 40px !important; gap: 28px !important; } .wrap .intro > header h1 { font-size: 34px !important; } .wrap .intro .cta { padding: 26px 22px !important; } }
-/* Nuit deck touches: page numbers on banners, big gradient numerals on the tiles, lighter display titles */
-#homeView .navtile { overflow: hidden; isolation: isolate; }
-#homeView .navtile .nt-num { position: absolute; right: 22px; bottom: -6px; z-index: -1; font-size: 88px; font-weight: 300; line-height: 1; letter-spacing: -0.04em; background: linear-gradient(135deg, rgba(232, 150, 190, 0.55), rgba(170, 150, 232, 0.55)); -webkit-background-clip: text; background-clip: text; color: transparent !important; pointer-events: none; }
+/* Nuit deck touches: page numbers on banners, lighter display titles */
 .wrap .top > .pg-no, .wrap .intro > header > .pg-no { position: absolute !important; right: 30px; bottom: 18px; z-index: 1; font-size: 12px; letter-spacing: 0.1em; color: #5E5866 !important; }
 .wrap .home-cover h1, .wrap .home-cover .h-bold { font-weight: 300 !important; font-size: clamp(48px, 6.6vw, 84px) !important; letter-spacing: -0.05em !important; }
 .wrap .top h1#secTitle { font-weight: 300 !important; font-size: clamp(32px, 4.6vw, 54px) !important; letter-spacing: -0.045em !important; }
 .wrap .intro > header h1 { font-weight: 300 !important; }
-@media (max-width: 640px) { #homeView .navtile .nt-num { font-size: 64px; right: 16px; } .wrap .top > .pg-no, .wrap .intro > header > .pg-no { right: 20px; bottom: 12px; } }
+@media (max-width: 640px) { .wrap .top > .pg-no, .wrap .intro > header > .pg-no { right: 20px; bottom: 12px; } }
+.wrap .intro > header .intro-sub { margin-top: 16px !important; }
 .foot-links { display: inline-flex; flex-wrap: wrap; justify-content: center; gap: 8px; }
 
 .cta-link { color: inherit; font-weight: 600; text-decoration: underline; text-underline-offset: 3px; }
@@ -2635,19 +2634,19 @@ b, strong, .exportbtn, .crumbs .crumb[aria-current="page"], .seg button[aria-pre
       <p class="home-links"><a class="hl-ex" href="#introExample">Example <span aria-hidden="true">→</span></a><span class="hl-pill hl-trial">Free Trial <span aria-hidden="true">→</span></span><span class="hl-pill hl-full">Full Access <span aria-hidden="true">→</span></span></p>
     </header>
     <div class="tilegrid" id="pageTabs">
-      <a class="navtile" href="#overview" aria-pressed="false"><span class="nt-num" aria-hidden="true">01</span>
+      <a class="navtile" href="#overview" aria-pressed="false">
         <span class="nt-head">Overview</span>
         <span class="nt-body"><svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 24s7-12 20-12 20 12 20 12-7 12-20 12S4 24 4 24Z"></path><circle cx="24" cy="24" r="6"></circle><circle cx="24" cy="24" r="1.6" fill="currentColor"></circle><path d="M24 4v4M24 40v4"></path></svg><span class="nt-desc">Plan what matters. Keep a record of what you achieve.</span></span>
       </a>
-      <a class="navtile locked" aria-pressed="false" aria-disabled="true"><span class="nt-num" aria-hidden="true">02</span>
+      <a class="navtile locked" aria-pressed="false" aria-disabled="true">
         <span class="nt-head">Set Your Goals<span class="nt-lock"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="5" y="11" width="14" height="10" rx="2"></rect><path d="M8 11V8a4 4 0 0 1 8 0v3"></path></svg>Members only, by invitation</span></span>
         <span class="nt-body"><svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="24" cy="24" r="18"></circle><circle cx="24" cy="24" r="11"></circle><circle cx="24" cy="24" r="4"></circle><path d="m24 24 14-14M33 10h5v5"></path></svg><span class="nt-desc">Decide what you want to achieve at work and in your life.</span></span>
       </a>
-      <a class="navtile locked" aria-pressed="false" aria-disabled="true"><span class="nt-num" aria-hidden="true">03</span>
+      <a class="navtile locked" aria-pressed="false" aria-disabled="true">
         <span class="nt-head">Plan Your Day<span class="nt-lock"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="5" y="11" width="14" height="10" rx="2"></rect><path d="M8 11V8a4 4 0 0 1 8 0v3"></path></svg>Members only, by invitation</span></span>
         <span class="nt-body"><svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="7" y="10" width="34" height="31" rx="3"></rect><path d="M7 18h34M16 6v8M32 6v8"></path><path d="m15 28 4 4 8-9"></path><path d="M31 30h4"></path></svg><span class="nt-desc">Plan each day in the morning and look back on it in the evening.</span></span>
       </a>
-      <a class="navtile locked" aria-pressed="false" aria-disabled="true"><span class="nt-num" aria-hidden="true">04</span>
+      <a class="navtile locked" aria-pressed="false" aria-disabled="true">
         <span class="nt-head">Track Your Accomplishments<span class="nt-lock"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="5" y="11" width="14" height="10" rx="2"></rect><path d="M8 11V8a4 4 0 0 1 8 0v3"></path></svg>Members only, by invitation</span></span>
         <span class="nt-body"><svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 42h36"></path><rect x="9" y="28" width="6" height="12" rx="1"></rect><rect x="19" y="21" width="6" height="19" rx="1"></rect><rect x="29" y="14" width="6" height="26" rx="1"></rect><path d="m9 18 10-7 8 5 12-9"></path><path d="M34 7h5v5"></path></svg><span class="nt-desc">A reflection of your accomplishments and next steps recommended by AI from your goals and plans.</span></span>
       </a>
