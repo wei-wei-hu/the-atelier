@@ -1,6 +1,6 @@
 # The Atelier
 
-*Plan what matters. Keep a record of what you achieve.* An AI-assisted planner by Weiwei Hu.
+*Make room for what you’re working toward.* An AI-assisted planner for work and life.
 
 [Website](https://weiweihu.carrd.co/) · [LinkedIn](https://www.linkedin.com/in/weiweihu/) · [GitHub](https://github.com/wei-wei-hu/the-atelier)
 
