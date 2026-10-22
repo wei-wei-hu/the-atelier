@@ -2,7 +2,7 @@
 
 *Plan what matters. Keep a record of what you achieve.* An AI-assisted planner by Weiwei Hu.
 
-[Website](https://weiweihu.carrd.co/) · [LinkedIn](https://www.linkedin.com/in/weiweihu/) · [GitHub](https://github.com/wei-wei-hu)
+[Website](https://weiweihu.carrd.co/) · [LinkedIn](https://www.linkedin.com/in/weiweihu/) · [GitHub](https://github.com/wei-wei-hu/the-atelier)
 
 An AI-assisted planner for work and life. Plan what matters, make progress on your goals, and keep track of what you accomplish along the way.
 
