@@ -12,8 +12,8 @@ An AI-assisted planner for your work, personal goals, and career progress. Set y
 
 ## Why I built The Atelier
 
-- **Ever sat down to write down what you've accomplished or the progress you've made, and couldn't remember what you did?** Remembering what you accomplished weeks or months ago can be surprisingly difficult. The results, the feedback, and the part you played get buried under the next deadline.
-- **I built The Atelier to connect what I want to achieve with what I do each day.** As you record your progress, AI helps write up your accomplishments—what you did, your contribution, the difference it made, and the evidence you've captured.
+- **Ever tried to look back on what you've accomplished and struggled to remember the details?** The results, the feedback, and the part you played can get buried under the next deadline.
+- **I built The Atelier to connect what I want to achieve with what I do each day.** As you record your progress, AI helps turn your notes into a record of your accomplishments: what you did, your contribution, the difference it made, and the evidence you've captured.
 
 ## How The Atelier works
 
