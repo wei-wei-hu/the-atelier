@@ -2633,6 +2633,10 @@ b, strong, .exportbtn, .crumbs .crumb[aria-current="page"], .seg button[aria-pre
 .pg .pg-empty { margin: 18px 0 0; font-size: 13px; color: #8A8392; }
 .pg .pg-big { position: absolute; right: 16px; bottom: -8px; font-size: 86px; font-weight: 300; line-height: 1; pointer-events: none;
   background: linear-gradient(135deg, rgba(232, 150, 190, 0.55), rgba(170, 150, 232, 0.55)); -webkit-background-clip: text; background-clip: text; color: transparent; }
+.pg-support { display: flex; align-items: center; gap: 16px; margin-top: 16px; padding: 14px 18px; border-radius: 10px; background: linear-gradient(90deg, #DCD4F2 0%, #F6EEF6 100%); box-shadow: 0 16px 32px rgba(120, 86, 120, 0.12); }
+.pg-support .pg-cpill { flex: none; background: #FFFFFF; border-color: #FFFFFF; }
+.pg-sup-text { margin: 0; font-size: 14px; line-height: 1.45; color: #2A2530; }
+@media (max-width: 640px) { .pg-support { flex-direction: column; align-items: flex-start; gap: 10px; } }
 .pg-foot { display: flex; justify-content: space-between; margin-top: 22px; font-size: 11px; color: #5E5866; }
 .pg .pg-copy { margin-top: 4px; text-align: center; font-size: 10px; color: #5E5866; }
 .pg-bar { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 16px; margin: 14px 4px 0; }
@@ -2745,7 +2749,7 @@ b, strong, .exportbtn, .crumbs .crumb[aria-current="page"], .seg button[aria-pre
       <h2 id="introEx" class="wyg-pill">What you get</h2>
       <p class="wyg-lead">Your progress, written<br class="wyg-br"> up for you.</p>
       <div class="wyg-row"><span class="wyg-num">01</span><div><h3>End of day</h3><p>A short end-of-day update, ready to send.</p>
-        <div class="wyg-eod"><b>End of day, Wed Oct 21</b><span><i>Focus:</i> Open the shop</span><span><i>Plan:</i> 3 of 4 done</span><span><i>Finished:</i> Publish the shop; Post the launch; Tell 10 friends</span><span><i>Still open:</i> Read 20 pages</span><span><i>First task tomorrow:</i> Pack the first orders</span></div></div></div>
+        <div class="wyg-eod"><b>End of day, Wed Oct 21</b><span><i>Focus:</i> Open the shop</span><span><i>Plan:</i> 3 of 4 done</span><span><i>Completed:</i> Published the shop; posted the launch; told 10 friends</span><span><i>In progress:</i> Packing the first 3 orders</span><span><i>Next steps:</i> Ship the orders by Thursday night</span><span><i>Support needed:</i> A friend to help pack on Thursday</span></div></div></div>
       <div class="wyg-two">
         <div><span class="wyg-num">02</span><h3>Every week</h3><p>AI drafts your Weekly Review.</p><div class="wyg-shot"><img src="example-week.jpg" alt="Example Weekly Review one-pager for a small candle shop: key takeaways, my accomplishments and next steps" loading="lazy"></div></div>
         <div><span class="wyg-num">03</span><h3>Every month</h3><p>AI drafts your Monthly Review.</p><div class="wyg-shot"><img src="example-month.jpg" alt="Example Monthly Review one-pager for a small candle shop: key takeaways, my accomplishments and next steps" loading="lazy"></div></div>
