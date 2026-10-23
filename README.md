@@ -29,16 +29,19 @@ Start with your three most important tasks. Use short check-ins to adjust your p
 
 Let AI turn your daily notes into weekly accomplishment summaries. Each month, review your strongest examples, identify who should hear about them, and prepare for your next career conversation.
 
-## See an example
+## What you get
 
-- **Set Your Goals:** Open a small online candle shop, get the first 10 orders, and still walk or run four times a week.
-- **Plan Your Day:** Wednesday’s focus: Open the shop. Publish it, post the launch on Instagram, and tell 10 friends.
-- **Review your day:** 3 of 4 done. Still open: read 20 pages, by Thursday night.
-- **Track Your Accomplishments:** “Shop is live! The Instagram post brought 3 orders on day one.” At the end of the week, it becomes a one-pager.
+Your progress, written up for you.
+
+1. **End of day:** a short end-of-day update, ready to send.
+2. **Every week:** AI drafts your Weekly Review.
+3. **Every month:** AI drafts your Monthly Review.
 
 ![Example Weekly Review one-pager for a small candle shop: key takeaways, my accomplishments and next steps](example-week.jpg)
 
-Weekly one-pager, ready to download as PDF or PowerPoint, or to be sent by email.
+![Example Monthly Review one-pager for a small candle shop: key takeaways, my accomplishments and next steps](example-month.jpg)
+
+Share each review as a PDF, a PowerPoint slide or an email.
 
 ## Make room for what you're working toward.
 
