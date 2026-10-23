@@ -775,20 +775,23 @@ tr.is-milestone td { background: color-mix(in srgb, var(--accent-soft) 70%, tran
 .wrap .intro .print-dl a span { color: inherit !important; }
 .wrap .intro .print-dl a:hover { transform: translateY(-2px); }
 @media (max-width: 640px) { .wrap .intro .print-dl a { width: 100%; } }
-.wrap .intro section p.wyg-lead { margin: 8px 0 0 !important; max-width: none !important; font-family: var(--display) !important; font-weight: 300 !important; font-size: clamp(26px, 3.2vw, 38px) !important; line-height: 1.15 !important; letter-spacing: -0.02em; color: #111111 !important; }
-.wrap .intro .wyg-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; margin: 22px 0 0; padding: 0; list-style: none; }
-.wrap .intro .wyg-grid > li { display: flex; flex-direction: column; padding: 22px 22px 24px; border-radius: 14px; background: #FFFFFF; box-shadow: 0 20px 40px rgba(120, 86, 120, 0.12); }
-.wrap .intro .wyg-grid > li:nth-child(2) { background: linear-gradient(180deg, #D6CDF0 0%, #F6EEF6 100%); }
-.wrap .intro .wyg-num { font-family: var(--display); font-weight: 300; font-size: 44px; line-height: 1; color: transparent; background: linear-gradient(135deg, #E896BE, #8F86EC); -webkit-background-clip: text; background-clip: text; }
-.wrap .intro section .wyg-grid h3 { margin: 12px 0 0 !important; font-family: var(--body) !important; font-size: 19px !important; font-weight: 600 !important; letter-spacing: -0.01em; color: #111111 !important; }
-.wrap .intro .wyg-grid p { margin: 4px 0 16px; font-size: 14.5px; line-height: 1.5; color: #4A4352; }
-.wrap .intro .wyg-grid img { display: block; width: 100%; height: auto; margin-top: 0; border-radius: 8px; box-shadow: 0 8px 20px rgba(80, 60, 100, 0.16); }
-.wrap .intro .wyg-eod { display: flex; flex-direction: column; gap: 3px; margin-top: 0; padding: 14px 16px; border-radius: 8px; background: linear-gradient(180deg, #DCD4F2 0%, #F6EEF6 100%); font-size: 12.5px; line-height: 1.45; color: #111111; }
-.wrap .intro .wyg-eod b { margin-bottom: 4px; font-size: 13px; font-weight: 700; }
+.wrap .intro section.wyg { padding: clamp(28px, 5vw, 56px) !important; border-radius: 18px; background: radial-gradient(45% 40% at 0% 0%, rgba(240, 190, 214, 0.7), transparent 70%), radial-gradient(55% 45% at 100% 100%, rgba(196, 184, 238, 0.85), transparent 70%), linear-gradient(135deg, #F4E1EB 0%, #FBF6F8 50%, #E7E1F4 100%); box-shadow: 0 26px 50px rgba(110, 80, 110, 0.12); }
+.wrap .intro section.wyg > h2.wyg-pill { display: inline-block; margin: 0 !important; padding: 9px 20px; border-radius: 999px; background: linear-gradient(90deg, #EE9DBB, #A9A6F3 55%, #6C72E6); color: #FFFFFF !important; font-family: var(--body) !important; font-size: 14px !important; font-weight: 700 !important; letter-spacing: 0.18em !important; text-transform: uppercase; }
+.wrap .intro section.wyg p.wyg-lead { margin: 22px 0 0 !important; max-width: none !important; font-family: var(--display) !important; font-weight: 300 !important; font-size: clamp(36px, 5.6vw, 66px) !important; line-height: 1.04 !important; letter-spacing: -0.035em; color: #111111 !important; }
+.wrap .intro .wyg-num { display: block; font-family: var(--display); font-weight: 300; font-size: clamp(44px, 5vw, 64px); line-height: 1; color: transparent; background: linear-gradient(135deg, #E896BE, #8F86EC); -webkit-background-clip: text; background-clip: text; }
+.wrap .intro section.wyg h3 { margin: 0 !important; font-family: var(--body) !important; font-size: clamp(20px, 2.2vw, 26px) !important; font-weight: 700 !important; letter-spacing: -0.01em; color: #111111 !important; }
+.wrap .intro section.wyg p { margin: 6px 0 16px !important; font-size: clamp(15px, 1.5vw, 18px) !important; line-height: 1.45 !important; color: #4A4352 !important; }
+.wrap .intro .wyg-row { display: grid; grid-template-columns: clamp(64px, 8vw, 96px) minmax(0, 1fr); gap: 16px; margin-top: 30px; }
+.wrap .intro .wyg-eod { display: flex; flex-direction: column; gap: 4px; padding: 18px 20px; border-radius: 12px; background: linear-gradient(180deg, #DCD4F2 0%, #F6EEF6 100%); box-shadow: 0 10px 24px rgba(80, 60, 100, 0.12); font-size: 14.5px; line-height: 1.5; color: #111111; }
+.wrap .intro .wyg-eod b { margin-bottom: 4px; font-weight: 700 !important; }
 .wrap .intro .wyg-eod i { font-style: normal; color: #6B6570; }
-.wrap .intro .wyg-share { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; margin: 22px 0 0; font-size: 15px; color: #2A2530; }
-.wrap .intro .wyg-share span { padding: 6px 14px; border: 1.5px solid transparent; border-radius: 999px; background: linear-gradient(#FFFFFF, #FFFFFF) padding-box, linear-gradient(120deg, #EE9DBB, #A9A6F3, #6C72E6) border-box; font-size: 13.5px; font-weight: 700; color: #111111; }
-@media (max-width: 760px) { .wrap .intro .wyg-grid { grid-template-columns: minmax(0, 1fr); } }
+.wrap .intro .wyg-two { display: grid; grid-template-columns: 1fr 1fr; gap: 28px; margin-top: 36px; }
+.wrap .intro .wyg-two .wyg-num { margin-bottom: 10px; }
+.wrap .intro .wyg-shot { border: 7px solid #FFFFFF; border-radius: 18px; overflow: hidden; background: #FFFFFF; box-shadow: 0 20px 40px rgba(110, 80, 130, 0.2); }
+.wrap .intro .wyg-shot img { display: block; width: 100%; height: auto; border-radius: 11px; }
+.wrap .intro section.wyg p.wyg-share { display: flex; flex-wrap: wrap; align-items: center; gap: 12px; margin: 34px 0 0 !important; font-size: clamp(16px, 1.8vw, 20px) !important; color: #2A2530 !important; }
+.wrap .intro .wyg-share span { padding: 7px 16px; border: 2px solid transparent; border-radius: 999px; background: linear-gradient(#FFFFFF, #FFFFFF) padding-box, linear-gradient(120deg, #EE9DBB, #A9A6F3, #6C72E6) border-box; font-size: 15px; font-weight: 700; color: #111111; }
+@media (max-width: 760px) { .wrap .intro .wyg-br { display: none; } .wrap .intro .wyg-two { grid-template-columns: minmax(0, 1fr); } .wrap .intro .wyg-row { grid-template-columns: minmax(0, 1fr); } }
 .wrap .intro > header .ov-links { display: flex; flex-wrap: wrap; gap: 14px; margin: 22px 0 0; }
 .wrap .intro > header .ov-links > a, .wrap .intro > header .ov-links > span { box-sizing: border-box; display: inline-flex; align-items: center; justify-content: center; gap: 10px; width: 236px; height: 56px; padding: 0 24px; border: 2px solid transparent; border-radius: 999px; font-size: 16.5px; font-weight: 700; letter-spacing: 0.01em; text-decoration: none; transition: transform 0.15s ease, box-shadow 0.15s ease; }
 .wrap .intro > header .ov-links a.see-ex { color: #111111 !important; background: linear-gradient(#FFFFFF, #FFFFFF) padding-box, linear-gradient(120deg, #EE9DBB, #A9A6F3, #6C72E6) border-box; box-shadow: 0 14px 30px rgba(108, 114, 230, 0.30); }
@@ -2738,17 +2741,15 @@ b, strong, .exportbtn, .crumbs .crumb[aria-current="page"], .seg button[aria-pre
         <li><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"></path></svg></span><span><b>Track Your Accomplishments</b>Let AI turn your daily notes into weekly accomplishment summaries. Each month, review your strongest examples, identify who should hear about them, and prepare for your next career conversation.</span></li>
       </ul>
     </section>
-    <section id="introExample" aria-labelledby="introEx">
-      <h2 id="introEx">What you get</h2>
-      <p class="wyg-lead">Your progress, written up for you.</p>
-      <ul class="wyg-grid">
-        <li><span class="wyg-num">01</span><h3>End of day</h3><p>A short end-of-day update, ready to send.</p>
-          <div class="wyg-eod"><b>End of day, Wed Oct 21</b><span><i>Focus:</i> Open the shop</span><span><i>Plan:</i> 3 of 4 done</span><span><i>Finished:</i> Publish the shop; Post the launch; Tell 10 friends</span><span><i>Still open:</i> Read 20 pages</span><span><i>First task tomorrow:</i> Pack the first orders</span></div></li>
-        <li><span class="wyg-num">02</span><h3>Every week</h3><p>AI drafts your Weekly Review.</p>
-          <img src="example-week.jpg" alt="Example Weekly Review one-pager for a small candle shop: key takeaways, my accomplishments and next steps" loading="lazy"></li>
-        <li><span class="wyg-num">03</span><h3>Every month</h3><p>AI drafts your Monthly Review.</p>
-          <img src="example-month.jpg" alt="Example Monthly Review one-pager for a small candle shop: key takeaways, my accomplishments and next steps" loading="lazy"></li>
-      </ul>
+    <section id="introExample" class="wyg" aria-labelledby="introEx">
+      <h2 id="introEx" class="wyg-pill">What you get</h2>
+      <p class="wyg-lead">Your progress, written<br class="wyg-br"> up for you.</p>
+      <div class="wyg-row"><span class="wyg-num">01</span><div><h3>End of day</h3><p>A short end-of-day update, ready to send.</p>
+        <div class="wyg-eod"><b>End of day, Wed Oct 21</b><span><i>Focus:</i> Open the shop</span><span><i>Plan:</i> 3 of 4 done</span><span><i>Finished:</i> Publish the shop; Post the launch; Tell 10 friends</span><span><i>Still open:</i> Read 20 pages</span><span><i>First task tomorrow:</i> Pack the first orders</span></div></div></div>
+      <div class="wyg-two">
+        <div><span class="wyg-num">02</span><h3>Every week</h3><p>AI drafts your Weekly Review.</p><div class="wyg-shot"><img src="example-week.jpg" alt="Example Weekly Review one-pager for a small candle shop: key takeaways, my accomplishments and next steps" loading="lazy"></div></div>
+        <div><span class="wyg-num">03</span><h3>Every month</h3><p>AI drafts your Monthly Review.</p><div class="wyg-shot"><img src="example-month.jpg" alt="Example Monthly Review one-pager for a small candle shop: key takeaways, my accomplishments and next steps" loading="lazy"></div></div>
+      </div>
       <p class="wyg-share">Share each review as <span>PDF</span><span>PowerPoint</span><span>Email</span></p>
     </section>
     <section class="cta" aria-labelledby="introHow">
