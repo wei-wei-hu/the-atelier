@@ -8,7 +8,7 @@ An AI-assisted planner for work and life. Plan what matters, make progress on yo
 
 **[See the App →](https://wei-wei-hu.github.io/the-atelier/)** · **[Start Free Trial →](https://wei-wei-hu.github.io/the-atelier/app/)**
 
-![The Atelier: the home page](home.jpg)
+![The Atelier: the home page with Overview, My Plan and My Accomplishments](app-home.jpg)
 
 ## Why I created The Atelier
 
@@ -16,6 +16,8 @@ An AI-assisted planner for work and life. Plan what matters, make progress on yo
 - **I created The Atelier to let AI help you decide what you want to achieve, plan your days, keep track of your progress, and review what you’ve accomplished and what to focus on next.**
 
 ## How The Atelier works
+
+![My Plan: eight steps, from About Me to My Plan for Tomorrow](app-my-plan.jpg)
 
 ### Set My Week
 
