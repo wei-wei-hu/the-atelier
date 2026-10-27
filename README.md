@@ -6,7 +6,7 @@
 
 An AI-assisted planner for work and life. Plan what matters, make progress on your goals, and keep track of what you accomplish along the way.
 
-**See the page:** https://wei-wei-hu.github.io/the-atelier/
+**[See the App →](https://wei-wei-hu.github.io/the-atelier/)** · **[Start Free Trial →](https://wei-wei-hu.github.io/the-atelier/app/)**
 
 ![The Atelier: the home page](cover.jpg)
 
