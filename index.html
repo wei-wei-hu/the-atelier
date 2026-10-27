@@ -1101,10 +1101,10 @@ body { background: linear-gradient(180deg, #FCFCFC 0, #F0F2F2 520px) fixed, #F0F
 .intro .story p, .intro .cta p { max-width: none; }
 
 /* Overview: slightly narrower than the page, centred */
-#viewIntro { max-width: 1200px; width: 100%; margin-inline: auto; }
+#viewIntro { max-width: 1120px; width: 100%; margin-inline: auto; }
 
 /* Footer matches the Overview's narrower column */
-body:has(.show-page:target, .show-page :target) .wrap .sitefoot { max-width: 1200px; width: 100%; margin-inline: auto; }
+body:has(.show-page:target, .show-page :target) .wrap .sitefoot { max-width: 1120px; width: 100%; margin-inline: auto; }
 
 /* Plan My Day: both header strips the same height */
 #paneplanner .grid > .panel > .panel-head:first-child, #paneplanner .panel.entry > .brand { min-height: 74px; align-items: center; }
@@ -2560,7 +2560,7 @@ b, strong, .exportbtn, .crumbs .crumb[aria-current="page"], .seg button[aria-pre
 .feat.feat3 { grid-template-columns: minmax(0, 1fr) !important; }
 .feat.feat3 li b { display: block; font-weight: 500; margin-bottom: 4px; }
 .intro section[aria-labelledby="introCan"] .feat.feat3 li b, .intro #introExample .feat.feat3 li b { font-weight: 700 !important; }
-.wrap { max-width: 1200px !important; margin-left: auto !important; margin-right: auto !important; padding-left: 32px !important; padding-right: 32px !important; }
+.wrap { max-width: 1120px !important; margin-left: auto !important; margin-right: auto !important; padding-left: 32px !important; padding-right: 32px !important; }
 @media (max-width: 640px) { .wrap { padding-left: 16px !important; padding-right: 16px !important; } }
 @media (min-width: 641px) { #homeView #pageTabs { grid-template-columns: repeat(2, minmax(0, 1fr)) !important; } #homeView .navtile { min-height: 0 !important; } }
 @media (min-width: 900px) { #homeView #pageTabs { grid-template-columns: repeat(3, minmax(0, 1fr)) !important; } }
@@ -2670,6 +2670,8 @@ b, strong, .exportbtn, .crumbs .crumb[aria-current="page"], .seg button[aria-pre
 .mp-tile.done .mp-go { background: #FFFFFF; color: #1C1A22; }
 .mp-tile.on { box-shadow: 0 0 0 2px #1C1A22, 0 20px 40px rgba(120, 86, 120, .18); }
 .mp-off { display: none !important; }
+/* the Note button is retired */
+#nbFab, #nbPop { display: none !important; }
 /* Accomplishment buttons sit inside the card with room to breathe */
 html body #panesummary .pg-bar { margin: 18px 0 4px !important; padding: 2px 12px 16px !important; }
 html body #panesummary .pg-btns .chipbtn { height: 42px; padding: 0 20px !important; font-size: 14.5px !important; }
