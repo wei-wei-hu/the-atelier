@@ -11,7 +11,6 @@ a[aria-disabled="true"] { cursor: default; }
 </style></head>
 <body class="">
 
-
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&amp;family=Inter+Tight:wght@400;500;600;700&amp;family=Outfit:wght@300;400;500;600;700;800&amp;family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&amp;family=DM+Mono:wght@400;500&amp;display=swap">
@@ -1102,12 +1101,12 @@ body { background: linear-gradient(180deg, #FCFCFC 0, #F0F2F2 520px) fixed, #F0F
 .intro .story p, .intro .cta p { max-width: none; }
 
 /* Overview: slightly narrower than the page, centred */
-#viewIntro { max-width: 1040px; width: 100%; margin-inline: auto; }
+#viewIntro { max-width: 1200px; width: 100%; margin-inline: auto; }
 
 /* Footer matches the Overview's narrower column */
-body:has(.show-page:target, .show-page :target) .wrap .sitefoot { max-width: 1040px; width: 100%; margin-inline: auto; }
+body:has(.show-page:target, .show-page :target) .wrap .sitefoot { max-width: 1200px; width: 100%; margin-inline: auto; }
 
-/* Plan Your Day: both header strips the same height */
+/* Plan My Day: both header strips the same height */
 #paneplanner .grid > .panel > .panel-head:first-child, #paneplanner .panel.entry > .brand { min-height: 74px; align-items: center; }
 
 /* Highlights and key takeaways */
@@ -1124,7 +1123,7 @@ body:has(.show-page:target, .show-page :target) .wrap .sitefoot { max-width: 104
 .tk-list li::before { content: ""; position: absolute; left: 4px; top: 0.55em; width: 8px; height: 8px; border-radius: 50%; background: var(--accent); }
 .tk-list.busy li { opacity: 0.55; }
 
-/* Track Your Accomplishments: the two top headers share one height */
+/* My Accomplishments: the two top headers share one height */
 #panesummary .grid-summary > .panel > .panel-head:first-child { min-height: 104px; align-items: center; }
 
 /* Goals styled like the highlights: numbered circles and white boxes */
@@ -1332,7 +1331,7 @@ body:has(.show-page:target, .show-page :target) .wrap .sitefoot { max-width: 104
 .cal-block.short span { order: -1; flex: none; font-weight: 600; }
 .cal-block.short b { min-width: 0; font-size: 11.5px; }
 
-/* Plan Your Day: The Plan beside Weekly routines, tasks full width below */
+/* Plan My Day: The Plan beside Weekly routines, tasks full width below */
 #paneplanner .tasks-panel { margin-top: 0; }
 .rtpanel { align-content: start; }
 .rtpanel .rt-intro { margin: 0; }
@@ -1776,7 +1775,7 @@ th, .ts-table th, .panel th, .panel .ts-table th { background: var(--mint-soft);
 .panel.entry .editing-note { margin: 0 0 4px; padding: 8px 12px; border-radius: 10px; background: var(--wait-soft); color: var(--ink); font-size: 13px; font-weight: 500; }
 @media (max-width: 380px) { .plan-row { grid-template-columns: minmax(0, 1fr); } }
 
-/* ================= Track Your Accomplishments: day notes and next week's goals ================= */
+/* ================= My Accomplishments: day notes and next week's goals ================= */
 .sum-row2 { margin-top: 0; }
 .sn-list { display: grid; gap: 14px; }
 .sn-day { display: grid; gap: 8px; }
@@ -1795,7 +1794,7 @@ th, .ts-table th, .panel th, .panel .ts-table th { background: var(--mint-soft);
 .cal-part > div[data-day]:hover { background: color-mix(in srgb, var(--mint, #B5C1B0) 10%, transparent); }
 .cal-part .cal-item { white-space: normal; }
 
-/* ================= Goals for the week on Plan Your Day; next week's goals beside Highlights ================= */
+/* ================= Goals for the week on Plan My Day; next week's goals beside Highlights ================= */
 .goals-panel { display: grid; gap: 12px; }
 @media (min-width: 900px) { #paneplanner .goals-panel .goals3 { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
 .whatsnext .ng-suggest { margin-top: 4px; padding-top: 10px; border-top: 1px dashed color-mix(in srgb, var(--mint-deep, #7FD3B8) 60%, transparent); }
@@ -2015,11 +2014,11 @@ body { background: linear-gradient(180deg, #F4F2EC 0, #ECE8DD 560px) fixed, #ECE
 @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .mo-check { border-color: var(--mint, #D7C5A1); } }
 :root[data-theme="dark"] .mo-check { border-color: var(--mint, #D7C5A1); }
 
-/* Track Your Accomplishments: Highlights and Key takeaways span the full width now that Next week is gone */
+/* My Accomplishments: Highlights and Key takeaways span the full width now that Next week is gone */
 #panesummary .grid-summary { grid-template-columns: minmax(0, 1fr) !important; }
 #panesummary .grid-summary .tk-arrow { display: none !important; }
 
-/* Plan Your Day: The Plan spans the row now that Weekly routines is gone; its fields sit in one line on wide screens */
+/* Plan My Day: The Plan spans the row now that Weekly routines is gone; its fields sit in one line on wide screens */
 #paneplanner .grid { grid-template-columns: minmax(0, 1fr) !important; }
 @media (min-width: 900px) {
   #paneplanner .panel.entry #taskForm { grid-template-columns: minmax(0, 2fr) minmax(0, 1.4fr) minmax(0, 1.4fr); align-items: start; column-gap: 16px; }
@@ -2122,7 +2121,7 @@ body { background: linear-gradient(180deg, #F4F2EC 0, #ECE8DD 560px) fixed, #ECE
 }
 .top .weeknav { background: linear-gradient(100deg, rgba(255, 255, 255, 0.14) 0%, rgba(255, 255, 255, 0.03) 60%, rgba(255, 255, 255, 0.08) 100%); border-color: rgba(255, 255, 255, 0.4); box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.18); }
 
-/* ================= Track Your Accomplishments as a journal spread (layout only; colours and fonts unchanged) ================= */
+/* ================= My Accomplishments as a journal spread (layout only; colours and fonts unchanged) ================= */
 .wk-panel { display: grid; gap: 12px; }
 .wk-grid { display: grid; grid-template-columns: repeat(12, minmax(0, 1fr)); border: 1px solid var(--line-strong); border-radius: 12px; overflow: hidden; background-color: var(--surface-solid);
   background-image: linear-gradient(var(--line) 1px, transparent 1px), linear-gradient(90deg, var(--line) 1px, transparent 1px); background-size: 16px 16px; }
@@ -2301,7 +2300,7 @@ span.wp-tag { cursor: default; }
 .wp-next .wp-next-in { margin-top: 0; flex: 1; min-width: 0; }
 .wp-empty { margin: 0; }
 @media (max-width: 760px) { .wp-grid, .wp-qs { grid-template-columns: minmax(0, 1fr); } }
-/* Plan Your Day, simplified: theme line, filters tucked away, no big-day banner */
+/* Plan My Day, simplified: theme line, filters tucked away, no big-day banner */
 .pool-theme { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; margin: 0 0 12px; }
 .pool-theme label { font-family: var(--display); font-weight: 600; font-size: 14px; color: var(--ink); }
 .pool-theme input { flex: 1 1 220px; min-width: 0; padding: 7px 10px; border: 1px solid var(--line-strong); border-radius: 10px; background: var(--surface-solid); color: var(--ink); font: inherit; font-size: 14px; }
@@ -2561,9 +2560,10 @@ b, strong, .exportbtn, .crumbs .crumb[aria-current="page"], .seg button[aria-pre
 .feat.feat3 { grid-template-columns: minmax(0, 1fr) !important; }
 .feat.feat3 li b { display: block; font-weight: 500; margin-bottom: 4px; }
 .intro section[aria-labelledby="introCan"] .feat.feat3 li b, .intro #introExample .feat.feat3 li b { font-weight: 700 !important; }
-.wrap { max-width: 980px !important; margin-left: auto !important; margin-right: auto !important; padding-left: 32px !important; padding-right: 32px !important; }
+.wrap { max-width: 1200px !important; margin-left: auto !important; margin-right: auto !important; padding-left: 32px !important; padding-right: 32px !important; }
 @media (max-width: 640px) { .wrap { padding-left: 16px !important; padding-right: 16px !important; } }
 @media (min-width: 641px) { #homeView #pageTabs { grid-template-columns: repeat(2, minmax(0, 1fr)) !important; } #homeView .navtile { min-height: 0 !important; } }
+@media (min-width: 900px) { #homeView #pageTabs { grid-template-columns: repeat(3, minmax(0, 1fr)) !important; } }
 .fc-sec { gap: 8px !important; }
 .fc-sec .fc-label { margin: 0; }
 .fc-in { width: 100%; box-sizing: border-box; padding: 11px 14px !important; font-size: 15px !important; }
@@ -2639,6 +2639,249 @@ b, strong, .exportbtn, .crumbs .crumb[aria-current="page"], .seg button[aria-pre
 .pg-sup-text { margin: 0; font-size: 14px; line-height: 1.45; color: #2A2530; }
 @media (max-width: 640px) { .pg-support { flex-direction: column; align-items: flex-start; gap: 10px; } }
 .da-pager { margin-top: 16px; }
+
+
+/* My Plan tiles, in the template's language: a pastel gradient sheet with an orb, frosted white cards, outline pills, light display type */
+.mp-tiles { position: relative; overflow: hidden; margin: 0 0 26px; padding: 30px 28px 28px; border-radius: 22px; color: #1C1A22; background: linear-gradient(135deg, #F6E3EE 0%, #F3EEF7 45%, #E3E2FA 100%); box-shadow: 0 20px 50px rgba(120, 86, 120, .14); }
+.mp-tiles::before { content: ""; position: absolute; top: 26px; right: 220px; width: 42px; height: 42px; border-radius: 50%; background: radial-gradient(circle at 34% 30%, #F1EEFF 0, #A9A6F3 45%, #6C72E6 100%); box-shadow: 0 10px 24px rgba(108, 114, 230, .35); pointer-events: none; }
+.mp-tiles::after { content: ""; position: absolute; top: 20px; right: 196px; width: 10px; height: 10px; border-radius: 50%; background: #EE9DBB; pointer-events: none; }
+.mp-intro { position: relative; display: flex; align-items: center; justify-content: space-between; gap: 12px; margin: 0 2px 22px; }
+#mpTiles .mp-intro h2 { margin: 0; font-family: var(--display, inherit); font-size: 36px; font-weight: 300 !important; letter-spacing: -0.035em; color: #111111; }
+.mp-count { flex: none; padding: 6px 16px; border: 1px solid #1C1A22; border-radius: 999px; background: rgba(255, 255, 255, .6); color: #1C1A22; font-size: 13px; font-weight: 500; }
+.mp-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 16px; }
+@media (max-width: 980px) { .mp-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } .mp-tiles::before, .mp-tiles::after { display: none; } }
+@media (max-width: 520px) { .mp-grid { grid-template-columns: minmax(0, 1fr); } .mp-tiles { padding: 20px 16px; } .mp-intro { flex-direction: column; align-items: flex-start; } #mpTiles .mp-intro h2 { font-size: 28px; } }
+.mp-tile { display: flex; flex-direction: column; min-height: 200px; padding: 0; overflow: hidden; text-align: left; font: inherit; color: #1C1A22; background: rgba(255, 255, 255, .86); border: 0; border-radius: 16px; cursor: pointer; box-shadow: 0 14px 30px rgba(120, 86, 120, .10); transition: box-shadow .18s, transform .18s; }
+.mp-tile:hover { transform: translateY(-3px); box-shadow: 0 20px 40px rgba(120, 86, 120, .18); }
+.mp-tile:focus-visible { outline: 2px solid #1C1A22; outline-offset: 3px; }
+.mp-band { display: flex; align-items: center; justify-content: space-between; gap: 8px; padding: 16px 16px 0; min-height: 56px; box-sizing: border-box; }
+.mp-num { padding: 3px 12px; border: 1px solid #1C1A22; border-radius: 999px; font-size: 12px; font-weight: 500; letter-spacing: .02em; color: #1C1A22; }
+.mp-tick { padding: 3px 11px; border-radius: 999px; background: #FFFFFF; color: #1C1A22; font-size: 11.5px; font-weight: 600; box-shadow: 0 4px 10px rgba(120, 86, 120, .14); }
+.mp-ic { display: inline-grid; place-items: center; width: 38px; height: 38px; border-radius: 50%; background: linear-gradient(180deg, #D6CDF0 0%, #F6EEF6 100%); color: #3F3A8F; }
+.mp-ic svg { width: 20px; height: 20px; }
+.mp-body { display: flex; flex: 1; flex-direction: column; align-items: flex-start; gap: 8px; padding: 12px 16px 16px; }
+#mpTiles .mp-tile b { font-family: var(--display, inherit); font-size: 21px; font-weight: 400 !important; line-height: 1.2; letter-spacing: -0.025em; color: #111111; }
+.mp-d { font-size: 13px; line-height: 1.5; color: #4A4352; }
+.mp-foot { display: flex; align-items: center; justify-content: space-between; gap: 8px; width: 100%; margin-top: auto; padding-top: 10px; }
+.mp-st { font-size: 12px; font-weight: 500; color: #5E5866; }
+.mp-go { flex: none; padding: 7px 16px; border-radius: 999px; background: #111111; color: #FFFFFF; font-size: 12.5px; font-weight: 500; }
+.mp-tile.done { background: linear-gradient(180deg, #D6CDF0 0%, #F6EEF6 100%); }
+.mp-tile.done .mp-ic { background: #FFFFFF; }
+.mp-tile.done .mp-go { background: #FFFFFF; color: #1C1A22; }
+.mp-tile.on { box-shadow: 0 0 0 2px #1C1A22, 0 20px 40px rgba(120, 86, 120, .18); }
+.mp-off { display: none !important; }
+/* Accomplishment buttons sit inside the card with room to breathe */
+html body #panesummary .pg-bar { margin: 18px 0 4px !important; padding: 2px 12px 16px !important; }
+html body #panesummary .pg-btns .chipbtn { height: 42px; padding: 0 20px !important; font-size: 14.5px !important; }
+/* My Accomplishments: each section a distinct card; cards inside pop up on hover */
+html body #panesummary > .panel { position: relative; background: #FFFFFF !important; border: 1px solid #D6D2E6 !important; border-radius: 22px !important; box-shadow: 0 2px 4px rgba(30, 30, 60, .06), 0 18px 40px rgba(40, 35, 90, .12) !important; overflow: hidden; transition: transform .2s, box-shadow .2s; }
+html body #panesummary > .panel::before { content: ""; position: absolute; left: 0; right: 0; top: 0; height: 5px; background: linear-gradient(90deg, #A9A3D3, #D9C6E3); }
+html body #dayAccPanel::before { background: linear-gradient(90deg, #F2B98A, #FCD9B6) !important; }
+html body #weekPage::before { background: linear-gradient(90deg, #7F95F5, #C3CEFB) !important; }
+html body #mrPanel::before { background: linear-gradient(90deg, #A9A3D3, #D9D0F3) !important; }
+html body #panesummary > .panel:hover { transform: translateY(-3px); box-shadow: 0 30px 60px rgba(60, 50, 120, .2), 0 0 0 1px #C2BED9 !important; }
+html body #panesummary > .panel > .panel-head h2 { font-family: var(--display, inherit) !important; font-size: 24px !important; font-weight: 400 !important; color: #111111 !important; }
+.pg .pg-card, .pg .pq-card, .pg .pq-memo, .pg .pg-support { transition: transform .2s, box-shadow .2s; }
+.pg .pg-card:hover, .pg .pq-card:hover, .pg .pq-memo:hover, .pg .pg-support:hover { transform: translateY(-5px); box-shadow: 0 26px 50px rgba(60, 50, 120, .22) !important; position: relative; z-index: 2; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) body #panesummary > .panel { background: #1E1D24 !important; border-color: #34333C !important; } :root:not([data-theme="light"]) body #panesummary > .panel > .panel-head h2 { color: #F3EEF4 !important; } }
+/* My Plan tiles stand apart at rest: white cards on a tinted panel, clear border, firm shadow, a lilac accent line */
+html body .mp-tiles { background: linear-gradient(180deg, #ECEAF4 0%, #E6E3F0 100%) !important; border: 1px solid #DCD8EA !important; }
+html body .mp-tile { position: relative; background: #FFFFFF !important; border: 1px solid #D6D2E6 !important; box-shadow: 0 2px 4px rgba(30, 30, 60, .06), 0 14px 30px rgba(40, 35, 90, .12) !important; overflow: hidden; }
+html body .mp-tile::before { content: ""; position: absolute; left: 0; right: 0; top: 0; height: 5px; background: linear-gradient(90deg, #A9A3D3, #D9C6E3); }
+html body .mp-tile:not(:hover):not(.on) .mp-ic { background: #EEEBF7 !important; color: #3F3A8F !important; }
+html body .mp-bar { background: #FFFFFF !important; box-shadow: inset 0 0 0 1px #D6D2E6; }
+
+html body .mp-tile:hover, html body .mp-tile.on { border-color: transparent !important; }
+html body .mp-tile:hover::before, html body .mp-tile.on::before { background: #8E84C8; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) body .mp-tiles { background: linear-gradient(180deg, #ECEAF4 0%, #E6E3F0 100%) !important; } }
+/* Top navigation: one clear pill bar; the current page is a solid dark pill */
+html body .backbar { align-items: center !important; padding-bottom: 18px !important; border-bottom: 1px solid #E4E2EC !important; }
+html body .backbar .backbtn { display: inline-flex !important; align-items: center; gap: 8px; height: 42px; padding: 0 18px !important; border: 1px solid #1C1A22 !important; border-radius: 999px !important; background: #FFFFFF !important; color: #1C1A22 !important; font-size: 15px !important; font-weight: 600 !important; box-shadow: 0 6px 16px rgba(30, 30, 60, .08) !important; }
+html body .backbar .backbtn:hover { background: #1C1A22 !important; color: #FFFFFF !important; }
+html body .crumbs { display: inline-flex !important; gap: 4px !important; padding: 5px !important; border-radius: 999px !important; background: #FFFFFF !important; box-shadow: 0 0 0 1px #E4E2EC, 0 8px 22px rgba(30, 30, 60, .08) !important; }
+html body .crumbs .crumb { height: 38px; display: inline-flex !important; align-items: center; padding: 0 18px !important; border: 0 !important; border-radius: 999px !important; background: transparent !important; color: #1C1A22 !important; font-size: 15px !important; font-weight: 500 !important; opacity: 1 !important; }
+html body .crumbs .crumb:hover { background: linear-gradient(180deg, #C2BED9 0%, #ECDEEB 100%) !important; }
+html body .crumbs .crumb[aria-current="page"] { background: #1C1A22 !important; color: #FFFFFF !important; font-weight: 600 !important; box-shadow: 0 6px 14px rgba(20, 20, 40, .25) !important; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) body .crumbs { background: #232229 !important; box-shadow: 0 0 0 1px #34333C !important; } :root:not([data-theme="light"]) body .crumbs .crumb { color: #F3EEF4 !important; } :root:not([data-theme="light"]) body .crumbs .crumb[aria-current="page"] { background: #F3EEF4 !important; color: #111111 !important; } :root:not([data-theme="light"]) body .backbar .backbtn { background: #232229 !important; color: #F3EEF4 !important; border-color: #F3EEF4 !important; } :root:not([data-theme="light"]) body .backbar { border-color: #34333C !important; } }
+@media (max-width: 640px) { html body .backbar { flex-wrap: wrap !important; gap: 10px !important; } html body .crumbs { display: flex !important; flex-wrap: nowrap !important; width: 100% !important; } html body .crumbs .crumb { flex: 1 1 auto; justify-content: center; white-space: nowrap; padding: 0 8px !important; font-size: 12.5px !important; height: 34px; } html body .backbar .backbtn { height: 38px; padding: 0 13px !important; } }
+/* Home tiles: frosted cards that lift, with a clear Open pill */
+#homeView .navtile { position: relative; border: 0 !important; border-radius: 22px !important; background: #FFFFFF !important; box-shadow: 0 24px 50px rgba(30, 30, 60, .12), 0 0 0 1px #E4E2EC !important; transition: transform .2s, box-shadow .2s, background .2s !important; padding-bottom: 64px !important; }
+#homeView .navtile .nt-head { font-family: var(--display, inherit) !important; font-size: 26px !important; font-weight: 400 !important; color: #111111 !important; }
+#homeView .navtile::after { content: "Open →"; position: absolute; left: 24px; bottom: 22px; padding: 8px 18px; border-radius: 999px; background: #111111; color: #FFFFFF; font-size: 14px; font-weight: 600; }
+#homeView .navtile.locked::after { content: "🔒 Members only"; background: transparent; color: #1C1A22; box-shadow: inset 0 0 0 1px #1C1A22; font-weight: 500; }
+#homeView .navtile.locked .nt-lock { display: none !important; }
+#homeView .navtile:hover { transform: translateY(-6px); background: linear-gradient(180deg, #C2BED9 0%, #DED6E5 55%, #ECDEEB 100%) !important; box-shadow: 0 34px 64px rgba(90, 70, 150, .25) !important; }
+#homeView .navtile:hover .nt-body, #homeView .navtile:hover .nt-desc { background: transparent !important; color: #1C1A22 !important; }
+/* Page backdrop: the template's light wash, white into a faint lilac; cards carry the separation */
+html body { background: radial-gradient(60% 40% at 0% 0%, rgba(240, 220, 236, .6), transparent 70%), radial-gradient(60% 45% at 100% 100%, rgba(214, 208, 240, .55), transparent 70%), linear-gradient(180deg, #FBFAFD 0%, #F3F1F9 100%) fixed !important; }
+@media (prefers-color-scheme: dark) { html:root:not([data-theme="light"]) body { background: #121216 !important; } }
+html:root[data-theme="dark"] body { background: #121216 !important; }
+/* My Plan: calm frosted cards and one invited next step, in the template's language */
+.mp-tiles { background: rgba(255, 255, 255, .78) !important; border: 1px solid #ECEBF2; box-shadow: 0 30px 60px rgba(30, 30, 60, .08) !important; }
+#mpTiles .mp-intro h2 { font-size: clamp(30px, 3.4vw, 42px) !important; }
+.mp-prog { display: flex; align-items: center; gap: 12px; flex: none; }
+.mp-prog-t { font-size: 13px; font-weight: 500; color: #1C1A22; white-space: nowrap; }
+.mp-bar { position: relative; display: block; width: 160px; height: 6px; border-radius: 999px; background: #ECEBF2; overflow: hidden; }
+.mp-bar b { position: absolute; inset: 0 auto 0 0; border-radius: 999px; background: linear-gradient(90deg, #5B5FD8, #A9A6F3); }
+.mp-tile { background: #FFFFFF !important; border: 1px solid #ECEBF2 !important; box-shadow: 0 10px 24px rgba(30, 30, 60, .05) !important; }
+.mp-ic, .mp-tile.done .mp-ic { background: #F3F2FA !important; color: #3F3A8F !important; box-shadow: none !important; }
+.mp-go { background: transparent !important; color: #1C1A22 !important; box-shadow: inset 0 0 0 1px #1C1A22; }
+.mp-tile.done { background: #FFFFFF !important; }
+.mp-tile.done b { color: #4A4352 !important; }
+.mp-tick { background: #F3F2FA !important; color: #3F3A8F !important; box-shadow: none !important; }
+/* the template's featured card: Nuit lilac, #C2BED9 to #ECDEEB, dark text */
+.mp-tile:hover, .mp-tile.on { background: linear-gradient(180deg, #C2BED9 0%, #DED6E5 55%, #ECDEEB 100%) !important; border-color: transparent !important; box-shadow: 0 24px 48px rgba(120, 100, 160, .28) !important; }
+.mp-tile:hover b, .mp-tile:hover .mp-d, .mp-tile:hover .mp-st, .mp-tile.on b, .mp-tile.on .mp-d, .mp-tile.on .mp-st { color: #FFFFFF !important; }
+.mp-tile:hover .mp-num, .mp-tile.on .mp-num { border-color: rgba(255, 255, 255, .85); color: #FFFFFF; }
+.mp-tile:hover .mp-ic, .mp-tile.on .mp-ic { background: rgba(255, 255, 255, .22) !important; color: #FFFFFF !important; }
+.mp-tile:hover .mp-go, .mp-tile.on .mp-go { background: #FFFFFF !important; color: #1C1A22 !important; box-shadow: 0 8px 18px rgba(20, 20, 60, .25); font-weight: 600; }
+@media (max-width: 520px) { .mp-bar { width: 120px; } }
+.mp-tile:hover b, .mp-tile:hover .mp-d, .mp-tile:hover .mp-st, .mp-tile.on b, .mp-tile.on .mp-d, .mp-tile.on .mp-st { color: #1C1A22 !important; }
+.mp-tile:hover .mp-num, .mp-tile.on .mp-num { border-color: #1C1A22 !important; color: #1C1A22 !important; background: rgba(255, 255, 255, .55); }
+.mp-tile:hover .mp-ic, .mp-tile.on .mp-ic { background: #FFFFFF !important; color: #3F3A8F !important; }
+.mp-tile:hover .mp-go, .mp-tile.on .mp-go { background: #111111 !important; color: #FFFFFF !important; box-shadow: 0 8px 18px rgba(20, 20, 40, .22) !important; }
+/* The open step: where people type. A lilac header band, deeper card, large calm inputs */
+#viewPlanner .panel[data-step]:not(#dayStripPanel), #viewPlanner #sevenBody { position: relative; border: 0 !important; border-radius: 22px !important; box-shadow: 0 30px 60px rgba(60, 50, 110, .14), 0 0 0 1px rgba(194, 190, 217, .55) !important; overflow: hidden; }
+html body #viewPlanner .panel[data-step]:not(#dayStripPanel) > .panel-head, html body #viewPlanner #sevenBody > .panel-head { margin: -22px -22px 6px !important; padding: 24px 26px 22px !important; background: linear-gradient(180deg, #C2BED9 0%, #DED6E5 60%, #ECDEEB 100%) !important; border-bottom: 0 !important; }
+#viewPlanner .panel[data-step] > .panel-head h2, #viewPlanner #sevenBody > .panel-head h2 { color: #111111 !important; font-family: var(--display, inherit) !important; font-size: 26px !important; font-weight: 400 !important; letter-spacing: -0.02em; }
+#viewPlanner .panel[data-step] > .panel-head .hint, #viewPlanner #sevenBody > .panel-head .hint { color: #2A2530 !important; opacity: 1 !important; font-size: 14.5px !important; }
+#viewPlanner .panel[data-step] > .panel-head .hint::before, #viewPlanner #sevenBody > .panel-head .hint::before { display: none !important; }
+#viewPlanner .panel[data-step] > .panel-head .fold, #viewPlanner .panel[data-step] > .panel-head button { background: rgba(255, 255, 255, .7); }
+#viewPlanner .panel[data-step] input[type="text"], #viewPlanner .panel[data-step] textarea, #viewPlanner #sevenBody input[type="text"], #viewPlanner .panel[data-step] .pw-in { font-size: 16px !important; padding: 14px 16px !important; border-radius: 14px !important; border: 1px solid rgba(160, 150, 200, .55) !important; background: var(--surface-solid, #FFFFFF) !important; box-shadow: 0 2px 6px rgba(60, 50, 110, .05) !important; }
+#viewPlanner .panel[data-step] input[type="text"]:focus, #viewPlanner .panel[data-step] textarea:focus, #viewPlanner #sevenBody input[type="text"]:focus, #viewPlanner .panel[data-step] .pw-in:focus { outline: none !important; border-color: #8E84C8 !important; box-shadow: 0 0 0 4px rgba(194, 190, 217, .5) !important; }
+/* Bigger tiles, equal weight; the highlight follows your pointer and the open step */
+.mp-grid { gap: 18px !important; }
+.mp-tile { min-height: 250px !important; border-radius: 18px !important; transition: background .2s, box-shadow .2s, transform .2s !important; }
+.mp-tile:hover, .mp-tile.on { transform: translateY(-4px); }
+.mp-band { padding: 20px 20px 0 !important; }
+.mp-body { padding: 14px 20px 20px !important; gap: 10px !important; }
+#mpTiles .mp-tile b { font-size: 24px !important; }
+.mp-d { font-size: 14px !important; }
+.mp-ic { width: 44px !important; height: 44px !important; }
+.mp-ic svg { width: 22px !important; height: 22px !important; }
+.mp-go { padding: 9px 18px !important; font-size: 13.5px !important; }
+.mp-tiles::before { right: 330px !important; top: 22px !important; } .mp-tiles::after { right: 312px !important; top: 16px !important; }
+/* One color family per deliverable: day peach, week blue, month lilac; one deeper card, the others light */
+.pg-t-peach { --t1: #FCD9B6; --t2: #FFF6EE; --t3: #FEEBD8; --tn: rgba(180, 100, 42, .38); }
+.pg-t-blue { --t1: #C3CEFB; --t2: #F2F4FF; --t3: #E2E8FD; --tn: rgba(74, 91, 214, .38); }
+.pg-t-lilac { --t1: #D9D0F3; --t2: #F7F3FD; --t3: #ECE6F9; --tn: rgba(108, 92, 200, .38); }
+.pg .pg-card.pg-c0, .pg .pg-card.pg-c2, .pg .pq-card.pq-afternoon, .pg .pq-card.pq-rest { background: linear-gradient(180deg, var(--t3) 0%, #FFFFFF 100%) !important; }
+.pg .pg-card.pg-c1, .pg .pq-card.pq-morning, .pg .pq-card.pq-evening { background: linear-gradient(180deg, var(--t1) 0%, var(--t2) 100%) !important; }
+.pg .pg-support { background: linear-gradient(90deg, var(--t3) 0%, #FFFFFF 100%) !important; }
+.pg .pg-big { color: var(--tn) !important; }
+.pg .pg-card.pg-c0 .pg-cpill, .pg .pg-card.pg-c2 .pg-cpill, .pg .pq-afternoon .pg-cpill, .pg .pq-rest .pg-cpill, .pg .pg-support .pg-cpill { background: transparent !important; border-color: #1C1A22 !important; }
+/* Template backdrop: light neutral grey, so the banners and cards stand out */
+body { background: linear-gradient(180deg, #F4F4F7 0%, #ECEDF2 100%) fixed, #ECEDF2 !important; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) body { background: #121216 !important; } }
+:root[data-theme="dark"] body { background: #121216 !important; }
+/* Overview banner: text left, the example floating right, as on the template slides */
+@media (min-width: 900px) {
+  .wrap .intro > header { display: grid !important; grid-template-columns: minmax(0, 1fr) minmax(0, 470px); column-gap: 40px; align-items: center; }
+  .wrap .intro > header > :not(.ov-shot):not(.pg-no) { grid-column: 1; }
+  .wrap .intro > header > .ov-shot { grid-column: 2; grid-row: 1 / span 4; }
+}
+.wrap .intro > header .ov-shot { display: block; position: relative; z-index: 1; margin: 22px 0 0; border-radius: 14px; overflow: hidden; background: #FFFFFF; box-shadow: 0 30px 60px rgba(60, 50, 110, .22), 0 0 0 6px rgba(255, 255, 255, .7); transform: rotate(-2deg); transition: transform .2s; }
+.wrap .intro > header .ov-shot:hover { transform: rotate(0deg) translateY(-4px); }
+.wrap .intro > header .ov-shot img { display: block; width: 100%; height: auto; }
+.wrap .intro > header .ov-links .ov-trial { font-size: 17px !important; box-shadow: 0 16px 36px rgba(108, 114, 230, .55), 0 0 0 4px rgba(169, 166, 243, .25), inset 0 1px 0 rgba(255, 255, 255, .45) !important; }
+.wrap .intro > header .ov-links .ov-trial:hover, .cta .cta-trial:hover, .hl-trial:hover { transform: translateY(-2px); filter: brightness(1.05); }
+a.cta-trial, a.hl-trial, a.ov-trial { text-decoration: none; cursor: pointer; }
+/* Section headings in the template's large, light display type */
+.wrap .intro > section:not(.cta) > h2, .wrap .intro .wyg-outer > h2 { font-family: var(--display, inherit) !important; font-size: clamp(26px, 3vw, 34px) !important; font-weight: 300 !important; letter-spacing: -0.03em !important; margin-bottom: 18px !important; }
+/* Overview story sections: calm and serious, in the template's frosted white with outline pills */
+.wrap .intro section[aria-labelledby="introWhat"] .feat { background: #FFFFFF !important; border: 1px solid #ECEBF2; box-shadow: 0 20px 44px rgba(30, 30, 60, .06) !important; }
+.wrap .intro section[aria-labelledby="introCan"] .feat li { background: #FFFFFF !important; border: 1px solid #ECEBF2 !important; box-shadow: 0 16px 36px rgba(30, 30, 60, .06) !important; }
+.wrap .intro section[aria-labelledby="introCan"] .feat li:nth-child(2) { background: linear-gradient(180deg, #F1EEF8 0%, #FFFFFF 100%) !important; }
+.wrap .intro section[aria-labelledby="introCan"] .feat li b, .wrap .intro section[aria-labelledby="introCan"] .feat li:nth-child(2) b { background: transparent !important; border: 1px solid #1C1A22 !important; color: #1C1A22 !important; }
+/* My Accomplishments: readable text on every card */
+.pg .pg-empty, .pq-row p.pg-empty { color: #3F3A47 !important; font-size: 14px; }
+.pg .pg-lab span, .pg .pg-foot, .pg .pg-copy, .pq-row b { color: #2A2530 !important; }
+.pg .pg-n { color: #2A2530 !important; font-weight: 600; }
+.pg .pg-list li { color: #1C1A22 !important; }
+.pg .pg-big { background: none !important; -webkit-text-fill-color: currentColor !important; }
+/* Template palette: peach, pink, blue, mint and lilac on light neutral grey, so each part reads apart */
+.mp-c-peach { --c1: #FCD9B6; --c2: #FFF6EE; --ca: #B4642A; }
+.mp-c-pink { --c1: #F9C6D3; --c2: #FFF1F5; --ca: #C24D72; }
+.mp-c-blue { --c1: #C3CEFB; --c2: #F2F4FF; --ca: #4A5BD6; }
+.mp-c-mint { --c1: #C4EBD7; --c2: #F1FBF6; --ca: #2E8A5F; }
+.mp-c-lilac { --c1: #D9D0F3; --c2: #F7F3FD; --ca: #6C5CC8; }
+.mp-tiles { background: linear-gradient(135deg, #F6F6FA 0%, #EEF0F8 100%) !important; }
+.mp-tiles::before { background: radial-gradient(circle at 34% 30%, #F1F4FF 0, #9FB0F7 45%, #4A5BD6 100%) !important; }
+.mp-tiles::after { background: #FCB98A !important; }
+.mp-tile { background: linear-gradient(180deg, var(--c1) 0%, var(--c2) 46%, #FFFFFF 100%) !important; }
+.mp-tile.done { background: linear-gradient(180deg, var(--c1) 0%, var(--c2) 100%) !important; }
+.mp-ic, .mp-tile.done .mp-ic { background: #FFFFFF !important; color: var(--ca) !important; box-shadow: 0 4px 12px rgba(30, 30, 60, .08); }
+.pg { background: radial-gradient(45% 60% at 4% 6%, rgba(252, 217, 182, 0.45), transparent 70%), radial-gradient(50% 60% at 98% 96%, rgba(195, 206, 251, 0.55), transparent 70%), linear-gradient(135deg, #F6F6FA 0%, #FBFBFD 50%, #EEF0F8 100%) !important; }
+.pg-card .pg-cpill, .pq-card .pg-cpill { background: #FFFFFF !important; border-color: #FFFFFF !important; }
+.pq-memo { background: #FFFFFF !important; }
+.pq-memo > .pg-cpill { background: transparent !important; border-color: #1C1A22 !important; }
+.wrap .intro section.wyg { background: radial-gradient(45% 40% at 0% 0%, rgba(252, 217, 182, 0.55), transparent 70%), radial-gradient(55% 45% at 100% 100%, rgba(195, 206, 251, 0.7), transparent 70%), linear-gradient(135deg, #F6F6FA 0%, #EEF0F8 100%) !important; }
+/* The day as a clock quadrant, with a memo beside it */
+.pq-wrap { display: grid; grid-template-columns: minmax(0, 1.75fr) minmax(0, 1fr); gap: 22px; align-items: stretch; }
+.pq-clock { position: relative; padding: 18px 20px; }
+.pq-clock::before { content: ""; position: absolute; left: 50%; top: 4px; bottom: 4px; width: 1px; background: rgba(28, 26, 34, .3); }
+.pq-clock::after { content: ""; position: absolute; top: 50%; left: 6px; right: 6px; height: 1px; background: rgba(28, 26, 34, .3); }
+.pq-t { position: absolute; z-index: 2; font-size: 11px; color: #5E5866; line-height: 1; }
+.pq-t6 { top: -4px; left: calc(50% + 6px); } .pq-t18 { bottom: -4px; left: calc(50% + 6px); } .pq-t12 { right: 0; top: calc(50% + 5px); } .pq-t0 { left: 0; top: calc(50% + 5px); }
+.pq-grid { position: relative; z-index: 1; display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 22px; }
+.pq-card { min-height: 150px; padding: 16px 18px 18px; border-radius: 10px; background: #FFFFFF; box-shadow: 0 20px 40px rgba(120, 86, 120, .14); }
+.pq-card.pg-lilac { background: linear-gradient(180deg, #CBC2EA 0%, #F6EEF6 100%); }
+.pq-h { display: flex; align-items: center; justify-content: space-between; gap: 8px; }
+.pq-range { font-size: 11px; color: #5E5866; }
+.pq-list { list-style: none; margin: 12px 0 0; padding: 0; display: grid; gap: 7px; font-size: 13.5px; line-height: 1.45; color: #2A2530; }
+.pq-memo { display: flex; flex-direction: column; gap: 16px; padding: 18px 20px; border-radius: 10px; background: linear-gradient(180deg, #DCD4F2 0%, #F6EEF6 100%); box-shadow: 0 20px 40px rgba(120, 86, 120, .14); }
+.pq-memo > .pg-cpill { align-self: flex-start; background: #FFFFFF; border-color: #FFFFFF; }
+.pq-row b { display: block; margin-bottom: 4px; font-size: 11px; font-weight: 600; letter-spacing: .06em; text-transform: uppercase; color: #5E5866; }
+.pq-row p { margin: 0; font-size: 14px; line-height: 1.5; color: #2A2530; }
+.pq-row p.pg-empty { margin: 0; }
+@media (max-width: 860px) { .pq-wrap { grid-template-columns: minmax(0, 1fr); } }
+@media (max-width: 520px) { .pq-grid { grid-template-columns: minmax(0, 1fr); gap: 14px; } .pq-clock { padding: 0; } .pq-clock::before, .pq-clock::after, .pq-t { display: none; } }
+.wrap .intro .wyg-two.wyg-three { grid-template-columns: repeat(3, minmax(0, 1fr)) !important; }
+@media (max-width: 760px) { .wrap .intro .wyg-two.wyg-three { grid-template-columns: minmax(0, 1fr) !important; } }
+.modebar.mb-quiet:not(:has(#thisWeek:not([hidden]))) { display: none !important; }
+.modebar.mb-quiet .dot, .modebar.mb-quiet #modeText { display: none; }
+/* My Accomplishments: the template's one-pager stays as designed; no status lines; Save is the dark pill */
+#daSub, #wpSub, #mrSub, #panesummary .pg-status { display: none !important; }
+#viewPlanner .pg-btns .pg-primary { background: #111111 !important; border-color: #111111 !important; color: #FFFFFF !important; }
+#viewPlanner .pg-btns .pg-primary.pg-done { background: transparent !important; color: var(--ink) !important; border-color: var(--ink) !important; }
+:root[data-theme="dark"] #viewPlanner .pg-btns .pg-primary:not(.pg-done) { background: #F3EEF4 !important; border-color: #F3EEF4 !important; color: #111111 !important; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) #viewPlanner .pg-btns .pg-primary:not(.pg-done) { background: #F3EEF4 !important; border-color: #F3EEF4 !important; color: #111111 !important; } }
+.wrap .sitefoot a.footlink:not(:hover) { color: #1C1A22 !important; }
+.wrap .sitefoot a.footlink:not(:hover) svg { color: #4B4FC4 !important; }
+.wrap .sitefoot a.footlink svg * { color: inherit !important; }
+/* The How it works cards stay light in dark mode, so their text stays dark */
+.wrap .intro section[aria-labelledby="introCan"] .feat li, .wrap .intro section[aria-labelledby="introCan"] .feat li span, .wrap .intro section[aria-labelledby="introCan"] .feat li b, .wrap .intro #introExample .feat li, .wrap .intro #introExample .feat li span, .wrap .intro #introExample .feat li b { color: #1C1A22 !important; }
+.wrap .sitefoot a.footlink svg[fill="currentColor"] * { fill: currentColor !important; }
+.wrap .sitefoot a.footlink svg[stroke="currentColor"] * { stroke: currentColor !important; }
+/* Inside each step: dark, readable labels and hints */
+#dayNotesPanel .rev-grid .rev-q:nth-of-type(4) { display: none; }
+#viewPlanner .sv-q { font-size: 14.5px; font-weight: 600; color: var(--ink) !important; opacity: .9; }
+#viewPlanner .panel-head .hint, #viewPlanner #sevenBody .hint { color: var(--ink) !important; opacity: .78; font-size: 14px; }
+#viewPlanner input::placeholder, #viewPlanner textarea::placeholder { color: var(--ink) !important; opacity: .5 !important; }
+.pt-gap { margin-top: 12px; }
+.pt-carry { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin-top: 14px; }
+.pt-carry .sv-q { flex-basis: 100%; }
+.pt-chip { font-size: 13px; }
+/* My Plan: About you */
+.step-n { display: inline-grid; place-items: center; min-width: 30px; width: auto; padding: 0 4px; box-sizing: border-box; height: 30px; margin-right: 10px; border-radius: 50%; vertical-align: 3px; background: linear-gradient(120deg, #EE9DBB 0%, #A9A6F3 55%, #6C72E6 100%); color: #FFFFFF; font-size: 13px; font-weight: 700; font-family: inherit; }
+.pd-list { margin: 0; padding-left: 18px; }
+.sv-q { font-size: 14px; color: var(--muted); }
+.sv-in { display: block; width: 100%; box-sizing: border-box; margin: 0; flex: none; }
+.sv-save { margin-top: 14px; justify-content: flex-end; }
+/* About you */
+.su-form { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px 16px; }
+.su-f { display: grid; gap: 6px; }
+.su-f.wide { grid-column: 1 / -1; }
+.su-f .pw-in { display: block; width: 100%; box-sizing: border-box; margin: 0; }
+@media (max-width: 640px) { .su-form { grid-template-columns: minmax(0, 1fr); } }
+.su-go { margin-top: 14px; }
+.su-sum { display: grid; grid-template-columns: minmax(160px, 260px) 1fr; gap: 8px 18px; margin: 0; font-size: 14px; }
+.su-sum dt { color: var(--muted); }
+.su-sum dd { margin: 0; color: var(--ink); }
+@media (max-width: 640px) { .su-sum { grid-template-columns: minmax(0, 1fr); } .su-sum dd { margin-bottom: 6px; } }
+.upd-q { margin: 0 0 8px; font-size: 14px; }
+.upd-in { display: block; width: 100%; box-sizing: border-box; min-height: 64px; }
+.tmr-list { margin: 0; padding: 10px 14px 10px 30px; border-radius: 10px; background: rgba(255, 255, 255, 0.9); display: grid; gap: 4px; font-size: 14px; line-height: 1.45; }
 .pg-foot { display: flex; justify-content: space-between; margin-top: 22px; font-size: 11px; color: #5E5866; }
 .pg .pg-copy { margin-top: 4px; text-align: center; font-size: 10px; color: #5E5866; }
 .pg-bar { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 16px; margin: 14px 4px 0; }
@@ -2704,15 +2947,11 @@ b, strong, .exportbtn, .crumbs .crumb[aria-current="page"], .seg button[aria-pre
         <span class="nt-body"><svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 24s7-12 20-12 20 12 20 12-7 12-20 12S4 24 4 24Z"></path><circle cx="24" cy="24" r="6"></circle><circle cx="24" cy="24" r="1.6" fill="currentColor"></circle><path d="M24 4v4M24 40v4"></path></svg><span class="nt-desc">Plan what matters. Keep a record of what you achieve.</span></span>
       </a>
       <a class="navtile locked" aria-pressed="false" aria-disabled="true">
-        <span class="nt-head">Set Your Goals<span class="nt-lock"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="5" y="11" width="14" height="10" rx="2"></rect><path d="M8 11V8a4 4 0 0 1 8 0v3"></path></svg>Members only</span></span>
-        <span class="nt-body"><svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="24" cy="24" r="18"></circle><circle cx="24" cy="24" r="11"></circle><circle cx="24" cy="24" r="4"></circle><path d="m24 24 14-14M33 10h5v5"></path></svg><span class="nt-desc">Decide what you want to achieve at work and in your life.</span></span>
+        <span class="nt-head">My Plan<span class="nt-lock"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="5" y="11" width="14" height="10" rx="2"></rect><path d="M8 11V8a4 4 0 0 1 8 0v3"></path></svg>Members only</span></span>
+        <span class="nt-body"><svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="7" y="10" width="34" height="31" rx="3"></rect><path d="M7 18h34M16 6v8M32 6v8"></path><path d="m15 28 4 4 8-9"></path><path d="M31 30h4"></path></svg><span class="nt-desc">Your goals, your week and your day, all in one place.</span></span>
       </a>
       <a class="navtile locked" aria-pressed="false" aria-disabled="true">
-        <span class="nt-head">Plan Your Day<span class="nt-lock"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="5" y="11" width="14" height="10" rx="2"></rect><path d="M8 11V8a4 4 0 0 1 8 0v3"></path></svg>Members only</span></span>
-        <span class="nt-body"><svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="7" y="10" width="34" height="31" rx="3"></rect><path d="M7 18h34M16 6v8M32 6v8"></path><path d="m15 28 4 4 8-9"></path><path d="M31 30h4"></path></svg><span class="nt-desc">Plan each day in the morning and look back on it in the evening.</span></span>
-      </a>
-      <a class="navtile locked" aria-pressed="false" aria-disabled="true">
-        <span class="nt-head">Track Your Accomplishments<span class="nt-lock"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="5" y="11" width="14" height="10" rx="2"></rect><path d="M8 11V8a4 4 0 0 1 8 0v3"></path></svg>Members only</span></span>
+        <span class="nt-head">My Accomplishments<span class="nt-lock"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="5" y="11" width="14" height="10" rx="2"></rect><path d="M8 11V8a4 4 0 0 1 8 0v3"></path></svg>Members only</span></span>
         <span class="nt-body"><svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 42h36"></path><rect x="9" y="28" width="6" height="12" rx="1"></rect><rect x="19" y="21" width="6" height="19" rx="1"></rect><rect x="29" y="14" width="6" height="26" rx="1"></rect><path d="m9 18 10-7 8 5 12-9"></path><path d="M34 7h5v5"></path></svg><span class="nt-desc">A reflection of your accomplishments and next steps recommended by AI from your goals and plans.</span></span>
       </a>
     </div>
@@ -2720,16 +2959,16 @@ b, strong, .exportbtn, .crumbs .crumb[aria-current="page"], .seg button[aria-pre
     <a class="backbtn" href="#"><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 11.5 12 4l9 7.5"></path><path d="M5.5 10v9.5h13V10"></path></svg>Home</a>
     <div class="crumbs" role="group" aria-label="Go to section">
       <a class="crumb" href="#overview" aria-current="page">Overview</a>
-      <a class="crumb locked" aria-disabled="true">Set Your Goals</a>
-      <a class="crumb locked" aria-disabled="true">Plan Your Day</a>
-      <a class="crumb locked" aria-disabled="true">Track Your Accomplishments</a>
+      <a class="crumb locked" aria-disabled="true">My Plan</a>
+      <a class="crumb locked" aria-disabled="true">My Accomplishments</a>
     </div>
   </div><div id="viewIntro" class="intro">
     <header>
       <p class="by-line"><span class="bl-main">The Atelier</span></p>
       <h1>Overview</h1>
       <p class="intro-sub">An AI-assisted planner for work and life. Plan what matters, make progress on your goals, and keep track of what you accomplish along the way.</p>
-      <p class="ov-links"><a class="see-ex" href="#introExample">See an Example <span aria-hidden="true">→</span></a><a class="ov-trial" href="https://wei-wei-hu.github.io/the-atelier/app/">Start Free Trial <span aria-hidden="true">→</span></a></p>
+      <p class="ov-links"><a class="ov-trial" href="https://wei-wei-hu.github.io/the-atelier/app/">Start Free Trial <span aria-hidden="true">→</span></a><a class="see-ex" href="#introExample">See an Example <span aria-hidden="true">→</span></a></p>
+      <a class="ov-shot" href="#introExample" aria-label="See an example: a Daily Accomplishments one-pager"><img src="example-hero.jpg" alt="" loading="lazy"></a>
       <span class="pg-no" aria-hidden="true">01</span>
     </header>
     <section aria-labelledby="introWhat">
@@ -2742,21 +2981,21 @@ b, strong, .exportbtn, .crumbs .crumb[aria-current="page"], .seg button[aria-pre
     <section aria-labelledby="introCan">
       <h2 id="introCan">How The Atelier works</h2>
       <ul class="feat feat3">
-        <li><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"></path></svg></span><span><b>Set Your Goals</b>Decide what you want to move forward at work and in your personal life. Choose your priorities for the week and make room for the skills you want to develop.</span></li>
-        <li><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"></path></svg></span><span><b>Plan Your Day</b>Start with your three most important tasks. Use short check-ins to adjust your plans, record what you completed, and keep track of what still needs attention.</span></li>
-        <li><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"></path></svg></span><span><b>Track Your Accomplishments</b>Let AI turn your daily notes into weekly accomplishment summaries. Each month, review your strongest examples, identify who should hear about them, and prepare for your next career conversation.</span></li>
+        <li><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"></path></svg></span><span><b>Set My Week</b>Tell us a little about you, your goals for the week at work and in life, and the tasks and routines you come back to.</span></li>
+        <li><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"></path></svg></span><span><b>Plan and Review My Day</b>Set today’s focus and plan your morning, afternoon and evening. At the end of the day, review it, note the support you need and prepare tomorrow.</span></li>
+        <li><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"></path></svg></span><span><b>My Accomplishments</b>AI turns your days into daily, weekly and monthly accomplishments. Save them, and share them as PDF, PowerPoint or email for your next career conversation.</span></li>
       </ul>
     </section>
-    <section id="introExample" class="wyg" aria-labelledby="introEx">
-      <h2 id="introEx" class="wyg-pill">What you get</h2>
-      <p class="wyg-lead">Your progress, written<br class="wyg-br"> up for you.</p>
-      <div class="wyg-row"><span class="wyg-num">01</span><div><h3>End of day</h3><p>A short end-of-day update, ready to send.</p>
-        <div class="wyg-eod"><b>End of day, Wed Oct 21</b><span><i>Focus:</i> Open the shop</span><span><i>Plan:</i> 3 of 4 done</span><span><i>Completed:</i> Published the shop; posted the launch; told 10 friends</span><span><i>In progress:</i> Packing the first 3 orders</span><span><i>Next steps:</i> Ship the orders by Thursday night</span><span><i>Support needed:</i> A friend to help pack on Thursday</span></div></div></div>
-      <div class="wyg-two">
-        <div><span class="wyg-num">02</span><h3>Every week</h3><p>AI drafts your Weekly Review.</p><div class="wyg-shot"><img src="example-week.jpg" alt="Example Weekly Review one-pager for a small candle shop: key takeaways, my accomplishments and next steps" loading="lazy"></div></div>
-        <div><span class="wyg-num">03</span><h3>Every month</h3><p>AI drafts your Monthly Review.</p><div class="wyg-shot"><img src="example-month.jpg" alt="Example Monthly Review one-pager for a small candle shop: key takeaways, my accomplishments and next steps" loading="lazy"></div></div>
+    <section class="wyg-outer" aria-labelledby="introEx">
+      <h2 id="introEx">What you get</h2>
+    <section id="introExample" class="wyg" aria-label="What you get">
+      <div class="wyg-two wyg-three">
+        <div><span class="wyg-num">01</span><h3>Every day</h3><p>AI drafts your Daily Accomplishments.</p><div class="wyg-shot"><img src="example-day.jpg" alt="Example Daily Accomplishments one-pager" loading="lazy"></div></div>
+        <div><span class="wyg-num">02</span><h3>Every week</h3><p>AI drafts your Weekly Accomplishments.</p><div class="wyg-shot"><img src="example-week.jpg" alt="Example Weekly Accomplishments one-pager" loading="lazy"></div></div>
+        <div><span class="wyg-num">03</span><h3>Every month</h3><p>AI drafts your Monthly Accomplishments.</p><div class="wyg-shot"><img src="example-month.jpg" alt="Example Monthly Accomplishments one-pager" loading="lazy"></div></div>
       </div>
       <p class="wyg-share">Share each review as <span>PDF</span><span>PowerPoint</span><span>Email</span></p>
+    </section>
     </section>
     <section class="cta" aria-labelledby="introHow">
       <h2 id="introHow">Make room for what you’re working toward.</h2>
