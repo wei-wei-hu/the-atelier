@@ -8,7 +8,7 @@ An AI-assisted planner for work and life. Plan what matters, make progress on yo
 
 **See the page:** https://wei-wei-hu.github.io/the-atelier/
 
-![The Atelier: the home page and the Overview](cover.jpg)
+![The Atelier: the home page](cover.jpg)
 
 ## Why I created The Atelier
 
@@ -17,35 +17,35 @@ An AI-assisted planner for work and life. Plan what matters, make progress on yo
 
 ## How The Atelier works
 
-### Set Your Goals
+### Set My Week
 
-Decide what you want to move forward at work and in your personal life. Choose your priorities for the week and make room for the skills you want to develop.
+Tell us a little about you, your goals for the week at work and in life, and the tasks and routines you come back to.
 
-### Plan Your Day
+### Plan and Review My Day
 
-Start with your three most important tasks. Use short check-ins to adjust your plans, record what you completed, and keep track of what still needs attention.
+Set today’s focus and plan your morning, afternoon and evening. At the end of the day, review it, note the support you need and prepare tomorrow.
 
-### Track Your Accomplishments
+### My Accomplishments
 
-Let AI turn your daily notes into weekly accomplishment summaries. Each month, review your strongest examples, identify who should hear about them, and prepare for your next career conversation.
+AI turns your days into daily, weekly and monthly accomplishments. Save them, and share them as PDF, PowerPoint or email for your next career conversation.
 
 ## What you get
 
-Your progress, written up for you.
+1. **Every day:** AI drafts your Daily Accomplishments.
+2. **Every week:** AI drafts your Weekly Accomplishments.
+3. **Every month:** AI drafts your Monthly Accomplishments.
 
-1. **End of day:** a short end-of-day update, ready to send.
-2. **Every week:** AI drafts your Weekly Review.
-3. **Every month:** AI drafts your Monthly Review.
+![Example Daily Accomplishments one-pager: morning, afternoon, evening and rest, with a memo of what is completed, in progress and the support needed](example-day.jpg)
 
-![Example Weekly Review one-pager for a small candle shop: key takeaways, my accomplishments and next steps](example-week.jpg)
+![Example Weekly Accomplishments one-pager: key takeaways, my accomplishments, next steps and support needed](example-week.jpg)
 
-![Example Monthly Review one-pager for a small candle shop: key takeaways, my accomplishments and next steps](example-month.jpg)
+![Example Monthly Accomplishments one-pager: key takeaways, my accomplishments, next steps and support needed](example-month.jpg)
 
-Share each review as a PDF, a PowerPoint slide or an email.
+Share each one as a PDF, a PowerPoint slide or an email.
 
 ## Make room for what you're working toward.
 
-The Atelier is currently available to members only. Message me on LinkedIn and tell me a little about what you'd like to achieve.
+The Atelier is currently available to members only. Message me on LinkedIn and tell me a little about what you’d like to achieve.
 
 **[Start Free Trial →](https://wei-wei-hu.github.io/the-atelier/app/)**
 
