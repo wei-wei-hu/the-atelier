@@ -8,7 +8,7 @@ An AI-assisted planner for work and life. Plan what matters, make progress on yo
 
 **[See the App →](https://wei-wei-hu.github.io/the-atelier/)** · **[Start Free Trial →](https://wei-wei-hu.github.io/the-atelier/app/)**
 
-![The Atelier: the home page](cover.jpg)
+![The Atelier: the home page](home.jpg)
 
 ## Why I created The Atelier
 
